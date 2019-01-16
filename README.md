@@ -1,5 +1,5 @@
 # awesome-discoveries
-> This is a curated list of inspiring and eclectic - mostly ordered - discoveries I made during my readings, experiments and job decisions making being the CTO for a world leading drone company.
+> This is a curated list of inspiring and eclectic - mostly ordered - discoveries I made during my readings, experiments and job decisions making being a startup advisor and a the CTO for a world leading drone company.
 
 ## Content
 
@@ -7,13 +7,29 @@
 * [Algorithms](#algorithms)
 * [Data science](#data-science)
 * [Artificial Intelligence](#artificial-intelligence)
+  * [Source for inspiration, technology watch](#source-for-inspiration-technology-watch)
+  * [Embedding](#embedding)
+  * [Compression, enhancement](#compression-enhancement)
+  * [Natural Language Processing and voice recognition](#natural-language-processing-and-voice-recognition)
+  * [Medicine](#medicine)
+  * [Data Generation](#data-generation)
+  * [Understanding deep learning](#understanding-deep-learning)
+  * [Setting a machine learning project](#setting-a-machine-learning-project)
+  * [Games](#games)
+  * [Experiments and Art](#experiments--art)
+  * [Data](#data)
+  * [Performance and hardware](#performance-and-hardware)
+  * [Ethics](#ethics)
+  * [Sagemaker](#sagemaker)
+  * [Various](#various)
 * [Development](#development)
-* [Development languages specific](#development-languages-specific)
+  * [vscode](#vscode)
+  * [Javascript](#javascript)
   * [Python](#python)
   * [Ruby](#ruby)
   * [Bash](#bash)
 * [Various tools](#various-tools)
-* [Inspiration and sources](#inspiration-and-sources)
+* [Other inspirational resources](#other-inspirational-resources)
 * [Growing a startup](#growing-a-startup)
 * [License](#license)
 
@@ -34,59 +50,80 @@
   - [REST is the new SOAP](https://medium.freecodecamp.org/rest-is-the-new-soap-97ff6c09896d) - An article with a counter-current point of view that emphasizes every negative aspects of `REST`.
 
 ## Algorithms
+
 - [Fountain Codes](https://divan.github.io/posts/fountaincodes/) - Transfer information over noisy channels. Example given with [txqr](https://github.com/divan/txqr) a project that uses Animated GQ to transfer data over mobiles.
+- Any [Bret Victor](http://worrydream.com/) essays, demo, experiments. This inspired me so much and make myself questioning my day to day life as an engineer. He made me rethink the way we explain and learn things and share them with others. I'm so frustrated not seing his demo becoming real life products.
+  - [Algojammer](https://github.com/ChrisKnott/Algojammer) - A project that stole the idea of "Learning programming" is an attempt to turn Bret's work into reality.
 
 ## Data science
 
 - Dataviz:
   - [Edward Tufte’s The Visual Display of Quantitative Information](https://amzn.to/2ROaWUl) - The text book to read when you are entering the world of data visualization.
   - [Importance of Skepticism in Data Science](https://jhu-advdatasci.github.io/2018/lectures/12-being-skeptical.html) - This long code detailed lecture aims at illustrating the bias that you might follow when you are interpreting data you have manipulated. _(`R`)_
-  - [3rd Wave Data Visualization](https://towardsdatascience.com/3rd-wave-data-visualization-824c5dc84967) - Elijah Meeks author of [semiotic](https://github.com/emeeks/semiotic) - A react + d3.js library, a famous combo I experienced with success and pleasure - points to problems into the current landscape of data vizualization.
+  - [3rd Wave Data Visualization](https://towardsdatascience.com/3rd-wave-data-visualization-824c5dc84967) - Elijah Meeks author of [semiotic](https://github.com/emeeks/semiotic) - A react + d3.js library, a famous combo I experienced with success and pleasure - points to problems into the current landscape of data visualization.
 - Data management:
   - [DVC](https://dvc.org/doc/dvc-philosophy/core-features) - A neat structured approach to the data science workflow management aiming to become a standard as git has become in the development workflow.
 
 ## Artificial Intelligence
 
-- Source for inspiration, technology watch:
+### Source for inspiration, technology watch
   - [stateoftheart.ai](https://www.stateoftheart.ai) - Not entirely up to date on a few topic I'm aware of, but it deserves a look for everyone interested to get up to speed in a particular topic they are looking into. A well ordered index for state of the art results in machine learning.
   - [MIT Technology Review](https://www.technologyreview.com/) - An endless stream of popular science, in particular in machine learning.
   - [arXiv](http://arxiv.org/) - The 1.5 Million e-prints open access to paper that democratized Machine Learning over the globe. 99% of papers we were using are coming from that place. It is even inspiring to look for information from that source.
   - [aiindex2018](http://cdn.aiindex.org/2018/AI%20Index%202018%20Annual%20Report.pdf?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=email&utm_source=Artificial_Intelligence_Weekly_92) - The one place to go if you need insights into Artificial Intelligence in numbers: from the number of papers published by category to state of the art performances and human-level performance milestones going through VC funding landscape.
   - [Flops, brought to you by AI](https://bigthink.com/technology-innovation/artificial-intelligence-failures?rebelltitem=3#rebelltitem3) - A short list of top flop in AI in one way or another related to physical world.
+  - [distill.pub](https://distill.pub/) - This is an attempt to modernize the main issues with the traditional printed scientific papers in our area of computer science and machine learning over large amount of data: clarity, reproductibility, interactivity. `PDF` files are from another age. `distill.pub` is an expression of our age.
+  - News letters:
+    - [Data Elixir](https://dataelixir.com/) - My most productive and de facto favorite newsletter regarding Artificial Intelligence and Data science in general.
+    - [Changelog](https://changelog.com/weekly) - Staying up to date with the developer community and finding fun stuffs.
+  - [MIT Techreview](https://technologyreview.com) - The only one to which I have been willing to pay a subscription so far.
 
-- Embedding:
+### Embedding
   - [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) - A solution which transforms an image into a compact Euclidean space allowing to enhance Face Recognition. [implementation](https://github.com/davidsandberg/facenet) _(`Embedding`, `image2vec`, `Tensorflow`)_
   - [Grasp2Vec: Learning Object Representations from Self-Supervised Grasping](https://arxiv.org/abs/1811.06964) - Embedding used in reinforcement learning to represent reality through physcial world robot grasping. [Google article](https://ai.googleblog.com/2018/12/grasp2vec-learning-object.html) _(`Embedding`, `image2vec`, `RL`)_
 
-- Compression
+### Compression, enhancement
   - [Learned Video Compression](https://arxiv.org/pdf/1811.06981.pdf) - A traditional codec architecture where elements are replaced by Machine Learning ones. Results: the new codec outperforms all existing video codecs.
 
-- Natural Language Processing and voice recognition
+### Natural Language Processing and voice recognition
   - Assisted writings
     - ["I want to live"](https://youtu.be/BhKw71AeOg4) - A 60 second clip entirely scripted from an AI studying 15 years of worth of award-winning ads.
     - [Bertie the Forbes' CMS](https://digiday.com/media/forbes-built-a-robot-to-pre-write-articles-for-its-contributors/) - Forbes [announced](https://www.forbes.com/sites/forbesproductgroup/2018/07/11/entering-the-next-century-with-a-new-forbes-experience/#5e9b28803bf4) its new AI powered CMS (Content Management System) where AI helps and support content creator from image selection to draft article writings.
   - [Accurate Online Speaker Diarization with supervised learning](https://ai.googleblog.com/2018/11/accurate-online-speaker-diarization.html) - Detect interlaced speakers in a speech. But beware, code is not the original and you cannot access data. _(`PyTorch`, `Embedding`)_
 
-- Medicine
+### Medicine
   - [Brain2Speech](https://www.sciencemag.org/news/2019/01/artificial-intelligence-turns-brain-activity-speech) - Experiment using AI to get our voice out of our head automatically. The promise to an accessible world for disable people.
   - [Learning to Design RNA](https://arxiv.org/pdf/1812.11951.pdf) - Reinforcement Learning used to design RNA sequence to test _(`RL`)_
   - [Face2Gene](https://www.nature.com/articles/d41586-019-00027-x#ref-CR1) - From Professional crowdsourcing to real life medicine aid use case, the face2gene application that spot genetic disorders is a promise for future medicine.
+  - [Artificial Intelligence Can Detect Alzheimer’s Disease in Brain Scans Six Years Before a Diagnosis](https://www.ucsf.edu/news/2018/12/412946/artificial-intelligence-can-detect-alzheimers-disease-brain-scans-six-years) - It is not a question of time any more, it is already here.
 
-- Data Generation
+### Data Generation
   - Face Generation
     - [Inside the world of AI that forges beautiful art and terrifying deepfakes](https://www.technologyreview.com/s/612501/inside-the-world-of-ai-that-forges-beautiful-art-and-terrifying-deepfakes/) - A 2018 overview of GAN and latests progress in the field of generative networks. _(`GAN`)_
     - [AI software can dream up an entire digital world from a simple sketch](https://www.technologyreview.com/s/612503/ai-software-can-dream-up-an-entire-digital-world-from-a-simple-sketch/) - A photorealistic 3D engine renderer made out of GAN. _(`GAN`)_
+    - [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf) - Here we are, on December 2018 we discovered than a computer can generate images that we can definitely take for real ones. [summary](https://www.technologyreview.com/s/612612/these-incredibly-real-fake-faces-show-how-algorithms-can-now-mess-with-us/).
   - Object generation
     - [Visual Object Networks: Image Generation with Disentangled 3D Representation](http://papers.nips.cc/paper/7297-visual-object-networks-image-generation-with-disentangled-3d-representations.pdf) - How a set of specialized networks learn to generate 3D objects. _(`GAN`, `3D`)_
+    - [This is the most complex generative design ever made](https://www.fastcompany.com/90269399/this-is-the-most-complex-generative-design-ever-made) - Purely inspirational, no implementation design, still further details are accessible [here](https://www.autodesk.com/solutions/generative-design).
 
-- Setting a machine learning project:
+### Understanding deep learning
+
+Neural networks are known as black boxes, famously incomprehensible. Be careful whoever tells you he can surely explain how a deep learning model takes a decision. There are several tries to understand them, to explain how they are taking decisions, and even to debug them.
+
+  - [manifold](https://eng.uber.com/manifold/) - A platform from uber that promises ease of debugging, not publicly shared, not available for test, pretty, and a lot of ideas still.
+  - [comet.ml](https://comet.ml) - An online platform compatible with any Machine Learning framework that aggregate online stats and enable model comparison.
+  - [A New Approach to Understanding How Machines Think](https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110) - An interview of Been Kim from Google Brain for the introduction of “Testing with Concept Activation Vectors” ([TCAV](https://arxiv.org/pdf/1711.11279.pdf))
+  - [Machine Learning for Kids](https://machinelearningforkids.co.uk/) - If you want my mind, valuable not only for kids 😅
+
+### Setting a machine learning project
   - [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) - Pragmatism has always been at the heart of our strategy regarding our machine learning projects. This article formalize best practice that a good manager will discover himself executing a machine learning project. One thing for sure, as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." And, with the right project and the rock solid computer scientist you can kickstart a machine learning in a small team.
   - [IBM Machine Learning Maturity Model](https://arxiv.org/pdf/1811.04871.pdf) - Presents a set of best practices to implement when a company wants to deploy machine learning at scale and in a friendly fashion with enterprise landscape. Many of them might be complicated to achieve, anyhow, it will highlight any shortcomings in your projects or potential area of focus.
 
-- Games:
+### Games
   - [Starcraft AI competition](http://www.cs.mun.ca/~dchurchill/starcraftaicomp/2018/aiide/) - The state of the Starcraft competition. Samsung 1st, Facebook 2nd.
+  - [Mortal Kombat](https://blog.mgechev.com/2018/10/20/transfer-learning-tensorflow-js-data-augmentation-mobile-net/) - A `Tensorflow.js` project that allows you to play Mortal Kombat with your webcam.
 
-- Experiments & Art:
+### Experiments & Art
   - Music:
     - [Semi-Conductor](https://experiments.withgoogle.com/semi-conductor) - A Google AI experiment that allow one to conduct an orchestra from the browser
   - Painting:
@@ -95,20 +132,31 @@
     - [nikola MIT experiment](http://nikola.mit.edu/experiment) - An online test that asks you to spot Generated faces with [NVIDIA's Progressive GAN](https://research.nvidia.com/publication/2017-10_Progressive-Growing-of). I wasn't 100% correct. 😅
     - [How to recognize fake AI-generated images] (https://medium.com/@kcimc/how-to-recognize-fake-ai-generated-images-4d1f6f9a2842) - An extensive look into AI-generated images that will train yourself to spot fake images.
 
-- Data
+### Data
   - [Adding Diversity to Images with Open Images Extended](https://ai.googleblog.com/2018/12/adding-diversity-to-images-with-open.html) _(`diversity`)_
   - [Open Images Dataset V4](https://storage.googleapis.com/openimages/web/index.html)
   - [Kaggle Datasets](https://www.kaggle.com/datasets)
   - [BigQuery Datasets](https://cloud.google.com/bigquery/public-data/)
   - [AWS OpenData](https://aws.amazon.com/opendata/)
 
-- Performance and hardware
+### Performance and hardware
   - [A full hardware guide to Deep Learning](http://timdettmers.com/2018/12/16/deep-learning-hardware-guide/) - If you want to build your own local hardware for training, this is a must read.
   - [Best Deals in Deep Learning Cloud Providers](https://towardsdatascience.com/maximize-your-gpu-dollars-a9133f4e546a) - Where does it more effective to train your models. AWS is the most expensive.
 
-- Ethics
+### Ethics
   - [Researchh priorities for robust and beneficial Artificial Intelligence](https://futureoflife.org/ai-open-letter/) - The first round of people who expressed worries in the current research state of AI. It should be directed toward beneficial outcomes: "our AI systems must do what we want them to do".
   - [China’s top AI scientist drives development of ethical guidelines](https://www.scmp.com/news/china/science/article/2181573/chinas-top-ai-scientist-drives-development-ethical-guidelines) - Yes it is time for the world to align itself on where it wants to go
+  - [Thinking inside the box: using and controlling an Oracle AI](https://link.springer.com/article/10.1007/s11023-012-9282-2) - Controlling AI has been a problem for a while even before the rise of deep learning. In this paper, you'll discover that a particular topic can raise a lot of questions, even if it seems simple at first: here controlling an Oracle AI that doesn't act in the world except by answering questions.
+
+### Sagemaker
+[Sagemaker](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) is quickly becoming a state of the art for machine learning project. It assembles under this sole name a lot of capabilities that would accelerate and standardize any launching project involving machine learning of any sort. From [collaboration](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebooks-now-support-git-integration-for-increased-persistence-collaboration-and-reproducibility/) to [continuous deployment of model](https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions/), through [ground truth generation](https://aws.amazon.com/blogs/aws/amazon-sagemaker-ground-truth-build-highly-accurate-datasets-and-reduce-labeling-costs-by-up-to-70/) Sagemaker provides all necessary tools for most of the use cases.
+
+A sagemaker workflow for continuous deployment (© [AWS](https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions/)):
+
+![Sagemaker Continuous deployment - © https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions/](./resources/machine-learning/sagemaker/sagemaker-continuous-deployment.gif)
+
+### Various
+  - [Robust Website Fingerprinting Through the Cache Occupancy Channel](https://arxiv.org/pdf/1811.07153.pdf) - What if you can leverage machine learning and a Javascript security hole to track anyone browsing history?
 
 ## Development
 
@@ -116,12 +164,17 @@
   - [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53) - That lecture helps to jolt away preconceived ideas that have been learned over the years OR simply point usual mistakes. Take a look. _(`OO`)_
 - Code quality
   - [Code climat](https://codeclimate.com/quality/) - A lot of tools in the industry, give a try to this one.
-
-## Development languages specific
+- Tutorials
+  - [GraphQL API with AWS and Use with React](https://scotch.io/tutorials/graphql-api-with-aws-and-use-with-react) - Setting a `graphql` API along with a react application on AWS and AWS Amplify.
 
 ### `vscode`
 
 [`vscode`](https://code.visualstudio.com/) replaces the long 1st in my heart [`Sublime`](https://www.sublimetext.com/): it has proven to turn myself into a better "prototyper", data extractor and developer in the past year. It is reliable, able to handle large files, has a small memory footprint and perfectly extendable.
+
+### `Javascript`
+
+- Command line
+  - [ervy](https://github.com/chunqiuyiyu/ervy) - Bringing charts to the terminal, because every project needs a command line and dataviz is fun!
 
 ### `Python`
 
@@ -129,6 +182,7 @@
   - [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/) - An online book that teaches how to migrate from standard `Python` to `Numpy` through vectorization.
   - [Seven Strategies for Optimizing Numerical Code](https://speakerdeck.com/jakevdp/seven-strategies-for-optimizing-numerical-code) - An overview of 7 technics to enhance `Python` performances.
   - [Python Data Visualization landscape](https://www.anaconda.com/blog/developer-blog/python-data-visualization-2018-why-so-many-libraries) - An heavy loaded landscape of Datavizualisation tools in python ready for convergence.
+  - [plot.ly](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e) - Extensive zoom and discovery of `plotly` for `Python`.
 
 ### `Ruby`
 
@@ -157,7 +211,7 @@
 - Security
   - [gitleaks](https://github.com/zricethezav/gitleaks) - Waiting for github next move in the security landscape, here is a way for you to scan code source for unencrypted secrets. 👮‍♂️
 
-## Inspiration and sources
+## Other inspirational resources
 
 - For this document structure:
   - https://github.com/whitone/awesome-discoveries/
@@ -170,11 +224,6 @@
     - [mobeye](https://www.mobeye-app.com/en/home) - How to crowdsource data annotation through a mobile application that let's people earn money
   - Providing github like services dedicated to ML:
     - [Comet.ml](https://comet.ml)
-- Source of further reading:
-  - News letters:
-    - [Data Elixir](https://dataelixir.com/) - My most productive and de facto favorite newsletter regarding Artificial Intelligence and Data science in general
-    - [Changelog](https://changelog.com/weekly) - Staying up to date with the developer community and finding fun stuffs
-  - [MIT Techreview](https://technologyreview.com) - The only one to which I have been willing to pay a subscription so far
 
 ## Growing a startup
 
