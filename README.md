@@ -26,7 +26,7 @@ This document is a curated list of inspiring and eclectic - mostly ordered - dis
   * [Data science](#data-science)
   * [Development](#development)
     * [Software design and principles](#software-design-and-principles)
-    * [mono repo vs multi repo | microservices vs monolyth](#mono-repo-vs-multi-repo--microservices-vs-monolyth)
+    * [mono repo vs multi repo | microservices vs monolith](#mono-repo-vs-multi-repo--microservices-vs-monolith)
     * [vscode](#vscode)
     * [Languages and technologies](#languages-and-technologies)
       * [Javascript](#javascript)
@@ -46,7 +46,7 @@ My list of inspirational resources I go when I do technology watch.
 
 * [arXiv](http://arxiv.org/) - The 1.5 Million e-prints open access to paper that democratized Machine Learning over the globe. 99% of papers we were using are coming from that place. It is even inspiring to look for information from that source.
 * [aiindex2018](http://cdn.aiindex.org/2018/AI%20Index%202018%20Annual%20Report.pdf) - The one place to go if you need insights into Artificial Intelligence in numbers: from the number of papers published by category to state of the art performances and human-level performance milestones going through VC funding landscape.
-* [distill.pub](https://distill.pub/) - This is an attempt to modernize the main issues with the traditional printed scientific papers in our area of computer science and machine learning over large amount of data: clarity, reproductibility, interactivity. `PDF` files are from another age. `distill.pub` is an expression of our age.
+* [distill.pub](https://distill.pub/) - This is an attempt to modernize the main issues with the traditional printed scientific papers in our area of computer science and machine learning over large amount of data: clarity, reproducibility, interactivity. `PDF` files are from another age. `distill.pub` is an expression of our age.
 * [github](https://www.github.com) - GitHub again, with [explore](https://github.com/explore) you will discover a lot of inspiring projects.
 * [MIT Technology Review](https://www.technologyreview.com/) - An endless stream of popular science, in particular in machine learning. The only one to which I have been willing to pay a subscription so far.
 * [stateoftheart.ai](https://www.stateoftheart.ai) - Not entirely up to date on a few topic I'm aware of, but it deserves a look for everyone interested to get up to speed in a particular area they want to get in. A well ordered index for state of the art results in machine learning.
@@ -62,6 +62,7 @@ My list of inspirational resources I go when I do technology watch.
     * [Comet.ml](https://comet.ml)
 
 There are a couple of books mentioned in this document, here is my top five must read in alphabetical order:
+
 * [Edward Tufte’s The Visual Display of Quantitative Information](https://amzn.to/2ROaWUl) - The first book to read when you are entering the world of data visualization.
 * [Eric Rise's The lean startup](https://amzn.to/2RDDf3H) - This book that made become the CTO of a startup. It taught me the lean approach and made me save so much time
 
@@ -87,7 +88,7 @@ There are a couple of books mentioned in this document, here is my top five must
 ### Algorithms
 
 * [Fountain Codes](https://divan.github.io/posts/fountaincodes/) - Transfer information over noisy channels. Example given with [txqr](https://github.com/divan/txqr) a project that uses Animated GQ to transfer data over mobiles.
-* Any [Bret Victor](http://worrydream.com/) essays, demo, experiments. This inspired me so much and make myself questioning my day to day life as an engineer. He made me rethink the way we explain and learn things and share them with others. I'm so frustrated not seing his demo becoming real life products.
+* Any [Bret Victor](http://worrydream.com/) essays, demo, experiments. This inspired me so much and make myself questioning my day to day life as an engineer. He made me rethink the way we explain and learn things and share them with others. I'm so frustrated not seeing his demo becoming real life products.
   * [Algojammer](https://github.com/ChrisKnott/Algojammer) - A project that stole the idea of "Learning programming" is an attempt to turn Bret's work into reality.
 
 ### Artificial Intelligence
@@ -99,7 +100,7 @@ For the complete bibliography, please look at the [bibliography](bibliography.ts
 #### Embedding
 
 * [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) - A solution which transforms an image into a compact Euclidean space allowing to enhance Face Recognition. [implementation](https://github.com/davidsandberg/facenet) _(`Embedding`, `image2vec`, `Tensorflow`)_
-* [Grasp2Vec: Learning Object Representations from Self-Supervised Grasping](https://arxiv.org/abs/1811.06964) - Embedding used in reinforcement learning to represent reality through physcial world robot grasping. [Google article](https://ai.googleblog.com/2018/12/grasp2vec-learning-object.html) _(`Embedding`, `image2vec`, `RL`)_
+* [Grasp2Vec: Learning Object Representations from Self-Supervised Grasping](https://arxiv.org/abs/1811.06964) - Embedding used in reinforcement learning to represent reality through physical world robot grasping. [Google article](https://ai.googleblog.com/2018/12/grasp2vec-learning-object.html) _(`Embedding`, `image2vec`, `RL`)_
 
 #### Compression, enhancement
 
@@ -119,7 +120,7 @@ Semantic segmentation which is the practice of categorizing an image at the pixe
 Here are the most relevant findings we leverage for our project and some more recent ones that can enhance it:
 
 * [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://arxiv.org/pdf/1901.02985.pdf) - The next DeepLab generation which was already the state of the art in this field.
-* [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/pdf/1705.07115.pdf) - Mutli task learning for segmentation and instance segmentation with a mutli task loss.
+* [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/pdf/1705.07115.pdf) - Multi-task learning for segmentation and instance segmentation with a multi-task loss.
 * [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf) - Unified architecture for multi task segmentation and instance segmentation.
 
 #### Medicine
@@ -148,8 +149,8 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * [A New Approach to Understanding How Machines Think](https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110) - An interview of Been Kim from Google Brain for the introduction of “Testing with Concept Activation Vectors” ([TCAV](https://arxiv.org/pdf/1711.11279.pdf))
 * [Machine Learning for Kids](https://machinelearningforkids.co.uk/) - If you want my mind, valuable not only for kids 😅
 * [A neural network can learn to organize the world it sees into concepts—just like we do](https://www.technologyreview.com/s/612746/a-neural-network-can-learn-to-organize-the-world-it-sees-into-conceptsjust-like-we-do) - In this [paper](https://arxiv.org/pdf/1811.10597.pdf), GAN are examined under a microscope, it is a major leap forward into comprehension of GANs.
-* [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) - A reproductible paper that combines different technics in order to better understand networks.
-* [Four Experiments in Handwriting with a Neural Network](https://distill.pub/2016/handwriting/) - Interactive exeperiments to understand network based on your handwriting inputs
+* [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) - A reproducible paper that combines different technics in order to better understand networks.
+* [Four Experiments in Handwriting with a Neural Network](https://distill.pub/2016/handwriting/) - Interactive experiments to understand network based on your handwriting inputs
 
 #### Games
 
@@ -161,7 +162,7 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * Music:
   * [Semi-Conductor](https://experiments.withgoogle.com/semi-conductor) - A Google AI experiment that allow one to conduct an orchestra from the browser
 * Painting:
-  * [amalGAN](http://areben.com/project/amalgan/) - [Alexander Reben](http://areben.com/cv/) used brain waves, GAN network and side supportive networks to generate a set of visually unusual paintings that are physically reproduced in a Chinese town: a human-machhine global collaboration.
+  * [amalGAN](http://areben.com/project/amalgan/) - [Alexander Reben](http://areben.com/cv/) used brain waves, GAN network and side supportive networks to generate a set of visually unusual paintings that are physically reproduced in a Chinese town: a human-machine global collaboration.
 * Spotting AI-generated faces.
   * [nikola MIT experiment](http://nikola.mit.edu/experiment) - An online test that asks you to spot Generated faces with [NVIDIA's Progressive GAN](https://research.nvidia.com/publication/2017-10_Progressive-Growing-of). I wasn't 100% correct. 😅
   * [How to recognize fake AI-generated images](https://medium.com/@kcimc/how-to-recognize-fake-ai-generated-images-4d1f6f9a2842) - An extensive look into AI-generated images that will train yourself to spot fake images.
@@ -181,7 +182,7 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 
 #### Ethics
 
-* [Researchh priorities for robust and beneficial Artificial Intelligence](https://futureoflife.org/ai-open-letter/) - The first round of people who expressed worries in the current research state of AI. It should be directed toward beneficial outcomes: "our AI systems must do what we want them to do".
+* [Research priorities for robust and beneficial Artificial Intelligence](https://futureoflife.org/ai-open-letter/) - The first round of people who expressed worries in the current research state of AI. It should be directed toward beneficial outcomes: "our AI systems must do what we want them to do".
 * [China’s top AI scientist drives development of ethical guidelines](https://www.scmp.com/news/china/science/article/2181573/chinas-top-ai-scientist-drives-development-ethical-guidelines) - Yes it is time for the world to align itself on where it wants to go
 * [Thinking inside the box: using and controlling an Oracle AI](https://link.springer.com/article/10.1007/s11023-012-9282-2) - Controlling AI has been a problem for a while even before the rise of deep learning. In this paper, you'll discover that a particular topic can raise a lot of questions, even if it seems simple at first: here controlling an Oracle AI that doesn't act in the world except by answering questions.
 * [Google is trying to remove gender bias from its translation services](https://www.fastcompany.com/90278118/google-is-trying-to-remove-gender-bias-from-its-translation-services) - Gender bias is one of the problem in engineering, mostly only male all around. It is so easy to implement those bias and transmit them to the machine.
@@ -222,7 +223,7 @@ Going all directions:
 
 Creating an enterprise grade machine learning project is complicated, a lot of steps are necessary. As of today, you have a lot of choices to set your projects right. Depending on your team size, you might even willing to reinvent the wheel suffering from the ["Not Invented Here"](https://en.wikipedia.org/wiki/Not_invented_here) syndrome. The good news is there is a lot to learn from the already maturing industry. Here are some source to read before jumping straight ahead!
 
-* [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) - Pragmatism has always been at the heart of our strategy regarding our machine learning projects. This article formalize best practice that a good manager will discover himself executing a machine learning project. One thing for sure, as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." And, with the right project and the rock solid computer scientist you can kickstart a machine learning in a small team.
+* [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) - Pragmatism has always been at the heart of our strategy regarding our machine learning projects. This article formalize best practice that a good manager will discover himself executing a machine learning project. One thing for sure, as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." And, with the right project and the rock solid computer scientist you can kick-start a machine learning in a small team.
 * [IBM Machine Learning Maturity Model](https://arxiv.org/pdf/1811.04871.pdf) - Presents a set of best practices to implement when a company wants to deploy machine learning at scale and in a friendly fashion with enterprise landscape. Many of them might be complicated to achieve, anyhow, it will highlight any shortcomings in your projects or potential area of focus.
 * Services that might help you:
   * [comet](https://comet.ml)
@@ -257,15 +258,15 @@ Yes, during the last years I spent some time documenting myself on blockchain an
 * Programming paradigms
   * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53) - That lecture helps to jolt away preconceived ideas that have been learned over the years OR simply point usual mistakes. Take a look. _(`OO`)_
 * Code quality
-  * [Code climat](https://codeclimate.com/quality/) - A lot of tools in the industry, give a try to this one.
+  * [Code climate](https://codeclimate.com/quality/) - A lot of tools in the industry, give a try to this one.
 * Tutorials
   * [GraphQL API with AWS and Use with React](https://scotch.io/tutorials/graphql-api-with-aws-and-use-with-react) - Setting a `graphql` API along with a react application on AWS and AWS Amplify.
 
 #### Software design and principles
 
-#### mono repo vs multi repo | microservices vs monolyth
+#### mono-repo vs multi-repo | microservices vs monolith
 
-We have experienced both mono repo and multi repo along with microservices and monolyth for years now. My conclusion regarding our context:
+We have experienced both mono repo and multi repo along with microservices and monolith for years now. My conclusion regarding our context:
 
 * It is hard to set a mono repository right,
 * It is harder to manage hundreds of repository for several service right,
@@ -280,7 +281,7 @@ Several sources, so you can have a better idea of the debate:
 * [Segment's transition back to a monorepo](https://changelog.com/podcast/312) and its original [blog post](https://segment.com/blog/goodbye-microservices/)
 * [Confessions of Continuous Delivery Experts: From microservices back to monolith](https://www.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith/) - Lesson learnt moving from microservice to monolith.
 
-For the same context that were ours, what I might consent is to split application tiers into different repos (example: front in one repo, backend in another), that's all!
+For the same context that were ours, what I might consent is to split application tiers into different repositories (example: front-end in one repository, back-end in another), that's all!
 
 #### `vscode`
 
@@ -291,6 +292,7 @@ My mandatory extensions:
 * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - You might spend a bunch of time configuring `vscode` (extensions, settings and keybindings). When you are changing your computer, you are happy being able to grasp all that configuration automatically. One extension to rule them all!.
 
 Further awesomeness:
+
 * [awesome-vscode](https://github.com/viatsko/awesome-vscode) - a extensive list of interesting resources for `vscode`.
 
 #### Languages and technologies
@@ -305,7 +307,7 @@ Further awesomeness:
 * Performances
   * [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/) - An online book that teaches how to migrate from standard `Python` to `Numpy` through vectorization.
   * [7 Strategies for Optimizing Numerical Code](https://speakerdeck.com/jakevdp/seven-strategies-for-optimizing-numerical-code) - An overview of 7 technics to enhance `Python` performances.
-  * [Python Data Visualization landscape](https://www.anaconda.com/blog/developer-blog/python-data-visualization-2018-why-so-many-libraries) - An heavy loaded landscape of Datavizualisation tools in python ready for convergence.
+  * [Python Data Visualization landscape](https://www.anaconda.com/blog/developer-blog/python-data-visualization-2018-why-so-many-libraries) - An heavy loaded landscape of data visualization tools in python ready for convergence.
   * [plot.ly](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e) - Extensive zoom and discovery of `plotly` for `Python`.
 
 ##### `Ruby`
@@ -315,7 +317,7 @@ Further awesomeness:
 ##### `Bash`
 
 * Command line:
-  * [bash-boilerplate](https://github.com/alphabetum/bash-boilerplate) - Name speaks for itself. Even today, bash might be the best answer to a simple clear problem that needs a repetitive way to being reproduced. This repository kickstarts it even further.
+  * [bash-boilerplate](https://github.com/alphabetum/bash-boilerplate) - Name speaks for itself. Even today, bash might be the best answer to a simple clear problem that needs a repetitive way to being reproduced. This repository kick-starts it even further.
   * [bash-oo-framework](https://github.com/niieani/bash-oo-framework) - If `bash-boilerplate` is not enough you should find everything you need here.
 
 ##### AWS
@@ -339,9 +341,9 @@ The following are my day to day productivity tools:
 
 * [Grammarly](https://app.grammarly.com) - An awesome english spell checker that I use everyday. They also have a keyboard for iOS. But, they are missing an API to create 3rd parties app, like a vscode spell checker for `markdown` 😑
 * [Todoist](https://todoist.com) - Simplest yet all features included todo manager
-* [Evernote](https://evernote.com) - Powerfull note taker that has neat web clipping, organisation and sharing. I miss a bunch of features, like auto tagging of existing notes, archiving, smart lists, etc. But I wasn't able to find a really better alternative yet. I use it for all important article I want to preserve and for my projects
+* [Evernote](https://evernote.com) - Powerful note taker that has neat web clipping, organization and sharing. I miss a bunch of features, like auto tagging of existing notes, archiving, smart lists, etc. But I wasn't able to find a really better alternative yet. I use it for all important article I want to preserve and for my projects
 * [Apple notes](https://www.icloud.com/) - For rapid personal note taking for meetings, interviews, etc.
-* [github](https://www.github.com) - usefull for your personal [CV](https://github.com/HerveNivon/CV) generation or important [note sharing](./) ☺️.
+* [github](https://www.github.com) - Useful for your personal [CV](https://github.com/HerveNivon/CV) generation or important [note sharing](./) ☺️.
 
 ### UX/UI
 
@@ -352,7 +354,7 @@ The following are my day to day productivity tools:
   * [`jq`](https://stedolan.github.io/jq/) - Must have tool for any modern devOps or serious people working with a `Terminal` 😄 _(`json`)_
   * [`rb`](https://github.com/thisredone/rb) - Extends your command line workflow with a fully loaded inline ruby interpreter. Just in case you are alergic to `awk` and `sed` _(`Ruby`)_
   * [`terminalizer`](https://github.com/faressoft/terminalizer) - A way to record your `Terminal` and create gif images.
-  * [`tldr`](https://github.com/tldr-pages/tldr) - Ever wante to get just what you need instead of verbose man pages?
+  * [`tldr`](https://github.com/tldr-pages/tldr) - Ever wanted to get just what you need instead of verbose man pages?
   * [`q`](https://github.com/harelba/q) - Run SQL queries directly on CSV files.
   * [`up`](https://github.com/akavel/up) - Write pipe processing with instant live preview of command results.
 * Docker
@@ -361,7 +363,7 @@ The following are my day to day productivity tools:
   * [`gh-md-toc`](https://github.com/ekalinin/github-markdown-toc.go) - Generate table of content from a `.md` file.
 * Security
   * [gitleaks](https://github.com/zricethezav/gitleaks) - Waiting for github next move in the security landscape, here is a way for you to scan code source for unencrypted secrets. 👮‍♂️
-* Static web sites (wordpress certainly not is the best answer)
+* Static web sites (Wordpress certainly not is the best answer)
   * [Publii](https://opencollective.com/Publii) - Is an open source static site CMS management tool
   * [Gatsby.js](https://www.gatsbyjs.org) - Is a library that enables static site generation from react
 
