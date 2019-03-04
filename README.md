@@ -1,6 +1,10 @@
 # awesome-discoveries
 
-This document is a curated list of inspiring and eclectic - mostly ordered - discoveries and thoughts I made and produce during my readings, experiments and job decisions making being a startup advisor and the CTO for a world leading drone company.
+This document is a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making being a startup advisor and the CTO for a world leading drone company - mostly ordered.
+
+This document exposes some of my ideas and reflects of my own point of view.
+
+Feedback and questions are welcome.
 
 * [Inspirational resources and must reads](#inspirational-resources-and-must-reads)
 * [Topics](#topics)
@@ -21,12 +25,12 @@ This document is a curated list of inspiring and eclectic - mostly ordered - dis
     * [Ethics](#ethics)
     * [Sagemaker](#sagemaker)
     * [Various](#various)
-    * [Setting a machine learning project](#setting-a-machine-learning-project)
+    * [Setting an artificial intelligence project](#setting-an-artificial-intelligence-project)
   * [Blockchain](#blockchain)
   * [Data science](#data-science)
   * [Development](#development)
     * [Software design and principles](#software-design-and-principles)
-    * [mono repo vs multi repo | microservices vs monolith](#mono-repo-vs-multi-repo--microservices-vs-monolith)
+    * [mono\-repo vs multi\-repo | microservices vs monolith](#mono-repo-vs-multi-repo--microservices-vs-monolith)
     * [vscode](#vscode)
     * [Languages and technologies](#languages-and-technologies)
       * [Javascript](#javascript)
@@ -35,6 +39,18 @@ This document is a curated list of inspiring and eclectic - mostly ordered - dis
       * [Bash](#bash)
       * [AWS](#aws)
   * [Growing a company](#growing-a-company)
+    * [Principles](#principles)
+      * [Widespread core values](#widespread-core-values)
+      * [English first](#english-first)
+      * [Data driven](#data-driven)
+      * [Cloud first](#cloud-first)
+      * [Document everything](#document-everything)
+      * [An API for everything](#an-api-for-everything)
+      * [Failure is arround the corner](#failure-is-arround-the-corner)
+      * [Automation is key](#automation-is-key)
+      * [Security](#security)
+      * [Be proud](#be-proud)
+    * [Further reading](#further-reading)
   * [Productivity tools](#productivity-tools)
   * [UX/UI](#uxui)
   * [Various tools](#various-tools)
@@ -44,26 +60,31 @@ This document is a curated list of inspiring and eclectic - mostly ordered - dis
 
 My list of inspirational resources I go when I do technology watch.
 
-* [arXiv](http://arxiv.org/) - The 1.5 Million e-prints open access to paper that democratized Machine Learning over the globe. 99% of papers we were using are coming from that place. It is even inspiring to look for information from that source.
-* [aiindex2018](http://cdn.aiindex.org/2018/AI%20Index%202018%20Annual%20Report.pdf) - The one place to go if you need insights into Artificial Intelligence in numbers: from the number of papers published by category to state of the art performances and human-level performance milestones going through VC funding landscape.
-* [distill.pub](https://distill.pub/) - This is an attempt to modernize the main issues with the traditional printed scientific papers in our area of computer science and machine learning over large amount of data: clarity, reproducibility, interactivity. `PDF` files are from another age. `distill.pub` is an expression of our age.
+* [arXiv](http://arxiv.org/) - The million e-prints open access to scientific papers that democratized Machine Learning over the globe. 99% of, not to say all, papers we were using are coming from that place. Even for not professional activities, it is inspiring to look that source.
 * [github](https://www.github.com) - GitHub again, with [explore](https://github.com/explore) you will discover a lot of inspiring projects.
 * [MIT Technology Review](https://www.technologyreview.com/) - An endless stream of popular science, in particular in machine learning. The only one to which I have been willing to pay a subscription so far.
 * [stateoftheart.ai](https://www.stateoftheart.ai) - Not entirely up to date on a few topic I'm aware of, but it deserves a look for everyone interested to get up to speed in a particular area they want to get in. A well ordered index for state of the art results in machine learning.
 * News letters:
   * [Data Elixir](https://dataelixir.com/) - My most productive and de facto favorite newsletter regarding Artificial Intelligence and Data science in general.
   * [Changelog](https://changelog.com/weekly) - Staying up to date with the developer community and finding fun stuffs.
+  * [Inside AI](https://inside.com/ai) - A lot of AI news, sometimes too many
+  * [UX Collective](http://newsletter.uxdesign.cc/) - When you are building a product and you want your customer to fall in love with your product, you need basic knowledge of User eXperience. This newsletter will give you a very good idea of what's going on.
 * Companies:
   * Providing data science and AI "as a service":
     * [namr](https://namr.com/) - Their mission is to create value from open data.
     * [deepomatic](https://www.deepomatic.com/) - Concept is providing AI implementation acceleration service for fortune 500.
     * [mobeye](https://www.mobeye-app.com/en/home) - How to crowdsource data annotation through a mobile application that let's people earn money
+    * [fritz.ai](https://www.fritz.ai) - Focus on mobile, provide a set of available models and allows for an higher pricing some model customization
+    * [algorithmia](https://algorithmia.com/) - Model provisioned as an API
   * Providing github like services dedicated to ML:
     * [Comet.ml](https://comet.ml)
+* Various:
+  * [aiindex2018](http://cdn.aiindex.org/2018/AI%20Index%202018%20Annual%20Report.pdf) - The one place to go if you need insights into Artificial Intelligence in numbers: from the number of papers published by category to state of the art performances and human-level performance milestones going through VC funding landscape.
+  * [distill.pub](https://distill.pub/) - This is an attempt to modernize the main issues with the traditional printed scientific papers in our area of computer science and machine learning over large amount of data: clarity, reproducibility, interactivity. `PDF` files are from another age. `distill.pub` is an expression of our age.
 
-There are a couple of books mentioned in this document, here is my top five must read in alphabetical order:
+There are a couple of books mentioned in this document, here is my top must read in alphabetical order:
 
-* [Edward Tufte’s The Visual Display of Quantitative Information](https://amzn.to/2ROaWUl) - The first book to read when you are entering the world of data visualization.
+* [Edward Tufte's The Visual Display of Quantitative Information](https://amzn.to/2ROaWUl) - The first book to read when you are entering the world of data visualization.
 * [Eric Rise's The lean startup](https://amzn.to/2RDDf3H) - This book that made become the CTO of a startup. It taught me the lean approach and made me save so much time
 
 ## Topics
@@ -84,10 +105,12 @@ There are a couple of books mentioned in this document, here is my top five must
   * [localstack](https://github.com/localstack/localstack) - The folks aren't really responsive, nor their enterprise offer seems to conclude in one way or another, but there is a lot of value and a lot to learn from that project.
 * API design
   * [REST is the new SOAP](https://medium.freecodecamp.org/rest-is-the-new-soap-97ff6c09896d) - An article with a counter-current point of view that emphasizes every negative aspects of `REST`.
+* Tools:
+  * [Cloudcraft](https://cloudcraft.co/) - Will help you document automatically your cloud infrastructure.
 
 ### Algorithms
 
-* [Fountain Codes](https://divan.github.io/posts/fountaincodes/) - Transfer information over noisy channels. Example given with [txqr](https://github.com/divan/txqr) a project that uses Animated GQ to transfer data over mobiles.
+* [Fountain Codes](https://divan.github.io/posts/fountaincodes/) - Transfer information over noisy channels. Example given with [txqr](https://github.com/divan/txqr) a project that uses Animated QR codes to transfer data over mobiles.
 * Any [Bret Victor](http://worrydream.com/) essays, demo, experiments. This inspired me so much and make myself questioning my day to day life as an engineer. He made me rethink the way we explain and learn things and share them with others. I'm so frustrated not seeing his demo becoming real life products.
   * [Algojammer](https://github.com/ChrisKnott/Algojammer) - A project that stole the idea of "Learning programming" is an attempt to turn Bret's work into reality.
 
@@ -151,11 +174,13 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * [A neural network can learn to organize the world it sees into concepts—just like we do](https://www.technologyreview.com/s/612746/a-neural-network-can-learn-to-organize-the-world-it-sees-into-conceptsjust-like-we-do) - In this [paper](https://arxiv.org/pdf/1811.10597.pdf), GAN are examined under a microscope, it is a major leap forward into comprehension of GANs.
 * [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) - A reproducible paper that combines different technics in order to better understand networks.
 * [Four Experiments in Handwriting with a Neural Network](https://distill.pub/2016/handwriting/) - Interactive experiments to understand network based on your handwriting inputs
+* [The Machine Learning Reproducibility Checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)
 
 #### Games
 
 * [Starcraft AI competition](http://www.cs.mun.ca/~dchurchill/starcraftaicomp/2018/aiide/) - The state of the Starcraft competition. Samsung 1st, Facebook 2nd.
 * [Mortal Kombat](https://blog.mgechev.com/2018/10/20/transfer-learning-tensorflow-js-data-augmentation-mobile-net/) - A `Tensorflow.js` project that allows you to play Mortal Kombat with your webcam.
+* [TensorKart](https://www.kevinhughes.ca/blog/tensor-kart) - Game played with an Xbox became training data for an off the shelf model to train an agent playing MarioKart 64. Data are all around us!
 
 #### Experiments & Art
 
@@ -169,6 +194,7 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * Future is brilliant
   * [Neural Ordinary Differential Equations](https://arxiv.org/abs/1806.07366) - Explorative new family of neural network that "parameterizes the derivative of the hidden state using a neural network".
   * [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261) - Advocacy for combinatory between "hand-engineering" and "end-to-end" learning in order to overcome current full deep learning approachs.
+  * [AICAN HG Contemporary February exhibit](http://www.hgcontemporary.com/exhibitions/faceless-portraits-transcending-time?view=slider#5) - Faceless Portrait #5 is Terminator as an art piece. Someone will see a [disturbed AI](https://www.fastcompany.com/90307889/these-eerie-portraits-were-painted-by-a-very-disturbed-ai)
 
 #### Data
 
@@ -189,6 +215,8 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * [China’s top AI scientist drives development of ethical guidelines](https://www.scmp.com/news/china/science/article/2181573/chinas-top-ai-scientist-drives-development-ethical-guidelines) - Yes it is time for the world to align itself on where it wants to go
 * [Thinking inside the box: using and controlling an Oracle AI](https://link.springer.com/article/10.1007/s11023-012-9282-2) - Controlling AI has been a problem for a while even before the rise of deep learning. In this paper, you'll discover that a particular topic can raise a lot of questions, even if it seems simple at first: here controlling an Oracle AI that doesn't act in the world except by answering questions.
 * [Google is trying to remove gender bias from its translation services](https://www.fastcompany.com/90278118/google-is-trying-to-remove-gender-bias-from-its-translation-services) - Gender bias is one of the problem in engineering, mostly only male all around. It is so easy to implement those bias and transmit them to the machine.
+* [GPT-2 blog post announcement](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf) - OpenAI released a blog post along their paper [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) explaining why they won't share reproducibility parameters (regarding data and hyperparameters notably). The GPT-2 performances are unbelievable and in the absence of clear ethics in the artificial intelligence field I can't agree more at that time. Nevertheless, I'm utterly frustrated. We need to do something about the social implications of artificial intelligence. In the [OpenAI’s GPT-2: the model, the hype, and the controversy](https://towardsdatascience.com/openais-gpt-2-the-model-the-hype-and-the-controversy-1109f4bfd5e8) blog post, the idea of a ‘safety checklist’ (similarly to the recent ‘[reproducibility checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)’) arises. Why not?!
+* [AI Safety Needs Social Scientists](https://distill.pub/2019/safety-needs-social-scientists/) - A extensive explanation toward the Social Scientists requirement explanation.
 
 #### Sagemaker
 
@@ -219,18 +247,23 @@ Going all directions:
 
 * [Robust Website Fingerprinting Through the Cache Occupancy Channel](https://arxiv.org/pdf/1811.07153.pdf) - What if you can leverage machine learning and a Javascript security hole to track anyone browsing history?
 * [Track the number of coffees consumed using AWS DeepLens](https://aws.amazon.com/blogs/machine-learning/track-the-number-of-coffees-consumed-using-aws-deeplens/) - How to build a coffee tracker in the open space with AWS deeplens.
+* [Deep Learning State of the Art (2019) - MIT](https://www.youtube.com/watch?v=53YvP6gdD7U) - A lecture from [@lexfridman](https://twitter.com/lexfridman) on recent developments in deep learning. That is a very good overview of 2018 state of the art in research and applied deep learning.
 * Energy management:
   * [EnergyVault](https://energyvault.ch/#operating-parameters) - The cleverest idea ever regarding energy storage. Thinking out of the box is key when you are growing a startup. Here is the perfect example.
+* Online AI experiments:
+  * [Iconary](https://iconary.allenai.org/) - Iconary from researchers at the Allen Institute for #AI is an online drawing and guessing game based on Pictionary. Its engine #AllenAI will blow your mind.
+  * [AI Experiments](https://experiments.withgoogle.com/collection/ai) - Curated list of AI experiments from Google. Doodle guessing, AI assisted drawing, Music, etc.
 
-#### Setting a machine learning project
+#### Setting an artificial intelligence project
 
 Creating an enterprise grade machine learning project is complicated, a lot of steps are necessary. As of today, you have a lot of choices to set your projects right. Depending on your team size, you might even willing to reinvent the wheel suffering from the ["Not Invented Here"](https://en.wikipedia.org/wiki/Not_invented_here) syndrome. The good news is there is a lot to learn from the already maturing industry. Here are some source to read before jumping straight ahead!
 
 * [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) - Pragmatism has always been at the heart of our strategy regarding our machine learning projects. This article formalize best practice that a good manager will discover himself executing a machine learning project. One thing for sure, as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." And, with the right project and the rock solid computer scientist you can kick-start a machine learning in a small team.
-* [IBM Machine Learning Maturity Model](https://arxiv.org/pdf/1811.04871.pdf) - Presents a set of best practices to implement when a company wants to deploy machine learning at scale and in a friendly fashion with enterprise landscape. Many of them might be complicated to achieve, anyhow, it will highlight any shortcomings in your projects or potential area of focus.
-* Services that might help you:
+* Productionizing an artificial intelligence project, tracking its progress or solely being able to reproduce an experiment is a challenge. A traditional system is seen as deterministic, for a particular version of your code, you have specific behavior. You can upgrade your software or dependencies to a particular version to benefit some improvements or you can roll-back to a previous version of it if you face some unexpected issues. Infrastructure as code paradigm enables the same features for the underlying elements supporting your project. For years now, continuous delivery is a well-known concept, often applied in production. When it comes to artificial intelligence projects it is steadily way more tricky: how do you manage that so-called black box? The good news is that the black box can also be versioned. You can version an artificial intelligence project on [different axes](https://emilygorcenski.com/post/data-versioning): code, model, data schema, data values, and data annotations. There is not only one approach, and it can become highly complex. It depends on your project ambition, data variation, number of people involved, go-live frequencies, etc. You must find the most appropriate way for each project. In my experience, versioning models, associated code and data annotations have proven to be the bare minimum - and even it wasn't always sufficient to reproduce a particular experiment. Some tools or services might assist you in this mission:
   * [comet](https://comet.ml)
   * [DVC](https://dvc.org/doc/dvc-philosophy/core-features)
+  * [MLflow](https://mlflow.org/)
+* [IBM Machine Learning Maturity Model](https://arxiv.org/pdf/1811.04871.pdf) - Presents a set of best practices to implement when a company wants to deploy machine learning at scale and in a friendly fashion with enterprise landscape. Many of them might be complicated to achieve, anyhow, it will highlight any shortcomings in your projects or potential area of focus.
 
 My synthesis: also look at The-Roadmap-to-Machine-Learning-Maturity-v1.pdf
 
@@ -304,6 +337,7 @@ Further awesomeness:
 
 * Command line
   * [ervy](https://github.com/chunqiuyiyu/ervy) - Bringing charts to the terminal, because every project needs a command line and dataviz is fun!
+  * [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts with no dependencies
 
 ##### `Python`
 
@@ -330,13 +364,86 @@ Further awesomeness:
 
 ### Growing a company
 
-* [Can you bootstrap a startup on the side?](https://justinjackson.ca/bootstrap-side-project) - Build you own path based on your experience, will and target
+This paragraph is the least technical piece of this document. It is the sum of lessons learned. This was written mainly as a guide for my future self, a guide to remember clearly what it means building something and never reinventing the weel.
+
+#### Principles
+
+##### Widespread core values
+
+You should have clear and widespread core values. This core values should be part of all your interviews and you must ask each interviewed people how do they feel about them.
+
+##### Be a leader
+
+There is a litany of management styles in the litterature (Autocratic, Persuasive, Laissez-faire, Consultative, etc.). The past 15 years of management proved to myself that a good manager doesn't fit in one and only box. Furthermore your management style is really personnal and may vary overtime or depending of the people you interact with. It is all about Human relations.
+
+I think that I adapt myself to my interlocutor and the situation. I might be persuasive, consultative, or laissez-faire, but inin all cases I invest a lot of my time in the relationships I'm building.
+
+To my mind, there is only one rule of thumb, your collaborator will prefere working with a leader than with a boss!
+
+<img src="./resources/growing-a-company/boss-vs-leader.png" height="300" alt="Boss VS Leader">
+
+##### English first
+
+Everything must be written in English. And for us, French people, it is unfortunate, but bad English is still better than French. You should at least write all of your documentation in English. This is the bare minimum.
+
+##### Data driven
+
+Think of your product in terms of data, gather every piece of data you can, put that in your contracts and terms of services:
+
+* It will be easier to determine the next iterations of your product (what features are used, how long did it take to load the page, what is the require accuracy)
+* You will better serve your customers
+* Data enables Machine Learning, the only mean actualy.
+
+##### Cloud first
+
+Everything must be in the cloud, every tool you’re about to use should be a service otherwise drawbacks are licensing nightmares and or on-site server maintenance. The other advantage of hosting everything in the cloud is to accelerate really strong, really quick.
+
+##### Document everything
+
+Every piece of your work, from idea to real life architecture, should be documented.
+
+##### An API for everything
+
+Every development you make should be served through an API. This is a necessary mean to enable growth of your project and your team.
+
+##### Failure is arround the corner
+
+Design with failure in mind. Failure is the first event you'll met in a
+
+> "Everything fails, all the time" - Werner Vogels, CTO of Amazon
+
+Some companies are even playing with their production environment. Netflix's [Chaosmonkey](https://github.com/Netflix/chaosmonkey) randomly terminates computing unites that run inside of a production environment exposing engineers to failures by design. It inherently incentivizes them to build resilient services.
+
+##### Automation is key
+
+Automation is the key to successfull development teams. And, it should come in the early stages on your internal tooling or your production workloads. Automation will save you time and money all along your journey
+
+Tooling your developers is mandatory, and it you should let them be free (help them to have a good development environment. Enable your developers and keep the evolution process of the tooling easy. Let them propose, enhance it and share their creation with the rest of your team.
+
+##### Security
+
+Security should be at the root of every choice. Your customer is your value. You will have to gain your customers’ trust, and you should do everything you can to keep it.
+
+For any service, you should avoid to build your own authentication system and you must enable [SSO](https://en.wikipedia.org/wiki/Single_sign-on) as soon as possible. One password to rule them all is key to most B2B deals.
+
+[GDPR](https://eugdpr.org/) is here to help anyway.
+
+##### Be proud
+
+Overall, assume your choices, justify them, and proudly defend them. This is not because you are not using the last trendy single page application framework that your code base is crap or a spaghetti mess - like I eared for our code base at Redbird. Your startup will always have a history, you must be proud of it and all the lessons learned along the way.
+
+#### Further reading
+
+* [Can you bootstrap a startup on the side?](https://justinjackson.ca/bootstrap-side-project) - Build you own path based on your experience, will and target.
 * [This is hard](https://justinjackson.ca/hard) - Never forget that stopping your project is the main reason for failure
-* Management
-  * Working remotely
-    * [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies. World is changing, cost of living is increasing in a lot of places, talents are all around the world. One thing for sure, you will see more and more all-remote rather than the contrary.
+* [10 Lessons from 10 Years of Amazon Web Services](https://www.allthingsdistributed.com/2016/03/10-lessons-from-10-years-of-aws.html) - Simple rules, carefuly understand them.
+* Working remotely
+  * [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies. World is changing, cost of living is increasing in a lot of places, talents are all around the world. One thing for sure, you will see more and more all-remote rather than the contrary.
+* The management world
   * [Most leaders don't even know the game they are in](https://www.youtube.com/watch?v=RyTQ5-SQYTo)
   * [Simon Sinek on Millennials in the Workplace](https://www.youtube.com/watch?v=hER0Qp6QJNU) - A shorter version focusing on Millennials.
+* Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
+* Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
 
 ### Productivity tools
 
@@ -349,6 +456,9 @@ The following are my day to day productivity tools:
 * [github](https://www.github.com) - Useful for your personal [CV](https://github.com/HerveNivon/CV) generation or important [note sharing](./) ☺️.
 
 ### UX/UI
+
+* [awesome-design-tools](https://github.com/LisaDziuba/Awesome-Design-Tools) - The place to go if you want to find a particular tool for a particular activity.
+* [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9) - The place to go if you are asking yourself animation questions for your mobile or web application.
 
 ### Various tools
 
@@ -369,6 +479,7 @@ The following are my day to day productivity tools:
 * Static web sites (Wordpress certainly not is the best answer)
   * [Publii](https://opencollective.com/Publii) - Is an open source static site CMS management tool
   * [Gatsby.js](https://www.gatsbyjs.org) - Is a library that enables static site generation from react
+  * [hugo](https://gohugo.io/) -Another library to build static sites. A [comparison with gatsby](https://medium.freecodecamp.org/gatsby-vs-hugo-a-detailed-comparison-e78d94f640fc) if you need more insights
 
 ## License
 
