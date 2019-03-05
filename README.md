@@ -2,9 +2,11 @@
 
 This document is a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making being a startup advisor and the CTO for a world leading drone company - mostly ordered.
 
-This document exposes some of my ideas and reflects of my own point of view.
+This document exposes some of my ideas and views expressed are my own.
 
-Feedback and questions are welcome.
+This document was written mainly as a guide for my future self, a guide to precisely remember what it means building something and helping never to reinvent the weel.
+
+Still, feedback and questions are welcome.
 
 * [Inspirational resources and must reads](#inspirational-resources-and-must-reads)
 * [Topics](#topics)
@@ -24,14 +26,20 @@ Feedback and questions are welcome.
     * [Performance and hardware](#performance-and-hardware)
     * [Ethics](#ethics)
     * [Sagemaker](#sagemaker)
-    * [Various](#various)
+    * [Others](#others)
     * [Setting an artificial intelligence project](#setting-an-artificial-intelligence-project)
   * [Blockchain](#blockchain)
   * [Data science](#data-science)
+    * [Data management](#data-management)
+    * [Dataviz](#dataviz)
   * [Development](#development)
     * [Software design and principles](#software-design-and-principles)
     * [mono\-repo vs multi\-repo | microservices vs monolith](#mono-repo-vs-multi-repo--microservices-vs-monolith)
-    * [vscode](#vscode)
+    * [Development environment](#development-environment)
+      * [Code editor](#code-editor)
+      * [Command line enhancements](#command-line-enhancements)
+      * [Docker](#docker)
+      * [Security](#security)
     * [Languages and technologies](#languages-and-technologies)
       * [Javascript](#javascript)
       * [Python](#python)
@@ -41,19 +49,23 @@ Feedback and questions are welcome.
   * [Growing a company](#growing-a-company)
     * [Principles](#principles)
       * [Widespread core values](#widespread-core-values)
+      * [Be a leader](#be-a-leader)
       * [English first](#english-first)
-      * [Data driven](#data-driven)
-      * [Cloud first](#cloud-first)
       * [Document everything](#document-everything)
+      * [Embrace change](#embrace-change)
+      * [Default to Transparency](#default-to-transparency)
+      * [Data driven](#data-driven)
+      * [Security first](#security-first)
+      * [Cloud only](#cloud-only)
       * [An API for everything](#an-api-for-everything)
-      * [Failure is arround the corner](#failure-is-arround-the-corner)
+      * [Failure is waiting for you](#failure-is-waiting-for-you)
       * [Automation is key](#automation-is-key)
-      * [Security](#security)
       * [Be proud](#be-proud)
     * [Further reading](#further-reading)
+  * [Growing a product](#growing-a-product)
   * [Productivity tools](#productivity-tools)
   * [UX/UI](#uxui)
-  * [Various tools](#various-tools)
+  * [Various](#various)
 * [License](#license)
 
 ## Inspirational resources and must reads
@@ -106,7 +118,9 @@ There are a couple of books mentioned in this document, here is my top must read
 * API design
   * [REST is the new SOAP](https://medium.freecodecamp.org/rest-is-the-new-soap-97ff6c09896d) - An article with a counter-current point of view that emphasizes every negative aspects of `REST`.
 * Tools:
-  * [Cloudcraft](https://cloudcraft.co/) - Will help you document automatically your cloud infrastructure.
+  * [Cloudcraft](https://cloudcraft.co/) - Isometric 3D drawing of your AWS infrastructure (to be or the actual one). Will help you document automatically your cloud infrastructure and to advertise it.
+  * [Cloudockit](https://www.cloudockit.com/) - Same promise
+* [Desired vs Deployed architecture](https://twitter.com/changelog/status/839952960520138752)
 
 ### Algorithms
 
@@ -241,7 +255,7 @@ other `sagemaker` key features:
 
 * [Pipe mode](https://aws.amazon.com/blogs/machine-learning/accelerate-model-training-using-faster-pipe-mode-on-amazon-sagemaker/) - It allows to stream data directly from an `S3` bucket without the need to download the data on the machine. It leverages the [protobuf](https://developers.google.com/protocol-buffers/) to speedup streaming from S3 to the training instances.
 
-#### Various
+#### Others
 
 Going all directions:
 
@@ -280,14 +294,19 @@ Yes, during the last years I spent some time documenting myself on blockchain an
 
 ### Data science
 
-* Dataviz:
-  * [Edward Tufte’s The Visual Display of Quantitative Information](https://amzn.to/2ROaWUl) - The first book to read when you are entering the world of data visualization.
-  * [3rd Wave Data Visualization](https://towardsdatascience.com/3rd-wave-data-visualization-824c5dc84967) - Elijah Meeks author of [semiotic](https://github.com/emeeks/semiotic) - A react + d3.js library, a famous combo I experienced with success and pleasure - points to problems into the current landscape of data visualization.
-  * Beware of the answers you'll find and always skeptic first. That a service you owe yourself:
-    * [Curve Fitting](https://xkcd.com/2048/) - A drawing worths a thousand words.
-    * [Importance of Skepticism in Data Science](https://jhu-advdatasci.github.io/2018/lectures/12-being-skeptical.html) - This long code detailed lecture aims at illustrating the bias that you might follow when you are interpreting data you have manipulated. _(`R`)_
-* Data management:
-  * [DVC](https://dvc.org/doc/dvc-philosophy/core-features) - A neat structured approach to the data science workflow management aiming to become a standard as git has become in the development workflow.
+#### Data management
+
+* [DVC](https://dvc.org/doc/dvc-philosophy/core-features) - A neat structured approach to the data science workflow management aiming to become a standard as git has become in the development workflow.
+
+#### Dataviz
+
+* [Edward Tufte’s The Visual Display of Quantitative Information](https://amzn.to/2ROaWUl) - The first book to read when you are entering the world of data visualization.
+* [3rd Wave Data Visualization](https://towardsdatascience.com/3rd-wave-data-visualization-824c5dc84967) - Elijah Meeks author of [semiotic](https://github.com/emeeks/semiotic) - A react + d3.js library, a famous combo I experienced with success and pleasure - points to problems into the current landscape of data visualization.
+* [PCA, t-SNE, and UMAP: Modern Approaches to Dimension Reduction](https://www.reddit.com/r/datascience/comments/8rfrqg/pca_tsne_and_umap_modern_approaches_to_dimension/) - You always have too many dimension to play with, and a picture still worth a thousand words. Here enters dimension reduction algorithms
+* [Dataviz Collection](https://www.pinterest.fr/acatonrails/data-viz/) - I'm collecting things a lot, here is my personnal collection of inspiring Datavizualisation.
+* Beware of the answers you'll find and always be skeptic first. That a service you owe yourself:
+  * [Curve Fitting](https://xkcd.com/2048/) - A drawing worths a thousand words.
+  * [Importance of Skepticism in Data Science](https://jhu-advdatasci.github.io/2018/lectures/12-being-skeptical.html) - This long code detailed lecture aims at illustrating the bias that you might follow when you are interpreting data you have manipulated. _(`R`)_
 
 ### Development
 
@@ -319,7 +338,32 @@ Several sources, so you can have a better idea of the debate:
 
 For the same context that were ours, what I might consent is to split application tiers into different repositories (example: front-end in one repository, back-end in another), that's all!
 
-#### `vscode`
+#### Development environment
+
+##### iPad as main computer
+
+* [iPad Pro for programming](https://jann.is/ipad-pro-for-programming/)
+* Mosh (a "better" ssh):
+  * [mobile-shell build instruction](https://github.com/mobile-shell/mosh/wiki/Build-Instructions)
+  * [Setting mosh server on AWS](http://aws-labs.com/install-mosh/)
+  * [Adding mosh support to your AWS servers](http://fuzzyblog.io/blog/aws/2017/07/02/adding-mosh-support-to-your-aws-servers.html)
+  * [Mosh is available on AWS Linux](https://aws.amazon.com/amazon-linux-ami/2017.03-packages/)
+
+A lot of people have tried, I tried, the last iteration of the iPad pro almost convinced me. For me, this is still not possible. It is fine to programm remotely with a AWS server but it is expensive, and doesn't cover all usages. What if you need to manipulate data from your iPad on your remote server? I need to programmaticaly access my data locally, that's all. I still need my "natural" terminal with data access.
+
+In the process, I discovered mosh and that is a damned good solution for remote access to server. It misses a strong solution for ssh forwarding necessary in a bastion implementation.
+
+##### Mac OS X
+
+Mac OS X on a MacBook is a wonderfull development environment. When we have been acquired by Airware, all our developers had to switch from a centralized development server to distributed development environment on Mac OS X. As we hadn't raised much, we were almost shocked by that sudden developer onboarding cost increase.
+
+It enabled smoother meeting sessions, remote working and for some others it offered a real computer at home.
+
+You can heavily personalize your setup, but there is only one real big issue when you unbox a Mac. It lakes a real package manager, but there is a solution for that: [homebrew](https://brew.sh).
+
+I'll do nothing else in the future. My developers will have choice between a laptop Mac or Linux one. In any case a Linux/Unix base centralised development environment with a crypted harddrive.
+
+##### Code editor
 
 [`vscode`](https://code.visualstudio.com/) replaces the long 1st in my heart [`Sublime`](https://www.sublimetext.com/): it has proven to turn myself into a better "prototyper", data extractor and developer in the past year. It is reliable, able to handle large files, has a small memory footprint and perfectly extendable.
 
@@ -327,9 +371,28 @@ My mandatory extensions:
 
 * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - You might spend a bunch of time configuring `vscode` (extensions, settings and keybindings). When you are changing your computer, you are happy being able to grasp all that configuration automatically. One extension to rule them all!.
 
-Further awesomeness:
+Further awesomenesssss 🤩:
 
 * [awesome-vscode](https://github.com/viatsko/awesome-vscode) - a extensive list of interesting resources for `vscode`.
+
+##### Command line enhancements
+
+* [`fkill-cli`](https://github.com/sindresorhus/fkill-cli) - An interactive killing command, much nicer than your traditional way. Would love a native one not going through `node`.
+* [`graphcurl`](https://github.com/hasura/graphqurl) - Turn your command line into a `curl` like tool for GraphQL, keeping the exploration taste of [graphiql](https://github.com/graphql/graphiql)
+* [`jq`](https://stedolan.github.io/jq/) - Must have tool for any modern devOps or serious people working with a `Terminal` 😄 _(`json`)_
+* [`rb`](https://github.com/thisredone/rb) - Extends your command line workflow with a fully loaded inline ruby interpreter. Just in case you are alergic to `awk` and `sed` _(`Ruby`)_
+* [`terminalizer`](https://github.com/faressoft/terminalizer) - A way to record your `Terminal` and create gif images.
+* [`tldr`](https://github.com/tldr-pages/tldr) - Ever wanted to get just what you need instead of verbose man pages?
+* [`q`](https://github.com/harelba/q) - Run SQL queries directly on CSV files.
+* [`up`](https://github.com/akavel/up) - Write pipe processing with instant live preview of command results.
+
+##### Docker
+
+* [`dive`](https://github.com/wagoodman/dive) - Have you ever wanted to look into your `Dockerimage` result layers. Here you are!
+
+##### Security
+
+* [gitleaks](https://github.com/zricethezav/gitleaks) - Waiting for github next move in the security landscape, here is a way for you to scan code source for unencrypted secrets. 👮‍♂️
 
 #### Languages and technologies
 
@@ -364,13 +427,29 @@ Further awesomeness:
 
 ### Growing a company
 
-This paragraph is the least technical piece of this document. It is the sum of lessons learned. This was written mainly as a guide for my future self, a guide to remember clearly what it means building something and never reinventing the weel.
+This paragraph is the least technical piece of this document. It covers what I think are the core principles of the ideal startup company to make it innovative and successful as much as possible. This is the sum of lessons I learned over time.
 
 #### Principles
 
+The following paragraphs cover in details what I think are the most important principles to follow building your own company in our modern context:
+
+1. [Widespread core values](#widespread-core-values)
+1. [Be a leader](#be-a-leader)
+1. [English first](#english-first)
+1. [Document everything](#document-everything)
+1. [Embrace change](#embrace-change)
+1. [Default to Transparency](#default-to-transparency)
+1. [Data driven](#data-driven)
+1. [Security first](#security-first)
+1. [Cloud only](#cloud-only)
+1. [An API for everything](#an-api-for-everything)
+1. [Failure is waiting for you](#failure-is-waiting-for-you)
+1. [Automation is key](#automation-is-key)
+1. [Be proud](#be-proud)
+
 ##### Widespread core values
 
-You should have clear and widespread core values. This core values should be part of all your interviews and you must ask each interviewed people how do they feel about them.
+You should have clear and widespread core values. It is not enough to keep them for you, these core values should be known from everyone and should be part of all your interviews and you must ask each interviewed people how do they feel about them.
 
 ##### Be a leader
 
@@ -378,7 +457,7 @@ There is a litany of management styles in the litterature (Autocratic, Persuasiv
 
 I think that I adapt myself to my interlocutor and the situation. I might be persuasive, consultative, or laissez-faire, but inin all cases I invest a lot of my time in the relationships I'm building.
 
-To my mind, there is only one rule of thumb, your collaborator will prefere working with a leader than with a boss!
+To my mind, there is only one rule of thumb, your collaborators will prefere working with a leader than with a boss!
 
 <img src="./resources/growing-a-company/boss-vs-leader.png" height="300" alt="Boss VS Leader">
 
@@ -386,29 +465,61 @@ To my mind, there is only one rule of thumb, your collaborator will prefere work
 
 Everything must be written in English. And for us, French people, it is unfortunate, but bad English is still better than French. You should at least write all of your documentation in English. This is the bare minimum.
 
+##### Document everything
+
+Every piece of your work, from idea to real life architecture, should be documented.
+
+##### Embrace change
+
+What you have in mind will never be in place, the secret is to adapt yourself, your strategy, your vision, your plan and everything in order to keep it alive.
+
+##### Default to Transparency
+
+When Buffer introduced [Open Salaries](https://open.buffer.com/introducing-open-salaries-at-buffer-including-our-transparent-formula-and-all-individual-salaries/) they shared their second core value: "Default to Transparency". Back in 2013, I was working in one of the 5 biggest consulting company in the world, it inspired me a lot. At Redbird, then Airware and Delair, in hindsight, I can say that as a company we haven't always been transparent. In my next startup I will do as much as I can to embrace that principle, as strong as possible from internal email with open CC to personal shared self-improvement through open progress report. And, even if it is hard for my French culture 🐔🇫🇷🥖, up to Open Salaries!
+
+Open your meetings, let interested people to come in as flies on the wall. Ask for candide feedback at the end of it.
+
+What do you need to take a good decision? Personnaly, I require as much information as possible, I need a full context and I need to understand the whole situation which is often the case behing a CTO or a VP of engineering. But, if you expect your team to take the smartest decision possible, they will need the same level of information than you.
+
+> "lots of traditional, widely accepted, and perfectly legal business practices just can’t be trusted by customers, and will soon become extinct, driven to dust by rising levels of transparency, increasing consumer demand for fair treatment, and competitive pressure" - Don Peppers and Martha Rogers in [Extreme Trust: Honesty as a Competitive Advantage](https://amzn.to/2Cg0BYz)
+
+Transparency will help more than it will harm. Transparency builds and strengthens trust.
+
 ##### Data driven
 
-Think of your product in terms of data, gather every piece of data you can, put that in your contracts and terms of services:
+Think of your product in terms of data, gather every piece of data you can, measure, track and manage it, put it in your contracts and terms of services:
 
 * It will be easier to determine the next iterations of your product (what features are used, how long did it take to load the page, what is the require accuracy)
 * You will better serve your customers
 * Data enables Machine Learning, the only mean actualy.
 
-##### Cloud first
+##### Security first
 
-Everything must be in the cloud, every tool you’re about to use should be a service otherwise drawbacks are licensing nightmares and or on-site server maintenance. The other advantage of hosting everything in the cloud is to accelerate really strong, really quick.
+Security should be at the root of every technical, product or strategy choice. Your customers are your value. You will have to gain your customers’ trust, and you should do everything you can to keep it.
 
-##### Document everything
+For any service, you should avoid to build your own authentication system and you must enable [SSO](https://en.wikipedia.org/wiki/Single_sign-on) as soon as possible. One password to rule them all is key to most B2B deals.
 
-Every piece of your work, from idea to real life architecture, should be documented.
+There are always ways to enhance your security. Beware, the system’s security your building should never slow down your people otherwise they will find a workaround. Everyone in the company should embrace it and support it. (Another question for your future recruitments).
+
+[GDPR](https://eugdpr.org/) is here to help anyway.
+
+##### Cloud only
+
+Everything must be in the cloud, nothing should ever take a way into your IT office, not a single server should ever exist into that cabinet. The only thing you should ever need is a VERY good internet connection. Every tool you’re about to use should be a service otherwise drawbacks are licensing nightmares and or on-site server maintenance. The other advantage of hosting everything in the cloud is to accelerate really strong, really quick.
+
+If it ever happens to install a server, you will always need someone to maintain it, and it will be really hard to get rid of it.
+
+Priority is your business, and all the time you spend should go into customer value creation. As a startup, you cannot aford reinventing the weel or speding money to build things than others do better than you.
 
 ##### An API for everything
 
-Every development you make should be served through an API. This is a necessary mean to enable growth of your project and your team.
+Every development you make should be served through an API. This is a necessary mean to enable growth and make it sustainable for your project and your teams.
 
-##### Failure is arround the corner
+> "All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions. Anyone who doesn’t do this will be fired.  Thank you; have a nice day!" - Jeff Bezos CEO of Amazon
 
-Design with failure in mind. Failure is the first event you'll met in a
+##### Failure is waiting for you
+
+Design with failure in mind. Failure is the first event you'll met in any project. What you will have at the end is likely to be more complex than what you desire. You have to embrace that fact, it is going to happen.
 
 > "Everything fails, all the time" - Werner Vogels, CTO of Amazon
 
@@ -420,30 +531,47 @@ Automation is the key to successfull development teams. And, it should come in t
 
 Tooling your developers is mandatory, and it you should let them be free (help them to have a good development environment. Enable your developers and keep the evolution process of the tooling easy. Let them propose, enhance it and share their creation with the rest of your team.
 
-##### Security
-
-Security should be at the root of every choice. Your customer is your value. You will have to gain your customers’ trust, and you should do everything you can to keep it.
-
-For any service, you should avoid to build your own authentication system and you must enable [SSO](https://en.wikipedia.org/wiki/Single_sign-on) as soon as possible. One password to rule them all is key to most B2B deals.
-
-[GDPR](https://eugdpr.org/) is here to help anyway.
-
 ##### Be proud
 
-Overall, assume your choices, justify them, and proudly defend them. This is not because you are not using the last trendy single page application framework that your code base is crap or a spaghetti mess - like I eared for our code base at Redbird. Your startup will always have a history, you must be proud of it and all the lessons learned along the way.
+Overall, assume your choices, justify them, and proudly defend them. This is not because you are not using the last trendy single page application framework that your code base is crap or a spaghetti mess. Your startup will always have a history, you must be proud of it and all the lessons learned along the way.
 
 #### Further reading
 
 * [Can you bootstrap a startup on the side?](https://justinjackson.ca/bootstrap-side-project) - Build you own path based on your experience, will and target.
+* [40+ Startup Jargon Words You Need To Know To Raise Money](https://www.forbes.com/sites/kateharrison/2014/08/29/40-start-up-jargon-words-you-need-to-know-to-raise-money/)
 * [This is hard](https://justinjackson.ca/hard) - Never forget that stopping your project is the main reason for failure
 * [10 Lessons from 10 Years of Amazon Web Services](https://www.allthingsdistributed.com/2016/03/10-lessons-from-10-years-of-aws.html) - Simple rules, carefuly understand them.
+* [The Inevitable Future: Startup Transparency](https://medium.com/swlh/the-inevitable-future-startup-transparency-3c5e92fcd96b) -
 * Working remotely
   * [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies. World is changing, cost of living is increasing in a lot of places, talents are all around the world. One thing for sure, you will see more and more all-remote rather than the contrary.
+  * [State of remote Work 2019](https://buffer.com/state-of-remote-work-2019) - The benefits and struggles of working remotely
+  * [Elastic: how does a 250 people team work 100% remote](https://www.youtube.com/watch?v=rrlPhedNjbA)
 * The management world
   * [Most leaders don't even know the game they are in](https://www.youtube.com/watch?v=RyTQ5-SQYTo)
   * [Simon Sinek on Millennials in the Workplace](https://www.youtube.com/watch?v=hER0Qp6QJNU) - A shorter version focusing on Millennials.
 * Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
 * Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
+* Boss vs leader
+  * [10 Huge Differences Between A Boss And A Leader](https://www.lifehack.org/287785/10-differences-between-boss-and-real-leader)
+  * [The Difference Between A Great Leader And A Regular Manager](https://www.lifehack.org/articles/work/the-difference-between-great-leader-and-regular-manager.html)
+* [The Secret to Amazon's Success--Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/) - Futher insights on the Amazon API strategy.
+
+### Growing a product
+
+* [Why we made our product roadmap public (and how to build your own)](https://frontapp.com/blog/2015/04/02/why-we-made-our-roadmap-public-and-how-to-build-your-own/) - Front application explain why they made their roadmap public. It still is the case. Personnaly, I trully believe, that secrecy doesn't help any company to expand, its capabality to execute better, and faster is. In short: users like that you share tour vision, product gets better even faster because of direct feedback, team accountability. Some public roadmaps:
+  * [Trello](https://trello.com/b/nC8QJJoZ/trello-development-roadmap)
+  * [Front](https://trello.com/b/kZsVVrc8/front-product-roadmap)
+  * [KanbanMail](https://www.notion.so/Public-Roadmap-7adabe84ea7a47588f4b5e8fa9e5dde8)
+  * [notion](https://www.notion.so/What-s-New-157765353f2c4705bd45474e5ba8b46c)
+
+Tools:
+
+* [airfocus](https://airfocus.io) - Some interesting view to render your roadmap.
+* [trello](http://trello.com/) - The famous Kanban based online service to manage your task and roadmap.
+* [notion.so](https://www.notion.so) - The one tool for all replacing evernote, trello, asana, etc.
+* [uservoice](https://www.uservoice.com/) - User centric roadmap definition.
+
+In any case, please avoid using [aha!](https://www.aha.io/). This tool was hated in our company: "the place were ideas die" as we called it. It was slow, hard to use, nearly impossible to find information, at the end we weren't able to export our data, and it was so expensive.
 
 ### Productivity tools
 
@@ -460,22 +588,10 @@ The following are my day to day productivity tools:
 * [awesome-design-tools](https://github.com/LisaDziuba/Awesome-Design-Tools) - The place to go if you want to find a particular tool for a particular activity.
 * [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9) - The place to go if you are asking yourself animation questions for your mobile or web application.
 
-### Various tools
+### Various
 
-* Command line enhancements
-  * [graphcurl](https://github.com/hasura/graphqurl) - Turn your command line into a `curl` like tool for GraphQL, keeping the exploration taste of [graphiql](https://github.com/graphql/graphiql)
-  * [`jq`](https://stedolan.github.io/jq/) - Must have tool for any modern devOps or serious people working with a `Terminal` 😄 _(`json`)_
-  * [`rb`](https://github.com/thisredone/rb) - Extends your command line workflow with a fully loaded inline ruby interpreter. Just in case you are alergic to `awk` and `sed` _(`Ruby`)_
-  * [`terminalizer`](https://github.com/faressoft/terminalizer) - A way to record your `Terminal` and create gif images.
-  * [`tldr`](https://github.com/tldr-pages/tldr) - Ever wanted to get just what you need instead of verbose man pages?
-  * [`q`](https://github.com/harelba/q) - Run SQL queries directly on CSV files.
-  * [`up`](https://github.com/akavel/up) - Write pipe processing with instant live preview of command results.
-* Docker
-  * [`dive`](https://github.com/wagoodman/dive) - Have you ever wanted to look into your `Dockerimage` result layers. Here you are!
 * Markdown
   * [`gh-md-toc`](https://github.com/ekalinin/github-markdown-toc.go) - Generate table of content from a `.md` file.
-* Security
-  * [gitleaks](https://github.com/zricethezav/gitleaks) - Waiting for github next move in the security landscape, here is a way for you to scan code source for unencrypted secrets. 👮‍♂️
 * Static web sites (Wordpress certainly not is the best answer)
   * [Publii](https://opencollective.com/Publii) - Is an open source static site CMS management tool
   * [Gatsby.js](https://www.gatsbyjs.org) - Is a library that enables static site generation from react
