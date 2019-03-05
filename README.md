@@ -2,11 +2,13 @@
 
 This document is a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making being a startup advisor and the CTO for a world leading drone company - mostly ordered.
 
-This document exposes some of my ideas and views expressed are my own.
-
 This document was written mainly as a guide for my future self, a guide to precisely remember what it means building something and helping never to reinvent the weel.
 
 Still, feedback and questions are welcome.
+
+This document exposes some of my ideas and views expressed are my own.
+
+## Table of content
 
 * [Inspirational resources and must reads](#inspirational-resources-and-must-reads)
 * [Topics](#topics)
@@ -75,7 +77,7 @@ My list of inspirational resources I go when I do technology watch.
 * [arXiv](http://arxiv.org/) - The million e-prints open access to scientific papers that democratized Machine Learning over the globe. 99% of, not to say all, papers we were using are coming from that place. Even for not professional activities, it is inspiring to look that source.
 * [github](https://www.github.com) - GitHub again, with [explore](https://github.com/explore) you will discover a lot of inspiring projects.
 * [MIT Technology Review](https://www.technologyreview.com/) - An endless stream of popular science, in particular in machine learning. The only one to which I have been willing to pay a subscription so far.
-* [stateoftheart.ai](https://www.stateoftheart.ai) - Not entirely up to date on a few topic I'm aware of, but it deserves a look for everyone interested to get up to speed in a particular area they want to get in. A well ordered index for state of the art results in machine learning.
+* [stateoftheart.ai](https://www.stateoftheart.ai) - Not entirely up to date on a few topics I'm aware of, but it deserves a look for everyone interested to get up to speed in a particular area they want to jump in, and a well ordered index for state of the art results in machine learning.
 * News letters:
   * [Data Elixir](https://dataelixir.com/) - My most productive and de facto favorite newsletter regarding Artificial Intelligence and Data science in general.
   * [Changelog](https://changelog.com/weekly) - Staying up to date with the developer community and finding fun stuffs.
@@ -152,7 +154,7 @@ For the complete bibliography, please look at the [bibliography](bibliography.ts
 
 #### Semantic segmentation
 
-Semantic segmentation which is the practice of categorizing an image at the pixel level. i.e., semantic segmentation assigns a class to each pixel in an image was at the art of our core product at Redbird. There are a lot activities around that topic where state of the art is still not as accurate as human. I have written a [medium post](https://medium.com/@hervenivon/crafting-the-future-was-just-the-beginning-herve-nivon-3b7312a73184) where you will find further information regarding our project.
+Semantic segmentation is the practice of categorizing an image at the pixel level. i.e., semantic segmentation assigns a class to each pixel in an image. Semantic segmentation was at the heart of our core products at Redbird. There are a lot activities around that topic where state of the art is still not as accurate as human. I have written a [medium post](https://medium.com/@hervenivon/crafting-the-future-was-just-the-beginning-herve-nivon-3b7312a73184) where you will find further information regarding our projects.
 
 Here are the most relevant findings we leverage for our project and some more recent ones that can enhance it:
 
@@ -184,7 +186,7 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * [manifold](https://eng.uber.com/manifold/) - A platform from uber that promises ease of debugging, not publicly shared, not available for test, pretty, and a lot of ideas still.
 * [comet.ml](https://comet.ml) - An online platform compatible with any Machine Learning framework that aggregate online stats and enable model comparison.
 * [A New Approach to Understanding How Machines Think](https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110) - An interview of Been Kim from Google Brain for the introduction of “Testing with Concept Activation Vectors” ([TCAV](https://arxiv.org/pdf/1711.11279.pdf))
-* [Machine Learning for Kids](https://machinelearningforkids.co.uk/) - If you want my mind, valuable not only for kids 😅
+* [Machine Learning for Kids](https://machinelearningforkids.co.uk/) - If you want my mind, it is valuable not only for kids 😅
 * [A neural network can learn to organize the world it sees into concepts—just like we do](https://www.technologyreview.com/s/612746/a-neural-network-can-learn-to-organize-the-world-it-sees-into-conceptsjust-like-we-do) - In this [paper](https://arxiv.org/pdf/1811.10597.pdf), GAN are examined under a microscope, it is a major leap forward into comprehension of GANs.
 * [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) - A reproducible paper that combines different technics in order to better understand networks.
 * [Four Experiments in Handwriting with a Neural Network](https://distill.pub/2016/handwriting/) - Interactive experiments to understand network based on your handwriting inputs
@@ -230,7 +232,7 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * [Thinking inside the box: using and controlling an Oracle AI](https://link.springer.com/article/10.1007/s11023-012-9282-2) - Controlling AI has been a problem for a while even before the rise of deep learning. In this paper, you'll discover that a particular topic can raise a lot of questions, even if it seems simple at first: here controlling an Oracle AI that doesn't act in the world except by answering questions.
 * [Google is trying to remove gender bias from its translation services](https://www.fastcompany.com/90278118/google-is-trying-to-remove-gender-bias-from-its-translation-services) - Gender bias is one of the problem in engineering, mostly only male all around. It is so easy to implement those bias and transmit them to the machine.
 * [GPT-2 blog post announcement](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf) - OpenAI released a blog post along their paper [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) explaining why they won't share reproducibility parameters (regarding data and hyperparameters notably). The GPT-2 performances are unbelievable and in the absence of clear ethics in the artificial intelligence field I can't agree more at that time. Nevertheless, I'm utterly frustrated. We need to do something about the social implications of artificial intelligence. In the [OpenAI’s GPT-2: the model, the hype, and the controversy](https://towardsdatascience.com/openais-gpt-2-the-model-the-hype-and-the-controversy-1109f4bfd5e8) blog post, the idea of a ‘safety checklist’ (similarly to the recent ‘[reproducibility checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)’) arises. Why not?!
-* [AI Safety Needs Social Scientists](https://distill.pub/2019/safety-needs-social-scientists/) - A extensive explanation toward the Social Scientists requirement explanation.
+* [AI Safety Needs Social Scientists](https://distill.pub/2019/safety-needs-social-scientists/) - An extensive explanation towards the Social Scientists requirement explanation.
 
 #### Sagemaker
 
