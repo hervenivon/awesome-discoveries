@@ -465,6 +465,16 @@ To my mind, there is only one rule of thumb, your collaborators will prefere wor
 
 Everything must be written in English. And for us, French people, it is unfortunate, but bad English is still better than French. You should at least write all of your documentation in English. This is the bare minimum.
 
+Some key reasons gathered from the [FAQ](https://www.grammarly.com/faq) page of [Grammarly](https://www.grammarly.com/) a tool I use every day to enhance my English skills and quality:
+
+> * One quarter of the world’s population speaks at least some English.
+> * More than one billion people are studying English worldwide.
+> * 80 percent of computer data is processed and stored in English.
+> * Most satellite transmissions are carried in English.
+> * More than half of the world’s newspapers are published in English.
+
+And I don't speack Chinese ☹️.
+
 ##### Document everything
 
 Every piece of your work, from idea to real life architecture, should be documented.
