@@ -10,6 +10,7 @@ This document exposes some of my ideas and views expressed are my own.
 
 ## Table of content
 
+* [Table of content](#table-of-content)
 * [Inspirational resources and must reads](#inspirational-resources-and-must-reads)
 * [Topics](#topics)
   * [Architecture and Infrastructure](#architecture-and-infrastructure)
@@ -38,11 +39,14 @@ This document exposes some of my ideas and views expressed are my own.
     * [Software design and principles](#software-design-and-principles)
     * [mono\-repo vs multi\-repo | microservices vs monolith](#mono-repo-vs-multi-repo--microservices-vs-monolith)
     * [Development environment](#development-environment)
+      * [iPad as main computer](#ipad-as-main-computer)
+      * [Mac OS X](#mac-os-x)
       * [Code editor](#code-editor)
       * [Command line enhancements](#command-line-enhancements)
       * [Docker](#docker)
       * [Security](#security)
     * [Languages and technologies](#languages-and-technologies)
+      * [CSS](#css)
       * [Javascript](#javascript)
       * [Python](#python)
       * [Ruby](#ruby)
@@ -63,12 +67,13 @@ This document exposes some of my ideas and views expressed are my own.
       * [Failure is waiting for you](#failure-is-waiting-for-you)
       * [Automation is key](#automation-is-key)
       * [Be proud](#be-proud)
-    * [Further reading](#further-reading)
+    * [Further inspiration to grow your company](#further-inspiration-to-grow-your-company)
   * [Growing a product](#growing-a-product)
   * [Productivity tools](#productivity-tools)
   * [UX/UI](#uxui)
+    * [Bridging the gap between UX/UI designers and developers](#bridging-the-gap-between-uxui-designers-and-developers)
+    * [Further UX/UI inspiration](#further-uxui-inspiration)
   * [Various](#various)
-* [License](#license)
 
 ## Inspirational resources and must reads
 
@@ -246,8 +251,6 @@ A `sagemaker` workflow for continuous deployment (© [AWS](https://aws.amazon.co
 
 <img src="./resources/machine-learning/sagemaker/sagemaker-continuous-deployment.gif" height="400" alt="Sagemaker Continuous deployment - © https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions/">
 
-{::ignore rule="MD033" relative_line="-2"}
-
 `sagemaker` use cases demonstration:
 
 * [Analyzing live video](https://aws.amazon.com/blogs/machine-learning/analyze-live-video-at-scale-in-real-time-using-amazon-kinesis-video-streams-and-amazon-sagemaker/)
@@ -398,6 +401,10 @@ Further awesomenesssss 🤩:
 
 #### Languages and technologies
 
+##### `CSS`
+
+CSS animations in [action](http://animista.net/play/background/color-change)
+
 ##### `Javascript`
 
 * Command line
@@ -513,7 +520,16 @@ For any service, you should avoid to build your own authentication system and yo
 
 There are always ways to enhance your security. Beware, the system’s security your building should never slow down your people otherwise they will find a workaround. Everyone in the company should embrace it and support it. (Another question for your future recruitments).
 
-[GDPR](https://eugdpr.org/) is here to help anyway.
+[GDPR](https://eugdpr.org/) is here to help anyway 🚨.
+
+Open source in the recent years helpes accelerate development of new projects, in the mean time, it has been a way to spread vulnerabilities in the most efficient way ever. To understand how open source can arm any project read ["I'm harvesting credit card numbers and passwords from your site. Here's how."](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5).
+
+GitHub is providing more and more services ([token scanning](https://github.blog/2018-10-17-behind-the-scenes-of-github-token-scanning/), [security alerts](https://github.blog/2018-10-09-applying-machine-intelligence-to-security-alerts/), [bug bounty program](https://bounty.github.com/index.html#open-bounties)) to secure your repositories. That is great, but depending on your project you'll need further security, you might be asked to track your opensource depencies. Sooner than later, it will happen. There are a lot of tool in the wild. Here is where to start:
+
+* [Fossa](https://fossa.io/)
+* [Dependency Track](https://dependencytrack.org/)
+
+You must be careful at any stage. I often share a story with my new hires about an intern that had to pay more than $8000 because of pushing AWS secret keys on one of his public repository. [`gitleaks`](https://github.com/zricethezav/gitleaks) will help you to ensure that in a CI/CD pipeline.
 
 ##### Cloud only
 
@@ -547,7 +563,7 @@ Tooling your developers is mandatory, and it you should let them be free (help t
 
 Overall, assume your choices, justify them, and proudly defend them. This is not because you are not using the last trendy single page application framework that your code base is crap or a spaghetti mess. Your startup will always have a history, you must be proud of it and all the lessons learned along the way.
 
-#### Further reading
+#### Further inspiration to grow your company
 
 * [Can you bootstrap a startup on the side?](https://justinjackson.ca/bootstrap-side-project) - Build you own path based on your experience, will and target.
 * [40+ Startup Jargon Words You Need To Know To Raise Money](https://www.forbes.com/sites/kateharrison/2014/08/29/40-start-up-jargon-words-you-need-to-know-to-raise-money/)
@@ -589,14 +605,40 @@ In any case, please avoid using [aha!](https://www.aha.io/). This tool was hated
 
 The following are my day to day productivity tools:
 
-* [Grammarly](https://app.grammarly.com) - An awesome english spell checker that I use everyday. They also have a keyboard for iOS. But, they are missing an API to create 3rd parties app, like a vscode spell checker for `markdown` 😑
-* [Todoist](https://todoist.com) - Simplest yet all features included todo manager
-* [Evernote](https://evernote.com) - Powerful note taker that has neat web clipping, organization and sharing. I miss a bunch of features, like auto tagging of existing notes, archiving, smart lists, etc. But I wasn't able to find a really better alternative yet. I use it for all important article I want to preserve and for my projects
+* [Grammarly](https://app.grammarly.com) - The best english spell checker I've tried so far. I use it everyday. They also have a keyboard for iOS. They are missing an API to create 3rd party applications, like a vscode spell checker for `markdown` 😑.
+* [Todoist](https://todoist.com) - Simplest yet all features included todo manager.
+* [Evernote](https://evernote.com) - Powerful note taker that has neat web clipping, organization and sharing. I miss a bunch of features, like auto tagging of existing notes, archiving, smart lists, etc. But I wasn't able to find a really better alternative yet. I use it for all important article I want to preserve and for my projects.
 * [Apple notes](https://www.icloud.com/) - For rapid personal note taking for meetings, interviews, etc.
-* [github](https://www.github.com) - Useful for your personal [CV](https://github.com/HerveNivon/CV) generation or important [note sharing](./) ☺️.
+* [github](https://www.github.com) - The place to go for Open Source, new discoveries garanted every day. You can also use it for your important notes like the present one 😊.
 
 ### UX/UI
 
+When I had to play the UX/UI Designer role in the early days of Redbird - which is definitely not my job - I was lucky enough to have led an innovation initiative at Accenture. That opportunity conducted me to define the innovation offering for the Accenture Resource group for the Paris office. In that process, I have been trained to design thinking, lean startup, innovation keys with, between others, [Strate School of Design](https://en.wikipedia.org/wiki/Strate_School_of_Design) a prestigious design school. This training was helpful enough to help me lead some innovation workshops for Accenture. A rewarding experience.
+
+My favorite set of tools to iterate and share ideas quickly are by far: markers, post-its, a pencil, blank sheets of paper and tracing paper. As bright as Humankind is we haven't invented something more natural than that (this reminds me of the [legend](https://www.scientificamerican.com/article/fact-or-fiction-nasa-spen/) that NASA spent millions on developing a pen that would write in space - with no gravity -, whereas the Soviet cosmonauts used a pencil. I love that story even if history tells us it doesn't really go that way).
+
+But a sheet of paper with nice drawings isn't sufficient: developers need [redlines](https://www.uxbeginner.com/glossary/redlining/) to be efficient, and paper cannot be widely spread, nor it can enable offline collaboration.
+
+Assuring the UX/UI Designer role among all others hats, I had to wear at that time (Product Manager, Product Owner, Director of Engineering, etc.) forced me to find the best tools to produce the necessary documents for my developers' team.
+
+The best combo I found after so many tries is: [Sketch](https://www.sketchapp.com/) + [Zeplin](https://zeplin.io/).
+
+The Sketch application is by far the most intuitive tool I ever used enabling me to be way more efficient than with [Illustrator](https://www.adobe.com/fr/products/illustrator.html) - for which you definitely need dedicated training.
+
+Then entered [adobe XD](https://www.adobe.com/products/xd.html) which is a serious contender in my heart, but still hasn't bit my favorite. Will certainly give it other tries in the future.
+
+#### Bridging the gap between UX/UI designers and developers
+
+It is crucial that everyone in your team speaks the same languages. In particular, in Software development, starting on the smallest component of an application button may not mean the same thing among people. You may build a button in a thousand different ways. This can lead to situations where your application may look fuzzy worst; you will develop again and again the same component duplicating code.
+
+Facebook has built a development environment for UI components: [storybook](https://github.com/storybooks/storybook). This kind of solution will lead you to build and share a common visual language on which you’ll be able to iterate and extend your application.
+
+Some paying services also exist, ex: [bitsrc.io](https://bitsrc.io/).
+
+#### Further UX/UI inspiration
+
+* [Sketch 43 is coming to town with a new game. An open file format!](https://medium.com/sketch-app-sources/sketch-43-is-coming-to-town-with-a-new-game-an-open-file-format-ae62e7e7c223) - Using open source file format to strentgh your position enabling really strong automation and becoming the hub for the design process.
+* [Paintcode](https://www.paintcodeapp.com/sketch) - Converting your sketch designs in code.
 * [awesome-design-tools](https://github.com/LisaDziuba/Awesome-Design-Tools) - The place to go if you want to find a particular tool for a particular activity.
 * [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9) - The place to go if you are asking yourself animation questions for your mobile or web application.
 
@@ -604,11 +646,8 @@ The following are my day to day productivity tools:
 
 * Markdown
   * [`gh-md-toc`](https://github.com/ekalinin/github-markdown-toc.go) - Generate table of content from a `.md` file.
-* Static web sites (Wordpress certainly not is the best answer)
+* Static web sites (advantageouly replacing self hosting of Wordpress)
   * [Publii](https://opencollective.com/Publii) - Is an open source static site CMS management tool
   * [Gatsby.js](https://www.gatsbyjs.org) - Is a library that enables static site generation from react
-  * [hugo](https://gohugo.io/) -Another library to build static sites. A [comparison with gatsby](https://medium.freecodecamp.org/gatsby-vs-hugo-a-detailed-comparison-e78d94f640fc) if you need more insights
-
-## License
-
-[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+  * [hugo](https://gohugo.io/) - Another library to build static sites. A [comparison with gatsby](https://medium.freecodecamp.org/gatsby-vs-hugo-a-detailed-comparison-e78d94f640fc) if you need more insights
+  * [jekyll](https://github.com/jekyll/jekyll) - The static site generator behing [GiHub Pages](https://pages.github.com/). PlanetJekyll features a jekyll [showcase](http://planetjekyll.github.io/showcase/) of several live website and the associate sources.
