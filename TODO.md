@@ -53,3 +53,9 @@ Requirements:
   * [Official documentation](https://gohugo.io/tools/search/)
 * GA:
   * [GoogleAnalytics is built in](https://gohugo.io/templates/internal/#google-analytics)
+
+
+## gitbook (static site generator)
+
+Examples:
+  * [astaxie](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/01.4.html?q=test)
