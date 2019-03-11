@@ -1,6 +1,6 @@
 # TODO
 
-* [] Build this as a static site
+* [] Build this as a static site myself instead of gitbook.io
 * [] Create a `README.md` with the building pipeline
 * [] Complete with "Being a startup CTO"
 
@@ -44,5 +44,12 @@ Requirements:
 * [Showcase](https://themes.gohugo.io/)
 * Relevant showcase:
   * Hugo Book: [[Live]](https://themes.gohugo.io//theme/hugo-book/) [[Source]](https://themes.gohugo.io/hugo-book/)
+  * Reveal Hugo: [[Live]](https://themes.gohugo.io/theme/reveal-hugo/#/) [[Source]](https://github.com/dzello/reveal-hugo)
+* How to:
+  * [Hosting on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+  * Example [here](https://github.com/shaform/pgh-guide)
+  * Example [here](https://github.com/alex-shpak/hugo-book/tree/master/exampleSite/content)
 * Search:
   * [Official documentation](https://gohugo.io/tools/search/)
+* GA:
+  * [GoogleAnalytics is built in](https://gohugo.io/templates/internal/#google-analytics)
