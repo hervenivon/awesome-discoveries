@@ -16,5 +16,5 @@ Beware
 
 
 
-{% page-ref page="test.md" %}
+{% page-ref page="./" %}
 
