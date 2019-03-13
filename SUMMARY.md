@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Architecture & Infrastructure](docs/architecture-and-infrastructure/README.md)
-* [Algorithm](docs/algorithm/README.md)
+* [Algorithms](docs/algorithms/README.md)
 * [Artificial Intelligence](docs/artificial-intelligence/README.md)
 * [Blockchain](docs/blockchain/README.md)
 * [Data science](docs/data-science/README.md)
