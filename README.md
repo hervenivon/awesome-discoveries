@@ -46,31 +46,31 @@ There are a couple of books mentioned in this document, here is my must reads:
 
 ## Feeback is welcome
 
-Even tough this document was first built for myself as a way to track my knowledge ans discoveries, any feedback or questions are more than welcome.
+Even tough this document was first built for myself as a way to track my knowledge ans discoveries, any feedback or questions are more than welcome 😊.
 
 ## Table of content
 
-{% page-ref page="architecture-and-infrastructure.md" %}
+{% page-ref page="docs/architecture-and-infrastructure/README.md"%}
 
-{% page-ref page="algorithm.md" %}
+{% page-ref page="docs/algorithms/README.md"%}
 
-{% page-ref page="artificial-intelligence.md" %}
+{% page-ref page="docs/artificial-intelligence/README.md"%}
 
-{% page-ref page="blockchain.md" %}
+{% page-ref page="docs/blockchain/README.md"%}
 
-{% page-ref page="data-science.md" %}
+{% page-ref page="docs/data-science/README.md"%}
 
-{% page-ref page="development.md" %}
+{% page-ref page="docs/development/README.md"%}
 
-{% page-ref page="growing-a-company.md" %}
+{% page-ref page="docs/growing-a-company/README.md"%}
 
-{% page-ref page="growing-a-product.md" %}
+{% page-ref page="docs/growing-a-product/README.md"%}
 
-{% page-ref page="productivity.md" %}
+{% page-ref page="docs/productivity/README.md"%}
 
-{% page-ref page="ux-ui.md" %}
+{% page-ref page="docs/ux-ui/README.md"%}
 
-{% page-ref page="various.md" %}
+{% page-ref page="docs/various/README.md"%}
 
 ## Technical details
 
