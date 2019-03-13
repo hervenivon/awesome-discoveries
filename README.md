@@ -50,7 +50,7 @@ Even tough this document was first built for myself as a way to track my knowled
 
 ## Table of content
 
-{% page-ref page="architecture-and-infrastructure.md" %}
+{% page-ref page="docs/architecture-and-infrastructure/README.md" %}
 
 ## Technical details
 
@@ -65,4 +65,3 @@ Then create an environment dedicated to this project:
 1. Create `conda` environment: `$> conda create --name ad python=3.7 ipython`
 2. Activate `conda` environment: `$> conda activate ad`
 3. Install other requirements: `$> pip install -r requirements.txt`
-
