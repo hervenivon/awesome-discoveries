@@ -78,8 +78,10 @@ In case you fork that repository, it is supported by `Python` scripts, here are 
 
 ### Pre-requisites
 
-Conda must be installed
+Conda must be [installed](https://conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation).
 
-Create `conda` environment: `$> conda create --name ad python=3.7 ipython`
-Activate `conda` environment: `$> conda activate ad`
-Install other requirements: `$> pip install -r requirements.txt`
+Then create an environment dedicated to this project:
+
+1. Create `conda` environment: `$> conda create --name ad python=3.7 ipython`
+1. Activate `conda` environment: `$> conda activate ad`
+1. Install other requirements: `$> pip install -r requirements.txt`
