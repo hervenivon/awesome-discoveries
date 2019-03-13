@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Architecture & Infrastructure](architecture-and-infrastructure.md)
+* [Architecture & Infrastructure](docs/architecture-and-infrastructure/README.md)
 * [Algorithm](algorithm.md)
 * [Artificial Intelligence](artificial-intelligence.md)
 * [Blockchain](blockchain.md)
@@ -12,4 +12,3 @@
 * [Productivity](productivity.md)
 * [UX/UI](ux-ui.md)
 * [Various](various.md)
-
