@@ -14,7 +14,4 @@ Beware
 
 ### Paragraph2.2
 
-
-
 {% page-ref page="./" %}
-
