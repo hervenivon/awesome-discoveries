@@ -216,8 +216,8 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
   * [Semi-Conductor](https://experiments.withgoogle.com/semi-conductor) - A Google AI experiment that allow one to conduct an orchestra from the browser
 * Painting:
   * [amalGAN](http://areben.com/project/amalgan/) - [Alexander Reben](http://areben.com/cv/) used brain waves, GAN network and side supportive networks to generate a set of visually unusual paintings that are physically reproduced in a Chinese town: a human-machine global collaboration.
-* Spotting AI-generated faces.
-  * [nikola MIT experiment](http://nikola.mit.edu/experiment) - An online test that asks you to spot Generated faces with [NVIDIA's Progressive GAN](https://research.nvidia.com/publication/2017-10_Progressive-Growing-of). I wasn't 100% correct. 😅
+* Spotting AI-generated faces:
+  * [nikola MIT experiment](https://web.archive.org/web/20181210150931/http://nikola.mit.edu/experiment) - People at MIT had set an online test that asks you to spot generated faces with [NVIDIA's Progressive GAN](https://research.nvidia.com/publication/2017-10_Progressive-Growing-of). I tried it myself and wasn't 100% correct 😅. Some
   * [How to recognize fake AI-generated images](https://medium.com/@kcimc/how-to-recognize-fake-ai-generated-images-4d1f6f9a2842) - An extensive look into AI-generated images that will train yourself to spot fake images.
 * Future is brilliant
   * [Neural Ordinary Differential Equations](https://arxiv.org/abs/1806.07366) - Explorative new family of neural network that "parameterizes the derivative of the hidden state using a neural network".
