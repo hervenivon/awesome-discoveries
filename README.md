@@ -11,7 +11,7 @@ This document was written mainly as a guide for my future self, a tool to precis
 
 This document exposes some of my ideas and views expressed are my own.
 
-## Inspirational resources
+## Inspirational resources 💡
 
 My list of inspirational resources I digg to do technology watch.
 
@@ -36,7 +36,7 @@ My list of inspirational resources I digg to do technology watch.
   * [aiindex2018](http://cdn.aiindex.org/2018/AI%20Index%202018%20Annual%20Report.pdf) - The one place to go if you need insights into Artificial Intelligence in numbers: from the number of papers published by category to state of the art performances and human-level performance milestones going through VC funding landscape.
   * [distill.pub](https://distill.pub/) - This is an attempt to modernize the main issues with the traditional printed scientific papers in our area of computer science and machine learning over large amount of data: clarity, reproducibility, interactivity. `PDF` files are from another age. `distill.pub` is an expression of our age.
 
-## Must reads
+## Must reads 📚
 
 There are a couple of books mentioned in this document, here is my must reads:
 
@@ -44,11 +44,11 @@ There are a couple of books mentioned in this document, here is my must reads:
 * [Eric Rise's The lean startup](https://amzn.to/2RDDf3H) - This book that made become the CTO of a startup. It taught me the lean approach and made me save so much time
 * [Toby Segaran's Programming Collective Intelligence](https://amzn.to/2HiJrgc) - This book built my interest for intelligent applications, it gives me a taste of how important are data in modern applications, and it was fun to read and to apply.
 
-## Feeback is welcome
+## Feeback is welcome 📢
 
 Even tough this document was first built for myself as a way to track my knowledge ans discoveries, any feedback or questions are more than welcome 😊.
 
-## Table of content
+## Table of content 🗂
 
 {% page-ref page="docs/architecture-and-infrastructure/README.md" %}
 {% page-ref page="docs/algorithms/README.md" %}
@@ -62,7 +62,7 @@ Even tough this document was first built for myself as a way to track my knowled
 {% page-ref page="docs/ux-ui/README.md" %}
 {% page-ref page="docs/various/README.md" %}
 
-## Technical details
+## Technical details 🛠
 
 In case you fork that repository, it is supported by `Python` scripts, here are some details that might be helpful.
 
