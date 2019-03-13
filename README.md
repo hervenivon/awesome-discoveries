@@ -61,15 +61,26 @@ Even though I first wrote this document for myself as a way to track my knowledg
 ## Table of content 🗂
 
 {% page-ref page="docs/architecture-and-infrastructure/README.md" %}
+
+Algorithms are a fascinating topic, this section will handle my favorite:
 {% page-ref page="docs/algorithms/README.md" %}
+
 {% page-ref page="docs/artificial-intelligence/README.md" %}
+
 {% page-ref page="docs/blockchain/README.md" %}
+
 {% page-ref page="docs/data-science/README.md" %}
+
 {% page-ref page="docs/development/README.md" %}
+
 {% page-ref page="docs/growing-a-company/README.md" %}
+
 {% page-ref page="docs/growing-a-product/README.md" %}
+
 {% page-ref page="docs/productivity/README.md" %}
+
 {% page-ref page="docs/ux-ui/README.md" %}
+
 {% page-ref page="docs/various/README.md" %}
 
 ## Technical details 🛠
