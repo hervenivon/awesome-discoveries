@@ -79,15 +79,14 @@ This document exposes some of my ideas and views expressed are my own.
 
 My list of inspirational resources I go when I do technology watch.
 
-* [arXiv](http://arxiv.org/) - The million e-prints open access to scientific papers that democratized Machine Learning over the globe. 99% of, not to say all, papers we were using are coming from that place. Even for not professional activities, it is inspiring to look that source.
+* [arXiv](https://arxiv.org/) - The million e-prints open access to scientific papers that democratized Machine Learning over the globe. 99% of, not to say all, papers we were using are coming from that place. Even for not professional activities, it is inspiring to look that source.
 * [github](https://www.github.com) - GitHub again, with [explore](https://github.com/explore) you will discover a lot of inspiring projects.
 * [MIT Technology Review](https://www.technologyreview.com/) - An endless stream of popular science, in particular in machine learning. The only one to which I have been willing to pay a subscription so far.
-* [stateoftheart.ai](https://www.stateoftheart.ai) - Not entirely up to date on a few topics I'm aware of, but it deserves a look for everyone interested to get up to speed in a particular area they want to jump in, and a well ordered index for state of the art results in machine learning.
 * News letters:
   * [Data Elixir](https://dataelixir.com/) - My most productive and de facto favorite newsletter regarding Artificial Intelligence and Data science in general.
   * [Changelog](https://changelog.com/weekly) - Staying up to date with the developer community and finding fun stuffs.
   * [Inside AI](https://inside.com/ai) - A lot of AI news, sometimes too many
-  * [UX Collective](http://newsletter.uxdesign.cc/) - When you are building a product and you want your customer to fall in love with your product, you need basic knowledge of User eXperience. This newsletter will give you a very good idea of what's going on.
+  * [UX Collective](https://newsletter.uxdesign.cc/) - When you are building a product and you want your customer to fall in love with your product, you need basic knowledge of User eXperience. This newsletter will give you a very good idea of what's going on.
 * Companies:
   * Providing data science and AI "as a service":
     * [namr](https://namr.com/) - Their mission is to create value from open data.
@@ -149,7 +148,7 @@ For the complete bibliography, please look at the [bibliography](bibliography.ts
 
 #### Compression, enhancement
 
-* [Learned Video Compression](https://arxiv.org/pdf/1811.06981.pdf) - A traditional codec architecture where elements are replaced by Machine Learning ones. Results: the new codec outperforms all existing video codecs.
+* [Learned Video Compression](https://arxiv.org/abs/1811.06981) - A traditional codec architecture where elements are replaced by Machine Learning ones. Results: the new codec outperforms all existing video codecs.
 
 #### Natural Language Processing and voice recognition
 
@@ -164,14 +163,14 @@ Semantic segmentation is the practice of categorizing an image at the pixel leve
 
 Here are the most relevant findings we leverage for our project and some more recent ones that can enhance it:
 
-* [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://arxiv.org/pdf/1901.02985.pdf) - The next DeepLab generation which was already the state of the art in this field.
-* [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/pdf/1705.07115.pdf) - Multi-task learning for segmentation and instance segmentation with a multi-task loss.
-* [Panoptic Feature Pyramid Networks](https://arxiv.org/pdf/1901.02446.pdf) - Unified architecture for multi task segmentation and instance segmentation.
+* [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://arxiv.org/abs/1901.02985) - The next DeepLab generation which was already the state of the art in this field.
+* [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/abs/1705.07115) - Multi-task learning for segmentation and instance segmentation with a multi-task loss.
+* [Panoptic Feature Pyramid Networks](https://arxiv.org/abs/1901.02446) - Unified architecture for multi task segmentation and instance segmentation.
 
 #### Medicine
 
 * [Brain2Speech](https://www.sciencemag.org/news/2019/01/artificial-intelligence-turns-brain-activity-speech) - Experiment using AI to get our voice out of our head automatically. The promise to an accessible world for disable people.
-* [Learning to Design RNA](https://arxiv.org/pdf/1812.11951.pdf) - Reinforcement Learning used to design RNA sequence to test _(`RL`)_
+* [Learning to Design RNA](https://arxiv.org/abs/1812.11951) - Reinforcement Learning used to design RNA sequence to test _(`RL`)_
 * [Face2Gene](https://www.nature.com/articles/d41586-019-00027-x#ref-CR1) - From Professional crowdsourcing to real life medicine aid use case, the face2gene application that spot genetic disorders is a promise for future medicine.
 * [Artificial Intelligence Can Detect Alzheimer’s Disease in Brain Scans Six Years Before a Diagnosis](https://www.ucsf.edu/news/2018/12/412946/artificial-intelligence-can-detect-alzheimers-disease-brain-scans-six-years) - It is not a question of time any more, it is already here.
 
@@ -187,7 +186,7 @@ Here are the most relevant findings we leverage for our project and some more re
 * Face Generation
   * [Inside the world of AI that forges beautiful art and terrifying deepfakes](https://www.technologyreview.com/s/612501/inside-the-world-of-ai-that-forges-beautiful-art-and-terrifying-deepfakes/) - A 2018 overview of GAN and latests progress in the field of generative networks. _(`GAN`)_
   * [AI software can dream up an entire digital world from a simple sketch](https://www.technologyreview.com/s/612503/ai-software-can-dream-up-an-entire-digital-world-from-a-simple-sketch/) - A photorealistic 3D engine renderer made out of GAN. _(`GAN`)_
-  * [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf) - Here we are, on December 2018 we discovered than a computer can generate images that we can definitely take for real ones. [summary](https://www.technologyreview.com/s/612612/these-incredibly-real-fake-faces-show-how-algorithms-can-now-mess-with-us/).
+  * [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) - Here we are, on December 2018 we discovered than a computer can generate images that we can definitely take for real ones. [summary](https://www.technologyreview.com/s/612612/these-incredibly-real-fake-faces-show-how-algorithms-can-now-mess-with-us/).
 * Object generation
   * [Visual Object Networks: Image Generation with Disentangled 3D Representation](http://papers.nips.cc/paper/7297-visual-object-networks-image-generation-with-disentangled-3d-representations.pdf) - How a set of specialized networks learn to generate 3D objects. _(`GAN`, `3D`)_
   * [This is the most complex generative design ever made](https://www.fastcompany.com/90269399/this-is-the-most-complex-generative-design-ever-made) - Purely inspirational, no implementation design, still further details are accessible [here](https://www.autodesk.com/solutions/generative-design).
@@ -198,9 +197,9 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 
 * [manifold](https://eng.uber.com/manifold/) - A platform from uber that promises ease of debugging, not publicly shared, not available for test, pretty, and a lot of ideas still.
 * [comet.ml](https://comet.ml) - An online platform compatible with any Machine Learning framework that aggregate online stats and enable model comparison.
-* [A New Approach to Understanding How Machines Think](https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110) - An interview of Been Kim from Google Brain for the introduction of “Testing with Concept Activation Vectors” ([TCAV](https://arxiv.org/pdf/1711.11279.pdf))
+* [A New Approach to Understanding How Machines Think](https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110) - An interview of Been Kim from Google Brain for the introduction of “Testing with Concept Activation Vectors” [TCAV](https://arxiv.org/abs/1711.11279)
 * [Machine Learning for Kids](https://machinelearningforkids.co.uk/) - If you want my mind, it is valuable not only for kids 😅
-* [A neural network can learn to organize the world it sees into concepts—just like we do](https://www.technologyreview.com/s/612746/a-neural-network-can-learn-to-organize-the-world-it-sees-into-conceptsjust-like-we-do) - In this [paper](https://arxiv.org/pdf/1811.10597.pdf), GAN are examined under a microscope, it is a major leap forward into comprehension of GANs.
+* [A neural network can learn to organize the world it sees into concepts—just like we do](https://www.technologyreview.com/s/612746/a-neural-network-can-learn-to-organize-the-world-it-sees-into-conceptsjust-like-we-do) - In this [paper](https://arxiv.org/abs/1811.10597), GAN are examined under a microscope, it is a major leap forward into comprehension of GANs.
 * [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) - A reproducible paper that combines different technics in order to better understand networks.
 * [Four Experiments in Handwriting with a Neural Network](https://distill.pub/2016/handwriting/) - Interactive experiments to understand network based on your handwriting inputs
 * [The Machine Learning Reproducibility Checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)
@@ -244,18 +243,18 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * [China’s top AI scientist drives development of ethical guidelines](https://www.scmp.com/news/china/science/article/2181573/chinas-top-ai-scientist-drives-development-ethical-guidelines) - Yes it is time for the world to align itself on where it wants to go
 * [Thinking inside the box: using and controlling an Oracle AI](https://link.springer.com/article/10.1007/s11023-012-9282-2) - Controlling AI has been a problem for a while even before the rise of deep learning. In this paper, you'll discover that a particular topic can raise a lot of questions, even if it seems simple at first: here controlling an Oracle AI that doesn't act in the world except by answering questions.
 * [Google is trying to remove gender bias from its translation services](https://www.fastcompany.com/90278118/google-is-trying-to-remove-gender-bias-from-its-translation-services) - Gender bias is one of the problem in engineering, mostly only male all around. It is so easy to implement those bias and transmit them to the machine.
-* [GPT-2 blog post announcement](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf) - OpenAI released a blog post along their paper [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) explaining why they won't share reproducibility parameters (regarding data and hyperparameters notably). The GPT-2 performances are unbelievable and in the absence of clear ethics in the artificial intelligence field I can't agree more at that time. Nevertheless, I'm utterly frustrated. We need to do something about the social implications of artificial intelligence. In the [OpenAI’s GPT-2: the model, the hype, and the controversy](https://towardsdatascience.com/openais-gpt-2-the-model-the-hype-and-the-controversy-1109f4bfd5e8) blog post, the idea of a ‘safety checklist’ (similarly to the recent ‘[reproducibility checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)’) arises. Why not?!
+* [GPT-2 blog post announcement](https://openai.com/blog/better-language-models/) - OpenAI released a blog post along their paper [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) explaining why they won't share reproducibility parameters (regarding data and hyperparameters notably). The GPT-2 performances are unbelievable and in the absence of clear ethics in the artificial intelligence field I can't agree more at that time. Nevertheless, I'm utterly frustrated. We need to do something about the social implications of artificial intelligence. In the [OpenAI’s GPT-2: the model, the hype, and the controversy](https://towardsdatascience.com/openais-gpt-2-the-model-the-hype-and-the-controversy-1109f4bfd5e8) blog post, the idea of a ‘safety checklist’; similarly to the recent ‘[reproducibility checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)’ arises. Why not?!
 * [AI Safety Needs Social Scientists](https://distill.pub/2019/safety-needs-social-scientists/) - An extensive explanation towards the Social Scientists requirement explanation.
 
 #### Sagemaker
 
-[`sagemaker`](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) is quickly becoming a state of the art for machine learning project. It assembles under this sole name a lot of capabilities that would accelerate and standardize any launching project involving machine learning of any sort. From [collaboration](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebooks-now-support-git-integration-for-increased-persistence-collaboration-and-reproducibility/) to [continuous deployment of model](https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions/), through [ground truth generation](https://aws.amazon.com/blogs/aws/amazon-sagemaker-ground-truth-build-highly-accurate-datasets-and-reduce-labeling-costs-by-up-to-70/) `sagemaker` provides all necessary tools for most of the use cases.
+[`sagemaker`](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) is quickly becoming a state of the art for machine learning project. It assembles under this sole name a lot of capabilities that would accelerate and standardize any launching project involving machine learning of any sort. From [collaboration](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebooks-now-support-git-integration-for-increased-persistence-collaboration-and-reproducibility) to [continuous deployment of model](https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions), through [ground truth generation](https://aws.amazon.com/blogs/aws/amazon-sagemaker-ground-truth-build-highly-accurate-datasets-and-reduce-labeling-costs-by-up-to-70) `sagemaker` provides all necessary tools for most of the use cases.
 
 The initial version of `sagemaker` has been released on [Nov 29, 2017](https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-sagemaker/). As we were working on machine learning projects applied to production in early 2016, we needed to figured out by ourselves and our small team how to build, train and deploy our custom models. Spending a consequent amount of time in setting the instances, installing latest version - available at that time - of `cuda` and `tensorflow` and connecting the dots in the process.
 
 If I would start something new today, `sagemaker` would be my primary target as a CTO, helping my future team to focus on the value added, not the infrastructure and process on which everyone - starting with AWS - is working on.
 
-A `sagemaker` workflow for continuous deployment (© [AWS](https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions/)):
+A `sagemaker` workflow for continuous deployment © [AWS](https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions):
 
 <img src="./resources/machine-learning/sagemaker/sagemaker-continuous-deployment.gif" height="400" alt="Sagemaker Continuous deployment - © https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions/">
 
@@ -272,7 +271,7 @@ other `sagemaker` key features:
 
 Going all directions:
 
-* [Robust Website Fingerprinting Through the Cache Occupancy Channel](https://arxiv.org/pdf/1811.07153.pdf) - What if you can leverage machine learning and a Javascript security hole to track anyone browsing history?
+* [Robust Website Fingerprinting Through the Cache Occupancy Channel](https://arxiv.org/abs/1811.07153) - What if you can leverage machine learning and a Javascript security hole to track anyone browsing history?
 * [Track the number of coffees consumed using AWS DeepLens](https://aws.amazon.com/blogs/machine-learning/track-the-number-of-coffees-consumed-using-aws-deeplens/) - How to build a coffee tracker in the open space with AWS deeplens.
 * [Deep Learning State of the Art (2019) - MIT](https://www.youtube.com/watch?v=53YvP6gdD7U) - A lecture from [@lexfridman](https://twitter.com/lexfridman) on recent developments in deep learning. That is a very good overview of 2018 state of the art in research and applied deep learning.
 * Energy management:
@@ -290,7 +289,7 @@ Executing an enterprise grade machine learning project is complicated, a lot of 
   * [comet](https://comet.ml)
   * [DVC](https://dvc.org/doc/dvc-philosophy/core-features)
   * [MLflow](https://mlflow.org/)
-* [IBM Machine Learning Maturity Model](https://arxiv.org/pdf/1811.04871.pdf) - Presents a set of best practices to implement when a company wants to deploy machine learning at scale and in a friendly fashion with enterprise landscape. Many of them might be complicated to achieve, anyhow, it will highlight any shortcomings in your projects or potential area of focus.
+* [IBM Machine Learning Maturity Model](https://arxiv.org/abs/1811.04871) - Presents a set of best practices to implement when a company wants to deploy machine learning at scale and in a friendly fashion with enterprise landscape. Many of them might be complicated to achieve, anyhow, it will highlight any shortcomings in your projects or potential area of focus.
 
 My synthesis: also look at The-Roadmap-to-Machine-Learning-Maturity-v1.pdf
 
@@ -659,3 +658,15 @@ Some paying services also exist, ex: [bitsrc.io](https://bitsrc.io/).
   * [Gatsby.js](https://www.gatsbyjs.org) - Is a library that enables static site generation from react
   * [hugo](https://gohugo.io/) - Another library to build static sites. A [comparison with gatsby](https://medium.freecodecamp.org/gatsby-vs-hugo-a-detailed-comparison-e78d94f640fc) if you need more insights
   * [jekyll](https://github.com/jekyll/jekyll) - The static site generator behing [GiHub Pages](https://pages.github.com/). PlanetJekyll features a jekyll [showcase](http://planetjekyll.github.io/showcase/) of several live website and the associate sources.
+
+## Scripts
+
+This repository is supported by some `Python` scripts.
+
+### Pre-requisites
+
+Conda must be installed
+
+Create `conda` environment: `$> conda create --name ad python=3.7 ipython`
+Activate `conda` environment: `$> conda activate ad`
+Install other requirements: `$> pip install -r requirements.txt`
