@@ -1,4 +1,8 @@
-# awesome-discoveries
+---
+description: Welcome to awesome-discoveries
+---
+
+# Introduction
 
 This document is a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making being a startup advisor and the CTO for a world leading drone company - mostly ordered.
 
@@ -670,3 +674,27 @@ Conda must be installed
 Create `conda` environment: `$> conda create --name ad python=3.7 ipython`
 Activate `conda` environment: `$> conda activate ad`
 Install other requirements: `$> pip install -r requirements.txt`
+
+## Links
+
+{% page-ref page="architecture-and-infrastructure.md" %}
+
+{% page-ref page="algorithm.md" %}
+
+{% page-ref page="artificial-intelligence.md" %}
+
+{% page-ref page="blockchain.md" %}
+
+{% page-ref page="data-science.md" %}
+
+{% page-ref page="development.md" %}
+
+{% page-ref page="growing-a-company.md" %}
+
+{% page-ref page="growing-a-product.md" %}
+
+{% page-ref page="productivity.md" %}
+
+{% page-ref page="ux-ui.md" %}
+
+{% page-ref page="various.md" %}
