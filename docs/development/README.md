@@ -64,6 +64,7 @@ My mandatory extensions:
 Further awesomenesssss 🤩:
 
 * [awesome-vscode](https://github.com/viatsko/awesome-vscode) - a extensive list of interesting resources for `vscode`.
+* [code-server](https://github.com/codercom/code-server) - Executing vscode in webbrowser from your server!
 
 ### Command line enhancements
 
@@ -118,3 +119,8 @@ CSS animations in [action](http://animista.net/play/background/color-change)
 
 * Lambda Optimization:
   * [Lambda optimization tip – enable HTTP keep-alive](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/) - Drastically reduce average execution time of each lambda function working with a DB
+
+## Agile Methodology
+
+Tools:
+* [DailyBot](https://dailybot.co/) - Helps remote teams to fill their daily scrum

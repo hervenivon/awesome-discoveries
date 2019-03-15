@@ -39,10 +39,11 @@ Here are the most relevant findings we leverage for our project and some more re
 
 ## Data annotation
 
+* [List of manual image annotation tools](https://en.wikipedia.org/wiki/List_of_manual_image_annotation_tools) - The list of annotation tools is long, unfortunately the Wikipedia rule enforce certain criteria I think are not smooth enough to enable tool discovery in fast pace changing environments. In that case, please take a look at the [talk](https://en.wikipedia.org/wiki/Talk:List_of_manual_image_annotation_tools) page of this article, there is pletoria of tools to discover here.
 * Polygon-RNN:
   * [Efficient Interactive Annotation of Segmentation Datasets with Polygon-RNN++](https://www.youtube.com/watch?v=evGqMnL4P3E)
   * [Demo](http://www.cs.toronto.edu/polyrnn/)
-* [supervise.ly](supervise.ly) - Is a an online service that enable automatic annotation of data.
+* [supervise.ly](supervise.ly) - Is a an online service that enable automatic annotation of data. Fron the tens I tested it is my current favorite.
 
 ## Data Generation
 

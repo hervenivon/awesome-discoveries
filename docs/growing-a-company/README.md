@@ -127,22 +127,33 @@ Tooling your developers is mandatory, and it you should let them be free (help t
 
 Overall, assume your choices, justify them, and proudly defend them. This is not because you are not using the last trendy single page application framework that your code base is crap or a spaghetti mess. Your startup will always have a history, you must be proud of it and all the lessons learned along the way.
 
-## Further inspiration to grow your company
+## Interviews
+
+* Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
+* Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
+
+## Remote work
+
+Being able to handle and support remote work is key to any modern startup. From the new habits from new generation to the life cost of world capital, this is becoming a mandatory skill.
+
+* [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies. World is changing, cost of living is increasing in a lot of places, talents are all around the world. One thing for sure, you will see more and more all-remote rather than the contrary.
+* [State of remote Work 2019](https://buffer.com/state-of-remote-work-2019) - The benefits and struggles of working remotely
+* [Elastic: how does a 250 people team work 100% remote](https://www.youtube.com/watch?v=rrlPhedNjbA)
+
+[Remote: Office Not Required](https://amzn.to/2UAYe9N)
+[Remote only](https://www.remoteonly.org/)
+[GitLab Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
+
+## Further inspiration
 
 * [Can you bootstrap a startup on the side?](https://justinjackson.ca/bootstrap-side-project) - Build you own path based on your experience, will and target.
 * [40+ Startup Jargon Words You Need To Know To Raise Money](https://www.forbes.com/sites/kateharrison/2014/08/29/40-start-up-jargon-words-you-need-to-know-to-raise-money/)
 * [This is hard](https://justinjackson.ca/hard) - Never forget that stopping your project is the main reason for failure
 * [10 Lessons from 10 Years of Amazon Web Services](https://www.allthingsdistributed.com/2016/03/10-lessons-from-10-years-of-aws.html) - Simple rules, carefuly understand them.
 * [The Inevitable Future: Startup Transparency](https://medium.com/swlh/the-inevitable-future-startup-transparency-3c5e92fcd96b) -
-* Working remotely
-  * [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies. World is changing, cost of living is increasing in a lot of places, talents are all around the world. One thing for sure, you will see more and more all-remote rather than the contrary.
-  * [State of remote Work 2019](https://buffer.com/state-of-remote-work-2019) - The benefits and struggles of working remotely
-  * [Elastic: how does a 250 people team work 100% remote](https://www.youtube.com/watch?v=rrlPhedNjbA)
 * The management world
   * [Most leaders don't even know the game they are in](https://www.youtube.com/watch?v=RyTQ5-SQYTo)
   * [Simon Sinek on Millennials in the Workplace](https://www.youtube.com/watch?v=hER0Qp6QJNU) - A shorter version focusing on Millennials.
-* Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
-* Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
 * Boss vs leader
   * [10 Huge Differences Between A Boss And A Leader](https://www.lifehack.org/287785/10-differences-between-boss-and-real-leader)
   * [The Difference Between A Great Leader And A Regular Manager](https://www.lifehack.org/articles/work/the-difference-between-great-leader-and-regular-manager.html)

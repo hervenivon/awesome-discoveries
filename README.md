@@ -7,7 +7,7 @@ title: awesome-discoveries introduction
 
 This document is a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making being a startup advisor and the CTO of a world leading drone company. Some topics are highly technical; some are not.
 
-This document was written mainly as a guide for my future self, a tool to precisely remember what it means building something, helping people to grow, and helping never to reinvent the weel.
+This document was written mainly as a guide for my future self, a tool to precisely remember what it means building something, helping people to grow, and growing myself.
 
 This document exposes some of my ideas and views expressed are my own.
 
@@ -60,9 +60,10 @@ Even though I first wrote this document for myself as a way to track my knowledg
 
 ## Table of content 🗂
 
+Architecturing an information system and deploying its supporting infrastructure will set its backbone for a while. Doing it right is crucial.
 {% page-ref page="docs/architecture-and-infrastructure/README.md" %}
 
-Algorithms are a fascinating topic, this section will handle my favorite:
+Algorithms are a fascinating topic, this section will handle my favorite.
 {% page-ref page="docs/algorithms/README.md" %}
 
 {% page-ref page="docs/artificial-intelligence/README.md" %}

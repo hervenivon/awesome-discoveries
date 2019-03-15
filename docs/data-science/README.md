@@ -1,5 +1,17 @@
 # Data science
 
+To start this section, I would like to emphasize how wrong some of us are approching any data science related topics, I'm pleading for generalists team in opposition to specialists, in particular in early stages of a project. From the talks and meetups I assisted to my own experience, I confirm that [you learn on the go, not before you go](https://hbr.org/2019/03/why-data-science-teams-need-generalists-not-specialists) and, that a strong computer scientist is better than two PhD.
+
+Some drawbacks of specialists teams:
+
+1. It narrows team's point of view - Specialization rewards people augmenting their knowledge in a particular area focus and digging their expertise domain. A way more rewarding path is serendipity and curiosity that a generalist is more willing to trigger
+1. It increases coordination cost - The number of relationships $(r)$ [grows as a function of members](https://amzn.to/2HGwixJ) $$(n)$$ per this equation: $$r = (n^2-n) / 2$$. And, each relationship involves some coordination cost.
+1. f
+1. It augments your time to market - You need to go through an industrialisation phase and sometimes to reimplement everything
+
+> "For more than 95% of use cases where data science or machine learning is requested, you should hire rock solid computer scientists instead of PhDs" - Werner Vogels, VP and CTO of Amazon, Fireside chat @ Station F on Tue 19 Jun. 2018
+
+
 ## Data management
 
 * [DVC](https://dvc.org/doc/dvc-philosophy/core-features) - A neat structured approach to the data science workflow management aiming to become a standard as git has become in the development workflow.
