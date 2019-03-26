@@ -53,6 +53,19 @@ You can heavily personalize your setup, but there is only one real big issue whe
 
 I'll do nothing else in the future. My developers will have choice between a laptop Mac or Linux one. In any case a Linux/Unix base centralised development environment with a crypted harddrive.
 
+#### Automation
+
+In order to setup a brand new Mac from scratch I build a bootstraping script that:
+
+* Install [Homebrew](https://brew.sh)
+* Install [mas](https://github.com/mas-cli/mas), a Mac App Store command line utility
+* Install xcode tools
+* Install usefull packages (such as aws cli, htop, mosh, etc.)
+* Setup [zsh](http://zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) and [iTerm2](https://www.iterm2.com/)
+* Bind my [dotfiles]((https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory)) with my `$HOME` directory
+
+You can find more details [here](https://github.com/hervenivon/dotfiles)
+
 ### Code editor
 
 [`vscode`](https://code.visualstudio.com/) replaces the long 1st in my heart [`Sublime`](https://www.sublimetext.com/): it has proven to turn myself into a better "prototyper", data extractor and developer in the past year. It is reliable, able to handle large files, has a small memory footprint and perfectly extendable.
