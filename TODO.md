@@ -82,11 +82,13 @@ Requirements:
 ## gitbook (static site generator)
 
 Examples:
-  * [astaxie](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/01.4.html?q=test)
+
+* [astaxie](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/01.4.html?q=test)
 
 ## MKDocs
 
 [Official site](https://github.com/mkdocs/mkdocs)
 
 Examples:
-  * [gitbook](https://gitlab.com/lramage/mkdocs-gitbook-theme)
+
+* [gitbook](https://gitlab.com/lramage/mkdocs-gitbook-theme)
