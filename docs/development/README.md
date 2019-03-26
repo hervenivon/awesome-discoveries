@@ -66,6 +66,11 @@ In order to setup a brand new Mac from scratch I build a bootstraping script tha
 
 You can find more details [here](https://github.com/hervenivon/dotfiles)
 
+Some more complete example or tools are available out there:
+
+* [strap](https://github.com/MikeMcQuaid/strap) - The so called "minimal" macOS development system bootstrap will give you way more than mine previously mentioned.
+* [mac setup](https://sourabhbajaj.com/mac-setup/) - The reference guide for setting up a mac for development "manually". Source is available [here](https://github.com/sb2nov/mac-setup)
+
 ### Code editor
 
 [`vscode`](https://code.visualstudio.com/) replaces the long 1st in my heart [`Sublime`](https://www.sublimetext.com/): it has proven to turn myself into a better "prototyper", data extractor and developer in the past year. It is reliable, able to handle large files, has a small memory footprint and perfectly extendable.
