@@ -132,17 +132,45 @@ Overall, assume your choices, justify them, and proudly defend them. This is not
 * Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
 * Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
 
-## Remote work
+## Working Remotely
 
-Being able to handle and support remote work is key to any modern startup. From the new habits from new generation to the life cost of world capital, this is becoming a mandatory skill.
+The cost of living is increasing so much in so many places that it is not a risk anymore; it is an issue for most of us. Our world is rapidly changing, and one thing is for sure, we will see more and more all-remote workforces rather than the contrary.
 
-* [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies. World is changing, cost of living is increasing in a lot of places, talents are all around the world. One thing for sure, you will see more and more all-remote rather than the contrary.
-* [State of remote Work 2019](https://buffer.com/state-of-remote-work-2019) - The benefits and struggles of working remotely
+Also, talents are all around the world, not only close to the place you are physically located. In the fast pace economy, it is crucial to get the right skills at the right time.
+
+Being able to handle and support remote workforces - either they are partial or 100% - is key to any modern company. From the new generation's habits to the cost of living in world capitals, this is becoming a mandatory capability.
+
+The following paragraph assembles my findings on that topic.
+
+* [Remote: Office Not Required](https://amzn.to/2UAYe9N) - A mandatory reading on that topic.
+* [Remote only](https://www.remoteonly.org/) - A commonity driven state of best practices
+
+> "We are designers, engineers, and communicators united by a common goal, not a common location." - [Doist](https://doist.com/)
+
+### Manifesto & handbooks
+
+* [GitLab handbook](https://about.gitlab.com/handbook/) and [GitLab Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
+* [Perks and benefits](https://open.buffer.com/benefits-remote-company/) - How does Buffer provide team benefits as a remote and international company?
+* [Open blog at Buffer](https://open.buffer.com/) - The whole open blog of the Buffer company appears as their manifesto to me.
+* [Innolitics](https://innolitics.com/about/handbook/) - The innolitics handbook.
+
+### Testimonials
+
 * [Elastic: how does a 250 people team work 100% remote](https://www.youtube.com/watch?v=rrlPhedNjbA)
+* [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies.
+* [how they make it work](https://open.buffer.com/buffer-distributed-team-how-we-work/) - As part of the open culture of buffer, they share their way of working along with nice cards and pictures of some employees workspace
+* [The Joys and Benefits of Working as a Distributed Team](https://open.buffer.com/distributed-team-benefits/) - How does they make it work at Buffer?
+* [State of remote Work 2019](https://buffer.com/state-of-remote-work-2019) - The latest installment of being a remote company: benefits and struggles of working remotely
+* [no office](https://open.buffer.com/no-office/) - The reasons why Buffer moved from on site to remote.
+* [doist blog](https://doist.com/blog/category/remote-work/) - The doist remote work publications
 
-[Remote: Office Not Required](https://amzn.to/2UAYe9N)
-[Remote only](https://www.remoteonly.org/)
-[GitLab Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
+### Lists of companies
+
+* [established-remote](https://github.com/yanirs/established-remote) - A list of remote companies
+* [Remoteok](https://remoteok.io/remote-companies) - This is a remote dedicated job post index.
+* [We Work Remotely](https://weworkremotely.com/) - Another remote dedicated job post index.
+* [Remote only](https://www.remoteonly.org/) - In addition to the tips, the pros and cons, you'll find another list of remote companies.
+* [25+ Fully Remote Companies That Let You Work From Anywhere](https://zapier.com/blog/companies-hiring-remote-workers/) - A review of famous remote ok companies.
 
 ## Further inspiration
 
