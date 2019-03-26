@@ -2,7 +2,11 @@
 
 * [X] Create a `README.md` with the building pipeline
 * [ ] Organize "artificial intelligence" section with the development lifecyle of an AI project
+* [ ] Grammar and orthograph correction
 * [ ] Complete with "Being a startup CTO"
+* [ ] Dig my pocket archives
+* [ ] Dig my medium archives
+* [ ] Dig evernote
 * [ ] Add strips
 * [ ] Build this as a static site myself instead of gitbook.io
 * [ ] Script to analyze text [nltk](https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk)
