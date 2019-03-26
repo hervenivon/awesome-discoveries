@@ -108,7 +108,8 @@ CSS animations in [action](http://animista.net/play/background/color-change)
 
 * Command line
   * [ervy](https://github.com/chunqiuyiyu/ervy) - Bringing charts to the terminal, because every project needs a command line and dataviz is fun!
-  * [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts with no dependencies
+  * [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts with no dependencies.
+  * [ink](https://github.com/vadimdemedes/ink) - Building your command-line applications with React, Test your command-line applications with components.
 
 ### `Python`
 
