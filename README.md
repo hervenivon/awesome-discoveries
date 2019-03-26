@@ -1,5 +1,5 @@
 ---
-description: A curated list of awesome discoveries based on my readings. Available on https://herve-nivon.gitbook.io/awesome-discoveries/
+description: A curated list of awesome discoveries based on my readings. Available on [gitbook](https://herve-nivon.gitbook.io/awesome-discoveries/)
 title: awesome-discoveries introduction
 ---
 
