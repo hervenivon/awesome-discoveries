@@ -146,4 +146,5 @@ Performance (or lake of) drains a lot of attention in python. It is not a compil
 ## Agile Methodology
 
 Tools:
+
 * [DailyBot](https://dailybot.co/) - Helps remote teams to fill their daily scrum
