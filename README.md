@@ -1,5 +1,5 @@
 ---
-description: A curated list of awesome discoveries based on my readings. Available on [gitbook](https://herve-nivon.gitbook.io/awesome-discoveries/)
+description: A curated list of awesome discoveries based on my readings.
 title: awesome-discoveries introduction
 ---
 
@@ -85,6 +85,8 @@ Algorithms are a fascinating topic, this section will handle my favorite.
 {% page-ref page="docs/various/README.md" %}
 
 ## Technical details 🛠
+
+This repository is automatically published on [gitbook](https://herve-nivon.gitbook.io/awesome-discoveries/). The next iteration is available with private access on [gitbook](https://herve-nivon.gitbook.io/awesome-discoveries-next/). That is why a `SUMMARY.md` file exists for instance.
 
 In case you fork that repository, it is supported by `Python` scripts, here are some details that might be helpful.
 
