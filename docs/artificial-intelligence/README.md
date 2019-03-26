@@ -43,7 +43,11 @@ Here are the most relevant findings we leverage for our project and some more re
 * Polygon-RNN:
   * [Efficient Interactive Annotation of Segmentation Datasets with Polygon-RNN++](https://www.youtube.com/watch?v=evGqMnL4P3E)
   * [Demo](http://www.cs.toronto.edu/polyrnn/)
+
+Services:
+
 * [supervise.ly](supervise.ly) - Is a an online service that enable automatic annotation of data. Fron the tens I tested it is my current favorite.
+* [Alegion](https://alegion.com) - Annotation service that deals with computer vision, NLP, and data cleansing. The service alleges to combine machine learning and Human intelligence.
 
 ## Data Generation
 
