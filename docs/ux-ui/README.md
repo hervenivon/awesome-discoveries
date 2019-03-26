@@ -22,6 +22,12 @@ Facebook has built a development environment for UI components: [storybook](http
 
 Some paying services also exist, ex: [bitsrc.io](https://bitsrc.io/).
 
+## Resource
+
+* [Material icons](https://material.io/tools/icons/)
+* [Fontawesome](https://github.com/FortAwesome/Font-Awesome)
+* [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - One repository to rule them all. It includes severals such as fontawesome.
+
 ## Further UX/UI inspiration
 
 * [Sketch 43 is coming to town with a new game. An open file format!](https://medium.com/sketch-app-sources/sketch-43-is-coming-to-town-with-a-new-game-an-open-file-format-ae62e7e7c223) - Using open source file format to strentgh your position enabling really strong automation and becoming the hub for the design process.
