@@ -48,7 +48,7 @@ There are different school to serverless, with a caricature we can split them in
 
 I was part of the opportunistics. As an early stage company I didn't want us to spend a cent in devops and infrastructure management. Why setting us a kubernetes cluster while we were able to use lambdas instead? Why setting our own database in a cluster while dynamo was here? Why setting us a custom HTTP gateway or building our own workflow engine? As a results, we ended with a fully scallable solution built out entirely on top of serverless services from AWS. All our man power directed into value added project that no one else were doing.
 
-* [https://serverless-stack.com/](Serverless Stack) - A comprehensive guide to build your first serverless application
+* [Serverless Stack](https://serverless-stack.com/) - A comprehensive guide to build your first serverless application
 
 > While AWS continues its [Mr. Softy](https://en.wikipedia.org/wiki/Microsoft) strategy of [extend, embrace and extinguish](https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish) with Lambda, Google is doubling down on its Kubernetes masterstroke with the upcoming “Knative.” - Abraham Ingersoll
 
