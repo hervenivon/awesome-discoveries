@@ -32,6 +32,8 @@ I think that I adapt myself to my interlocutor and the situation. I might be per
 
 To my mind, there is only one rule of thumb, your collaborators will prefere working with a leader than with a boss!
 
+![](./resources/boss-vs-leader.png =250x)
+
 <img src="./resources/boss-vs-leader.png" width="300px" alt="Boss VS Leader">
 
 ### English first
