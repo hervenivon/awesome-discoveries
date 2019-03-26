@@ -66,9 +66,9 @@
   "cSpell.flagWords": [
       "hte"
   ],
-  "markdownlint.config": {
-    "MD013": false
-  },
+  "markdownlint.ignore": [
+    "TODO.md"
+  ],
   "python.pythonPath": "/usr/local/anaconda3/envs/ad/bin/python",
   "python.linting.pylintEnabled": false,
   "python.linting.pep8Enabled": true,

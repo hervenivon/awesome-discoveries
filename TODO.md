@@ -78,7 +78,6 @@ Requirements:
 * GA:
   * [GoogleAnalytics is built in](https://gohugo.io/templates/internal/#google-analytics)
 
-
 ## gitbook (static site generator)
 
 Examples:
