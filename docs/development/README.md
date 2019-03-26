@@ -62,7 +62,7 @@ In order to setup a brand new Mac from scratch I build a bootstraping script tha
 * Install xcode tools
 * Install usefull packages (such as aws cli, htop, mosh, etc.)
 * Setup [zsh](http://zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) and [iTerm2](https://www.iterm2.com/)
-* Bind my [dotfiles]((https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory)) with my `$HOME` directory
+* Bind my [dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory) with my `$HOME` directory
 
 You can find more details [here](https://github.com/hervenivon/dotfiles)
 

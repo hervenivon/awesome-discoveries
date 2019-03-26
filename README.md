@@ -86,7 +86,7 @@ Algorithms are a fascinating topic, this section will handle my favorite.
 
 ## Technical details 🛠
 
-This repository is automatically published on [gitbook](https://herve-nivon.gitbook.io/awesome-discoveries/). The next iteration is available with private access on [gitbook](https://herve-nivon.gitbook.io/awesome-discoveries-next/). That is why a `SUMMARY.md` file exists for instance.
+This repository is automatically published on [gitbook](https://herve-nivon.gitbook.io/awesome-discoveries/). The next iteration is available with private access on [gitbook](https://herve-nivon.gitbook.io/awesome-discoveries-next/) too. That is, for instance, why a `SUMMARY` file exists.
 
 In case you fork that repository, it is supported by `Python` scripts, here are some details that might be helpful.
 
@@ -99,3 +99,11 @@ Then create an environment dedicated to this project:
 1. Create `conda` environment: `$> conda create --name ad python=3.7 ipython`
 2. Activate `conda` environment: `$> conda activate ad`
 3. Install other requirements: `$> pip install -r requirements.txt`
+
+### url checker
+
+In order to verify that referenced urls are valid please execute the following in the conda environment at the repository root directory:
+
+```shell
+$> ./scripts/check-urls.py -v
+```

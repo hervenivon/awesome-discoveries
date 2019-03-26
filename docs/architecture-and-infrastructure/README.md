@@ -22,7 +22,7 @@ Infrastructure as code has changed the development lifecycle changing forever pr
 * Cloud native
   * [Cloud Native Computing Foundation](https://www.cncf.io/) - The entry point to an open source journey in the cloud computing
 * Tools for local development
-  * [minio.io](https://www.minio.io/features.html) - A distributed object storage server that mimic the "de facto standard API for object storage", named AWS S3.
+  * [minio](https://min.io/product) - A distributed object storage server that mimic the "de facto standard API for object storage", named AWS S3.
   * [localstack](https://github.com/localstack/localstack) - The folks aren't really responsive, nor their enterprise offer seems to conclude in one way or another, but there is a lot of value and a lot to learn from that project.
 * API design
   * [REST is the new SOAP](https://medium.freecodecamp.org/rest-is-the-new-soap-97ff6c09896d) - An article with a counter-current point of view that emphasizes every negative aspects of `REST`.
