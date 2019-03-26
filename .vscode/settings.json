@@ -69,6 +69,7 @@
   "markdownlint.config": {
     "MD013": false
   },
+  "python.pythonPath": "/usr/local/anaconda3/envs/ad/bin/python",
   "python.linting.pylintEnabled": false,
   "python.linting.pep8Enabled": true,
   "python.linting.enabled": true
