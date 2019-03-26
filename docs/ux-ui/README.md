@@ -22,7 +22,7 @@ Facebook has built a development environment for UI components: [storybook](http
 
 Some paying services also exist, ex: [bitsrc.io](https://bitsrc.io/).
 
-## Resource
+## Resources
 
 * [Material icons](https://material.io/tools/icons/)
 * [Fontawesome](https://github.com/FortAwesome/Font-Awesome)
