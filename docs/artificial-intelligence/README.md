@@ -137,9 +137,7 @@ other `sagemaker` key features:
 
 * [Pipe mode](https://aws.amazon.com/blogs/machine-learning/accelerate-model-training-using-faster-pipe-mode-on-amazon-sagemaker/) - It allows to stream data directly from an `S3` bucket without the need to download the data on the machine. It leverages the [protobuf](https://developers.google.com/protocol-buffers/) to speedup streaming from S3 to the training instances.
 
-## Others
-
-Going all directions:
+## Further inspiration
 
 * [Robust Website Fingerprinting Through the Cache Occupancy Channel](https://arxiv.org/abs/1811.07153) - What if you can leverage machine learning and a Javascript security hole to track anyone browsing history?
 * [Track the number of coffees consumed using AWS DeepLens](https://aws.amazon.com/blogs/machine-learning/track-the-number-of-coffees-consumed-using-aws-deeplens/) - How to build a coffee tracker in the open space with AWS deeplens.
@@ -149,6 +147,11 @@ Going all directions:
 * Online AI experiments:
   * [Iconary](https://iconary.allenai.org/) - Iconary from researchers at the Allen Institute for #AI is an online drawing and guessing game based on Pictionary. Its engine #AllenAI will blow your mind.
   * [AI Experiments](https://experiments.withgoogle.com/collection/ai) - Curated list of AI experiments from Google. Doodle guessing, AI assisted drawing, Music, etc.
+
+As we are loosing most of the [nonverbal communications](https://en.wikipedia.org/wiki/Nonverbal_communication) in a large portion of our day to day modern human to human interactions, I've always been curious on how we could extend it with expressive enhancements that would explain much more than lengthy descriptions. "A picture worths a thousand words." Some attempts:
+
+* [Dango](https://getdango.com/) - Is an application and API to propose relevant emojis and GIFs based on your text input in messaging. This unfortunately doesn't provide the code.
+* [live-mood](http://devpost.com/software/live-mood-2b5arl) - A former team member worked on a twitch extension to continuously transcribe watchers mood on a stream.
 
 ## Setting an artificial intelligence project
 
