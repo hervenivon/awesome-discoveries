@@ -53,3 +53,17 @@ I was part of the opportunistics. As an early stage company I didn't want us to 
 > While AWS continues its [Mr. Softy](https://en.wikipedia.org/wiki/Microsoft) strategy of [extend, embrace and extinguish](https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish) with Lambda, Google is doubling down on its Kubernetes masterstroke with the upcoming “Knative.” - Abraham Ingersoll
 
 * [Serverless on kubernetes](https://gravitational.com/blog/serverless-on-kubernetes/)
+
+## Data protection
+
+Any SaaS business leads to customer data management. And, with customer data management comes responsibilities.
+
+Like mentioned in the [Growing a company](./growing-a-company) section, Security should be a top priority for any SaaS company. It means protecting the data against intrusion, copy, and misappropriation, but is also means preserving the data.
+
+A [reddit discussion](https://www.reddit.com/r/technology/comments/b2381s/myspace_lost_all_music_uploaded_from_2003_to_2015/) highlights the MySpace case: all music uploaded from 2003 to 2015 is lost due to a "server migration". Slightly confirmed on the Myspace [homepage](https://myspace.com).
+
+> As a result of a server migration project, any photos, videos, and audio files you uploaded more than three years ago may no longer be available on or from Myspace. We apologize for the inconvenience. If you would like more information, please contact our Data Protection Officer at DPO@myspace.com.
+
+<img src="./resources/myspace-case.png" width="300px" alt="Myspace homepage"/>
+
+Handling data is hard, in particular when you deal yourselves with backups. Cloud providers are here to help, in particular for emerging business. They help you achieve a higher level of service quality at no cost. You don't have to deal with the overhead of such data management; you let them do and concentrate on your business. When you achieve success, you might go one step further and implement extra physical backups. What is stored on the Internet may disappear, and we never know, cloud providers might not remain forever. 😅
