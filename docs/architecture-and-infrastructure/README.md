@@ -64,6 +64,6 @@ A [reddit discussion](https://www.reddit.com/r/technology/comments/b2381s/myspac
 
 > As a result of a server migration project, any photos, videos, and audio files you uploaded more than three years ago may no longer be available on or from Myspace. We apologize for the inconvenience. If you would like more information, please contact our Data Protection Officer at DPO@myspace.com.
 
-<img src="./resources/myspace-case.png" width="300px" alt="Myspace homepage"/>
+<img src="./resources/myspace-case.png" width="300px" alt="Myspace homepage as of 27th of March 2019"/>
 
 Handling data is hard, in particular when you deal yourselves with backups. Cloud providers are here to help, in particular for emerging business. They help you achieve a higher level of service quality at no cost. You don't have to deal with the overhead of such data management; you let them do and concentrate on your business. When you achieve success, you might go one step further and implement extra physical backups. What is stored on the Internet may disappear, and we never know, cloud providers might not remain forever. 😅
