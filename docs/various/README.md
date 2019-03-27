@@ -80,5 +80,6 @@ Static web site in some occasions advantageouly replace self hosting services su
 
 * [Publii](https://opencollective.com/Publii) - Is an open source static site CMS management tool
 * [Gatsby.js](https://www.gatsbyjs.org) - Is a library that enables static site generation from react
+  * [Migrating from Medium to Gatsby](https://www.no.lol/2019-03-16-medium-to-gatsby/) - Medium is really popular, but its T&C changes and pricing policies lead to some “migration escape" like [Hackernoon](http://web.archive.org/web/20190312050147/https://twitter.com/hackernoon/status/1105290961100259328), and now we see such blog posts.
 * [hugo](https://gohugo.io/) - Another library to build static sites. A [comparison with gatsby](https://medium.freecodecamp.org/gatsby-vs-hugo-a-detailed-comparison-e78d94f640fc) if you need more insights
 * [jekyll](https://github.com/jekyll/jekyll) - The static site generator behing [GiHub Pages](https://pages.github.com/). PlanetJekyll features a jekyll [showcase](http://planetjekyll.github.io/showcase/) of several live website and the associate sources.
