@@ -14,6 +14,13 @@ Disable people disserve all our computer science attention. Today's technology c
 
 What about a GAN that will generate sign-language from speeches in real time.
 
-Several hundreds of hours of sign language videos are available online and might serve as training data. [Example](https://www.youtube.com/watch?v=g79sOA3qy5U)
+Several hundreds of hours of sign language videos are available online and might serve as training data. [Example](https://www.youtube.com/watch?v=g79sOA3qy5U):
 
 <img src="./resources/sign-language.png" width="250px" alt="TV news"/>
+
+Several challenges:
+
+* How to gather all the data?
+* How to "align" speeches with sounds?
+* How to handle cases where sign-language is not executed when text is displayed on the video?
+* Is it necessary to do speech to text and then text to sign-language?
