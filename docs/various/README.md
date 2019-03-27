@@ -10,6 +10,12 @@ Examples:
 
 The above chart is an extract from my CV available [here](https://github.com/hervenivon/CV/releases).
 
+The following will generate you a QR code:
+
+```html
+<img scr="https://quickchart.io/qr?text=https%3A%2F%2Fgithub.com%2Fhervenivon%2FCV%2Freleases" alt="My CV link" />
+```
+
 [quickchart](https://quickchart.io/) has a playground to get the url already encoded. It transform that code:
 
 ```json
