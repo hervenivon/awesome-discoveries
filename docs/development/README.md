@@ -160,6 +160,10 @@ Sometimes the everything is possible frameworks and libraries are too complicate
 * Lambda Optimization:
   * [Lambda optimization tip – enable HTTP keep-alive](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/) - Drastically reduce average execution time of each lambda function working with a DB
 
+### Web development
+
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Lighthous is an open source developer tool from Google that helps to audit web sites for performance, accessibility, and more. It is an extension to Chrome dev tools, a command line and a node module.
+
 ## Agile Methodology
 
 Tools:
