@@ -154,7 +154,7 @@ As we are loosing most of the [nonverbal communications](https://en.wikipedia.or
 
 * [Learned Video Compression](https://arxiv.org/abs/1811.06981) - A traditional codec architecture where elements are replaced by Machine Learning ones. Results: the new codec outperforms all existing video codecs.
 
-### Energy management
+### Energy management 🔋
 
 * [EnergyVault](https://energyvault.ch/#operating-parameters) - The cleverest idea ever regarding energy storage. Thinking out of the box is key when you are growing a startup. Here is the perfect example.
 * [Tibber](https://international.tibber.com/) - Norway and Sweden based startup helps you "smartly buy electricity at the best price at the right time of the day every day".
