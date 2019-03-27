@@ -22,6 +22,7 @@ I subscribed to several newsletters, and I have my favorite websites.
 * [arXiv](https://arxiv.org/) - The million e-prints open access to scientific papers that democratized Machine Learning over the globe. 99% of, not to say all, papers we were using are coming from that place. Even for not professional activities, it is inspiring to look at that source.
 * [github](https://www.github.com) - GitHub again, with [explore](https://github.com/explore) you will discover a lot of inspiring projects.
 * [MIT Technology Review](https://www.technologyreview.com/) - An endless stream of popular science, in particular in machine learning. The only one to which I have been willing to pay a subscription so far.
+* [Kaggle](https://www.kaggle.com) - "The place to do datascience", learn, share and access dataset, share and create algorithms, compete
 * Newsletters:
   * [Data Elixir](https://dataelixir.com/) - My most productive and de facto favorite newsletter regarding Artificial Intelligence and Data science in general.
   * [Changelog](https://changelog.com/weekly) - Staying up to date with the developer community and finding fun stuff.

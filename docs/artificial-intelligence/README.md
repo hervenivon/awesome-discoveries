@@ -26,6 +26,17 @@ Here are the most relevant findings we leverage for our project and some more re
 * [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/abs/1705.07115) - Multi-task learning for segmentation and instance segmentation with a multi-task loss.
 * [Panoptic Feature Pyramid Networks](https://arxiv.org/abs/1901.02446) - Unified architecture for multi task segmentation and instance segmentation.
 
+## Datasets 💽
+
+* [Adding Diversity to Images with Open Images Extended](https://ai.googleblog.com/2018/12/adding-diversity-to-images-with-open.html) _(`diversity`)_
+* [Open Images Dataset V4](https://storage.googleapis.com/openimages/web/index.html)
+* [Kaggle Datasets](https://www.kaggle.com/datasets)
+* [BigQuery Datasets](https://cloud.google.com/bigquery/public-data/)
+* [AWS OpenData](https://aws.amazon.com/opendata/)
+* [Datasetlist](https://www.datasetlist.com/)
+* [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets.html)
+* [Kaggle Datasets](https://www.kaggle.com/datasets)
+
 ## Data annotation 📝
 
 * [List of manual image annotation tools](https://en.wikipedia.org/wiki/List_of_manual_image_annotation_tools) - The list of annotation tools is long, unfortunately the Wikipedia rule enforce certain criteria I think are not smooth enough to enable tool discovery in fast pace changing environments. In that case, please take a look at the [talk](https://en.wikipedia.org/wiki/Talk:List_of_manual_image_annotation_tools) page of this article, there is pletoria of tools to discover here.
@@ -70,14 +81,6 @@ Neural networks are known as black boxes, famously incomprehensible. Be careful 
 * [awesome-machine-learning-interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - Another awesome list dedicated to machine learning interpretability, it wants itself to be an incomplete, imperfect blueprint for a more human-centered, lower-risk machine learning.
 * [Four Experiments in Handwriting with a Neural Network](https://distill.pub/2016/handwriting/) - Interactive experiments to understand network based on your handwriting inputs
 * [The Machine Learning Reproducibility Checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)
-
-## Datasets 💽
-
-* [Adding Diversity to Images with Open Images Extended](https://ai.googleblog.com/2018/12/adding-diversity-to-images-with-open.html) _(`diversity`)_
-* [Open Images Dataset V4](https://storage.googleapis.com/openimages/web/index.html)
-* [Kaggle Datasets](https://www.kaggle.com/datasets)
-* [BigQuery Datasets](https://cloud.google.com/bigquery/public-data/)
-* [AWS OpenData](https://aws.amazon.com/opendata/)
 
 ## Performance and hardware 🏎
 
