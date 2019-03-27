@@ -29,8 +29,10 @@ Infrastructure as code has changed the development lifecycle changing forever pr
 * Tools:
   * [Cloudcraft](https://cloudcraft.co/) - Isometric 3D drawing of your AWS infrastructure (to be or the actual one). Will help you document automatically your cloud infrastructure and to advertise it.
   * [Cloudockit](https://www.cloudockit.com/) - Same promise
-* [Desired vs Deployed architecture](https://twitter.com/changelog/status/839952960520138752)
+* [Desired vs Deployed architecture](https://web.archive.org/web/20190327172748/https://twitter.com/changelog/status/839952960520138752)
 * [BFF](https://blog.octo.com/les-indispensables-dun-projet-frontend-un-backend-for-frontend-une-api-sur-mesure/) - Backend For Frontend
+
+<img src="https://pbs.twimg.com/media/C6gcqNJU8AAjOaK.jpg" alt="Desired vs Deployed architecture"/>
 
 ## Serverless
 
