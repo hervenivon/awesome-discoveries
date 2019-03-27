@@ -1,5 +1,5 @@
 ---
-description: 'All the ideas I have that I certainly won't develop'
+description: 'All the ideas I have that are not secret 😉'
 ---
 
 # Ideas 💡
