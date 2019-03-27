@@ -24,3 +24,7 @@ Several challenges:
 * How to "align" speeches with sounds?
 * How to handle cases where sign-language is not executed when text is displayed on the video?
 * Is it necessary to do speech to text and then text to sign-language?
+
+Actors:
+
+* [Elioz](https://www.elioz.fr/) - Startup company with Human sign-language translators
