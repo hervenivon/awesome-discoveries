@@ -9,24 +9,29 @@
 
 ## Software design and principles
 
-### mono-repo vs multi-repo | microservices vs monolith
+### mono-repo vs multi-repo and microservices vs monolith
 
 We have experienced both mono repo and multi repo along with microservices and monolith for years now. My conclusion regarding our context:
 
 * It is hard to set a mono repository right,
-* It is harder to manage hundreds of repository for several service right,
-* You have to build or use tools dedicated to mono repository management, and in particular for continuous integration,
-* A monorepo still is way more efficient regarding deployment, coherence, bug tracking, cleaning and "community management",
-* Microservices are way more efficient in term of flexibility, possible innovation and creativity, overall velocity,
-* The microservices set in a monorepo combination was perfect for our team, size and project.
+* It is harder to manage hundreds of repository for several services,
+* You have to build or use tools dedicated to mono repository management, and in particular for its continuous integration,
+* A monorepo, compared to multi repo, still is way more efficient regarding deployment, coherence, bug tracking, cleaning and "community management,"
+* Onboarding a new team member in a microservices architecture along with a mono repository is tedious,
+* Onboarding a new team member in a microservices architecture along with multi repositories is tedious squared,
+* Only documentation updated on a regular basis can compete with onboarding with a monolith,
+* Microservices are impossible to debug by default, you must build the debugging capabilities,
+* Microservices are way more efficient in term of flexibility, innovation possibilities, and creativity; overall it brings velocity,
 * Continuous delivery setup is a journey. Keep the focus and priority: often it is delivering reliably new features to your customers.
 
-Several sources, so you can have a better idea of the debate:
+Microservices set in a monorepo was the perfect combination for our team, its size, and our project.
+
+Other sources, so you can have a better idea of the debate:
 
 * [Segment's transition back to a monorepo](https://changelog.com/podcast/312) and its original [blog post](https://segment.com/blog/goodbye-microservices/)
-* [Confessions of Continuous Delivery Experts: From microservices back to monolith](https://www.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith/) - Lesson learnt moving from microservice to monolith.
+* [Confessions of Continuous Delivery Experts: From microservices back to monolith](https://www.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith/) - Lesson learned moving from microservice to monolith.
 
-For the same context that were ours, what I might consent is to split application tiers into different repositories (example: front-end in one repository, back-end in another), that's all!
+For the same context that was ours, what I might consent is to split application tiers into different repositories (example: front-end in one repository, back-end in another), that's all!
 
 ## Development environment
 
