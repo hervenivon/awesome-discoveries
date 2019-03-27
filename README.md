@@ -48,11 +48,12 @@ Some others I look less often, or I refer to time to time.
 
 ## Must reads 📚
 
-There are a couple of books mentioned in this document, here are my definite must-reads:
+There are a couple of books mentioned in this document, and there are some books that inspired me so much. Here are my definite must-reads:
 
 * [Edward Tufte's The Visual Display of Quantitative Information](https://amzn.to/2ROaWUl) - The first book to read when you are entering the world of data visualization.
 * [Eric Rise's The lean startup](https://amzn.to/2RDDf3H) - This book led me to become CTO of a startup training me to the "lean approach." So much time saved from this lecture.
 * [Toby Segaran's Programming Collective Intelligence](https://amzn.to/2HiJrgc) - This book built my interest for intelligent applications, it gives me a taste of how important are data in modern applications, and it was fun to read and to apply.
+* [Yuval Noah Harari's Sapiens: A Brief History of Humankind](https://amzn.to/2WrN6fK) - This book and the followings "Homo Deus" and "21 lessons for the 21st century" were thrilling to discover. They give the key to understand Human relations, from where we are coming from and our possible futures.
 
 ## Feeback is welcome 📢
 
