@@ -3,7 +3,7 @@
 * [X] Create a `README.md` with the building pipeline
 * [ ] Organize "artificial intelligence" section with the development lifecyle of an AI project
 * [ ] Grammar and orthograph correction
-* [ ] Complete with "Being a startup CTO"
+* [ ] Complete with "Being a startup CTO" from "Performance" paragraph
 * [ ] Dig my pocket archives
 * [ ] Dig my medium archives
 * [ ] Dig evernote
