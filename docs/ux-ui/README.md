@@ -14,6 +14,12 @@ The Sketch application is by far the most intuitive tool I ever used enabling me
 
 Then entered [adobe XD](https://www.adobe.com/products/xd.html) which is a serious contender in my heart, but still hasn't bit my favorite. Will certainly give it other tries in the future.
 
+Whatever you are about to do, whatever your tools will be, you should always keep in mind how your end users will use your product!
+
+<img src="./resources/he-like-it.jpg" alt="'He like it' Images may be subject to copyright.">
+
+I found this image [here](http://web.archive.org/web/20190327000730/https://twitter.com/vipinmittal143/status/1095287089111941120)
+
 ## Bridging the gap between UX/UI designers and developers
 
 It is crucial that everyone in your team speaks the same languages. In particular, in Software development, starting on the smallest component of an application button may not mean the same thing among people. You may build a button in a thousand different ways. This can lead to situations where your application may look fuzzy worst; you will develop again and again the same component duplicating code.
