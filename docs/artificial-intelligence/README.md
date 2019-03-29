@@ -102,6 +102,7 @@ You must be careful with whoever tells he can surely explain how a deep learning
 
 * [A full hardware guide to Deep Learning](http://timdettmers.com/2018/12/16/deep-learning-hardware-guide/) - If you want to build your own local hardware for training, this is a must read.
 * [Best Deals in Deep Learning Cloud Providers](https://towardsdatascience.com/maximize-your-gpu-dollars-a9133f4e546a) - Where does it more effective to train your models. AWS is the most expensive.
+* [GPipe introduction](https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html) - From Mini- to Micro-Batches, GPipe partitions a model (Model parallelism) across different accelerators to efficiently train large-scale neural network models.
 
 ## Ethics 👴🏻
 
