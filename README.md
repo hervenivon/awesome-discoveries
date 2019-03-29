@@ -33,12 +33,13 @@ I subscribed to several newsletters, and I have my favorite websites.
 
 The following are companies with new business models, innovative offerings or inspiring founders. These truly stimulate me.
 
-* [namr](https://namr.com/) - Their mission is to create value from open data.
-* [deepomatic](https://www.deepomatic.com/) - Their concept is to provide AI implementation acceleration service for fortune 500.
-* [mobeye](https://www.mobeye-app.com/en/home) - How to crowdsource data annotation through a mobile application that lets people earn money.
-* [fritz.ai](https://www.fritz.ai) - Focuses on mobile, provide a set of available models and allows for higher pricing some model customization.
-* [algorithmia](https://algorithmia.com/) - AI models provisioned as APIs.
+* [Cogitai](https://www.cogitai.com/product/) - Reinforcement learning as a service promising to avoid heavy tasks of data annotation.
 * [Comet.ml](https://comet.ml) - Provides a GitHub like experience dedicated to ML.
+* [algorithmia](https://algorithmia.com/) - AI models provisioned as APIs.
+* [deepomatic](https://www.deepomatic.com/) - Their concept is to provide AI implementation acceleration service for fortune 500.
+* [fritz.ai](https://www.fritz.ai) - Focuses on mobile, provide a set of available models and allows for higher pricing some model customization.
+* [mobeye](https://www.mobeye-app.com/en/home) - How to crowdsource data annotation through a mobile application that lets people earn money.
+* [namr](https://namr.com/) - Their mission is to create value from open data.
 
 ### Others
 
