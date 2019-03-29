@@ -68,19 +68,35 @@ Services:
 * [Visual Object Networks: Image Generation with Disentangled 3D Representation](http://papers.nips.cc/paper/7297-visual-object-networks-image-generation-with-disentangled-3d-representations.pdf) - How a set of specialized networks learn to generate 3D objects.
 * [This is the most complex generative design ever made](https://www.fastcompany.com/90269399/this-is-the-most-complex-generative-design-ever-made) - Purely inspirational, no implementation design, still further details are accessible [here](https://www.autodesk.com/solutions/generative-design).
 
-## Understanding and interpreting the black box ◼️
+## Understanding the black box ◼️
 
-Neural networks are known as black boxes, famously incomprehensible. Be careful whoever tells you he can surely explain how a deep learning model takes a decision. There are several tries to understand them, to explain how they are taking decisions, and even to debug them.
+One of the main challenges we face when we interact with artificial intelligence projects is to reproduce results, understand how they work, and explain decisions. Neural networks are known as black boxes, famously known for being impenetrable.
 
-* [manifold](https://eng.uber.com/manifold/) - A platform from uber that promises ease of debugging, not publicly shared, not available for test, pretty, and a lot of ideas still.
-* [comet.ml](https://comet.ml) - An online platform compatible with any Machine Learning framework that aggregate online stats and enable model comparison.
-* [A New Approach to Understanding How Machines Think](https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110) - An interview of Been Kim from Google Brain for the introduction of “Testing with Concept Activation Vectors” [TCAV](https://arxiv.org/abs/1711.11279)
-* [Machine Learning for Kids](https://machinelearningforkids.co.uk/) - If you want my mind, it is valuable not only for kids 😅
-* [A neural network can learn to organize the world it sees into concepts—just like we do](https://www.technologyreview.com/s/612746/a-neural-network-can-learn-to-organize-the-world-it-sees-into-conceptsjust-like-we-do) - In this [paper](https://arxiv.org/abs/1811.10597), GAN are examined under a microscope, it is a major leap forward into comprehension of GANs.
-* [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) - A reproducible paper that combines different technics in order to better understand networks.
+The European Union's General Data Protection Regulation (GDPR) which is designed to ensure and to strengthen data security and privacy of all 28 EU members states' citizen including data held outside of the EU either the data is related to employees or customers includes rights to explanation [1](https://www.csoonline.com/article/3251727/is-the-gdpr-s-right-to-explanation-a-game-changer-for-security-analytics.html), [2](https://iapp.org/news/a/is-there-a-right-to-explanation-for-machine-learning-in-the-gdpr/):
+
+1. _Article 22_: Grants citizens “the right not to be subject to a decision based solely on automated processing” that “significantly affects him or her.”
+1. _Recital 71_: The data subject should have “the right... to obtain an explanation of the decision reached... and to challenge the decision.”
+1. _Article 13_: The data controller must provide the subject, at the time his or her personal data is obtained, with “meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing” for the subject.
+1. _Article 15_: Subjects have a right to know what personal data a company is using and how it’s being used.
+
+With that in mind, most businesses claiming to use AI or using AI without declaring it then have a complicated puzzle to solve. They must be able to explain any algorithm driven decision implying a Human.
+
+We are seeing more and more attempts to understand and interpret them, to unpack their choices, to reproduce experiments, and to debug them.
+
+You must be careful with whoever tells he can surely explain how a deep learning model takes a decision. Still a cutting edge research topic.
+
 * [awesome-machine-learning-interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - Another awesome list dedicated to machine learning interpretability, it wants itself to be an incomplete, imperfect blueprint for a more human-centered, lower-risk machine learning.
+* [comet.ml](https://comet.ml) - An online platform compatible with any Machine Learning framework that aggregate online stats and enable model comparison.
+* [distill.pub](https://distill.pub/) - This is an attempt to modernize the main issues we face with the traditional printed scientific papers in computer science and machine learning which now more than ever involve an overabundant amount of data and are nearly impossible to understand on a sheet of paper. Distill.pub brings clarity, reproducibility, and interactivity. `PDF` files are from another age. `distill.pub` is an expression of our time.
+* [manifold](https://eng.uber.com/manifold/) - A platform from uber that promises ease of debugging, not publicly shared, not available for test, pretty, and a lot of ideas still.
+* [A neural network can learn to organize the world it sees into concepts—just like we do](https://www.technologyreview.com/s/612746/a-neural-network-can-learn-to-organize-the-world-it-sees-into-conceptsjust-like-we-do) - In this [paper](https://arxiv.org/abs/1811.10597), GAN are examined under a microscope, it is a major leap forward into comprehension of GANs.
+* [A New Approach to Understanding How Machines Think](https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110) - An interview of Been Kim from Google Brain for the introduction of “Testing with Concept Activation Vectors” [TCAV](https://arxiv.org/abs/1711.11279)
+* [Exploring Neural Networks with Activation Atlases](https://distill.pub/2019/activation-atlas/) - Feature inversion support an activation atlas of features the network has learned. And you can play with it!
 * [Four Experiments in Handwriting with a Neural Network](https://distill.pub/2016/handwriting/) - Interactive experiments to understand network based on your handwriting inputs
-* [The Machine Learning Reproducibility Checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)
+* [ICLR Reproducibility Challenge](https://reproducibility-challenge.github.io/iclr_2019/) - A challenge that encourage people to try reproducing a paper from the 2019 ICLR submissions. The goal is to assess that the experiments are reproducible.
+* [Machine Learning for Kids](https://machinelearningforkids.co.uk/) - If you want my mind, it is valuable not only for kids 😅
+* [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) - A reproducible paper that combines different technics in order to better understand networks.
+* [The Machine Learning Reproducibility Checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf) - It is so hard to reproduce today's publication that some initiatives like this reproducibility checklist arise and provide rules to follow.
 
 ## Performance and hardware 🏎
 
