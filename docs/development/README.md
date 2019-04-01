@@ -114,12 +114,19 @@ Further awesomenesssss 🤩:
 
 CSS animations in [action](http://animista.net/play/background/color-change)
 
-### `Javascript`
+### `Nodejs`
 
-* Command line
-  * [ervy](https://github.com/chunqiuyiyu/ervy) - Bringing charts to the terminal, because every project needs a command line and dataviz is fun!
-  * [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts with no dependencies.
-  * [ink](https://github.com/vadimdemedes/ink) - Building your command-line applications with React, Test your command-line applications with components.
+#### Building Command line
+
+* [ervy](https://github.com/chunqiuyiyu/ervy) - Bringing charts to the terminal, because every project needs a command line and dataviz is fun!
+* [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts with no dependencies.
+* [ink](https://github.com/vadimdemedes/ink) - Building your command-line applications with React, Test your command-line applications with components.
+
+#### Performance
+
+If performance is key to your application, please spend time on testing and tweaking it.
+
+You can use some great open source tools before jumping into the service or paying landscape like [autocannon](https://github.com/mcollina/autocannon) which simulates concurrent HTTP calls. The following [article](https://www.smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers/) from Smash magazine will give you a very good entry point for perfomance analysis on node.js serveur projects.
 
 ### `Python`
 
