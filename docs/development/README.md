@@ -28,8 +28,9 @@ Microservices set in a monorepo was the perfect combination for our team, its si
 
 Other sources, so you can have a better idea of the debate:
 
-* [Segment's transition back to a monorepo](https://changelog.com/podcast/312) and its original [blog post](https://segment.com/blog/goodbye-microservices/)
+* [Advantages of monorepos](https://danluu.com/monorepo/) - "Conversation wrote down to avoid repeating things"
 * [Confessions of Continuous Delivery Experts: From microservices back to monolith](https://www.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith/) - Lesson learned moving from microservice to monolith.
+* [Segment's transition back to a monorepo](https://changelog.com/podcast/312) and its original [blog post](https://segment.com/blog/goodbye-microservices/)
 
 For the same context that was ours, what I might consent is to split application tiers into different repositories (example: front-end in one repository, back-end in another), that's all!
 
