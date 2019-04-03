@@ -28,14 +28,13 @@ Here are the most relevant findings we leverage for our project and some more re
 
 ## Datasets 💽
 
-* [Adding Diversity to Images with Open Images Extended](https://ai.googleblog.com/2018/12/adding-diversity-to-images-with-open.html) _(`diversity`)_
-* [Open Images Dataset V4](https://storage.googleapis.com/openimages/web/index.html)
-* [Kaggle Datasets](https://www.kaggle.com/datasets)
-* [BigQuery Datasets](https://cloud.google.com/bigquery/public-data/)
 * [AWS OpenData](https://aws.amazon.com/opendata/)
+* [Adding Diversity to Images with Open Images Extended](https://ai.googleblog.com/2018/12/adding-diversity-to-images-with-open.html) _(`diversity`)_
+* [BigQuery Datasets](https://cloud.google.com/bigquery/public-data/)
 * [Datasetlist](https://www.datasetlist.com/)
-* [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets.html)
 * [Kaggle Datasets](https://www.kaggle.com/datasets)
+* [Open Images Dataset V4](https://storage.googleapis.com/openimages/web/index.html)
+* [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets.html)
 
 ## Data annotation 📝
 
