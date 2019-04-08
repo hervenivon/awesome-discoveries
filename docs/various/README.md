@@ -66,6 +66,10 @@ https://quickchart.io/chart?bkg=white&c=%7B%0A%20%20bkg%3A%20%22transparent%22%2
 
 The charts are extensively customizable, documentation is available [here](https://www.chartjs.org/docs/latest/).
 
+## Bio inspiration
+
+* [Navigation without a GPS](https://www.soonsoonsoon.com/remplacer-son-gps-par-un-cerveau-de-fourmi) - Inspired from a Sahara desert ant, this ant robot can orient itself without a GPS. After a random exploration behavior, it can go straight back to its departure origin.
+
 ## Color picking
 
 [Colorbrewer](http://colorbrewer2.org) is an online tool, and a [npm package](https://www.npmjs.com/package/colorbrewer) that provides a set of color schemes suitable for certain conditions: diverging, colorblind safe, number of classes. While it was meant for maps at first, I use it extensively when it comes to choose colors for any purpose. I just find them elegant 😊. I discovered them through the [d3js](https://github.com/d3/d3) library. [Further reading](http://www.personal.psu.edu/cab38/ColorBrewer/ColorBrewer_updates.html)
