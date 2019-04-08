@@ -182,6 +182,10 @@ As we are loosing most of the [nonverbal communications](https://en.wikipedia.or
 * [Dango](https://getdango.com/) - Is an application and API to propose relevant emojis and GIFs based on your text input in messaging. This unfortunately doesn't provide the code.
 * [live-mood](http://devpost.com/software/live-mood-2b5arl) - A former team member worked on a twitch extension to continuously transcribe watchers mood on a stream.
 
+### Agriculture 🌱
+
+* [Machine learning is making pesto even more delicious](https://www.technologyreview.com/s/613262/machine-learning-is-making-pesto-even-more-delicious/) - How machine learning was used to develop a surrogate model of Basil and provide new counter intuitive recipes. [Source paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213918)
+
 ### Compression, enhancement 🗜
 
 * [Learned Video Compression](https://arxiv.org/abs/1811.06981) - A traditional codec architecture where elements are replaced by Machine Learning ones. Results: the new codec outperforms all existing video codecs.
