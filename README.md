@@ -41,6 +41,7 @@ The following are companies with new business models, innovative offerings or in
 * [fritz.ai](https://www.fritz.ai) - Focuses on mobile, provide a set of available models and allows for higher pricing some model customization.
 * [mobeye](https://www.mobeye-app.com/en/home) - How to crowdsource data annotation through a mobile application that lets people earn money.
 * [namr](https://namr.com/) - Their mission is to create value from open data.
+* [nervous system](https://n-e-r-v-o-u-s.com/) - For making jewelry, lighting, houseware, and puzzles from generative algorithms often bio-inspired and 3D printing or laser cutting.
 * [notion](https://notion.so) - For their product line, their energizing onboarding process and their will to simplify everyone day 2 day in documentation production, note taking, task and project management.
 
 ### Others
