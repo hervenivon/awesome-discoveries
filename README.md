@@ -40,6 +40,7 @@ The following are companies with new business models, innovative offerings or in
 * [fritz.ai](https://www.fritz.ai) - Focuses on mobile, provide a set of available models and allows for higher pricing some model customization.
 * [mobeye](https://www.mobeye-app.com/en/home) - How to crowdsource data annotation through a mobile application that lets people earn money.
 * [namr](https://namr.com/) - Their mission is to create value from open data.
+* [Stitchfix](https://www.stitchfix.com/), [Ebo Box](https://betalist.com/startups/ebo-box), and [Gofind.ai](http://gofind.ai/) for redefining the retail industry with artificial intelligence. Either with cutting edge recommendation - the first two - or ease discovery the latter.
 
 ### Others
 
