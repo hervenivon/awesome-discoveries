@@ -34,6 +34,12 @@ Other sources, so you can have a better idea of the debate:
 
 For the same context that was ours, what I might consent is to split application tiers into different repositories (example: front-end in one repository, back-end in another), that's all!
 
+### Technical debt
+
+> ["Technical Debt Is Like Tetris"](https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700). You can't win. You can only control how quickly you lose.
+
+Technical Debt is part of the engineering landscape of any developing business. And you create some technical debt with any arbitrage in favor of new feature against sanitation of any kind. The Tetris analogy is excellent in the sense that you can mark higher scores only when you accept technical debt, when you are aware of it and when you play with it. Then, every new feature is an opportunity to fix it, just like when you close several raws at once.
+
 ## Development environment
 
 ### iPad as main computer
@@ -109,6 +115,12 @@ Further awesomenesssss 🤩:
 
 * [gitleaks](https://github.com/zricethezav/gitleaks) - Waiting for github next move in the security landscape, here is a way for you to scan code source for unencrypted secrets. 👮‍♂️
 
+## Agile Methodology
+
+Tools:
+
+* [DailyBot](https://dailybot.co/) - Helps remote teams to fill their daily scrum
+
 ## Languages and technologies
 
 ### `CSS`
@@ -171,9 +183,3 @@ Sometimes the everything is possible frameworks and libraries are too complicate
 ### Web development
 
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Lighthous is an open source developer tool from Google that helps to audit web sites for performance, accessibility, and more. It is an extension to Chrome dev tools, a command line and a node module.
-
-## Agile Methodology
-
-Tools:
-
-* [DailyBot](https://dailybot.co/) - Helps remote teams to fill their daily scrum
