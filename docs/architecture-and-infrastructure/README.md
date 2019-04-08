@@ -1,5 +1,5 @@
 ---
-description: 'Architecturing an information system and deploying its supporting infrastructure will set its backbone for a while. Doing it right is crucial'
+description: 'Architecturing an information system and deploying its supporting infrastructure will set its backbone for a while. Doing it right is crucial.'
 ---
 
 # Architecture & Infrastructure
