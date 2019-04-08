@@ -11,4 +11,5 @@
 * [Growing a product](docs/growing-a-product/README.md)
 * [Productivity](docs/productivity/README.md)
 * [UX/UI](docs/ux-ui/README.md)
+* [Ideas](docs/ideas/README.md)
 * [Various](docs/various/README.md)

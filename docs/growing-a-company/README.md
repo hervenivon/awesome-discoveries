@@ -32,7 +32,7 @@ I think that I adapt myself to my interlocutor and the situation. I might be per
 
 To my mind, there is only one rule of thumb, your collaborators will prefere working with a leader than with a boss!
 
-<img src="./resources/boss-vs-leader.png" height="250" alt="Boss VS Leader">
+<img src="./resources/boss-vs-leader.png" width="250" alt="Boss VS Leader">
 
 ### English first
 
@@ -127,22 +127,143 @@ Tooling your developers is mandatory, and it you should let them be free (help t
 
 Overall, assume your choices, justify them, and proudly defend them. This is not because you are not using the last trendy single page application framework that your code base is crap or a spaghetti mess. Your startup will always have a history, you must be proud of it and all the lessons learned along the way.
 
-## Further inspiration to grow your company
+## Interviews
+
+* Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
+* Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
+
+## Methodology
+
+They are many different optimization approaches, and methodologies - most coming with certifications - that when you start diging you might found yourself lost in the various terms and abbreviations: [lean enterprise](https://en.wikipedia.org/wiki/Lean_enterprise), [lean startup](https://en.wikipedia.org/wiki/Lean_startup), [six sigma](https://en.wikipedia.org/wiki/Six_Sigma), [lean six sigma](https://en.wikipedia.org/wiki/Lean_Six_Sigma), DMAIC, DMADV, 5 whys, etc.
+
+While most are coming from the industry production improvement with the idea of reducing waste, they are all directed toward better serving customers. In the end, they provide an incredible toolbelt that you can leverage to enhance your process, better design your product and becoming profitable. I see an astonishing source of tools and techniques to solve issues and organize yourself and your company.
+
+The following paragraph lists methods, and tools that have proven useful to me.
+
+### 8 types of waste
+
+Lean Six Sigma principles focus on eliminating eight varieties of waste (you will often read Muda). They form the acronym DOWNTIME. The following paragraph describes them applied to software development and each of them deserves their own set of solutions which is another topic.
+
+* Defects
+
+Defects are errors that require additional time, resources (, and money) to fix. In a traditional manufacturing process, it can be a defective part that must be remade. In software development, it is certainly the easiest waste variety to understand in the list. Bug are well known in software developments since [1947](https://en.wikipedia.org/wiki/Software_bug). But, to my mind, defects in software development don't only appear in final the code they can occur all along the process from the software design to the poorly annotated data in machine learning.
+
+* Overproduction
+
+Overproduction is production ahead of demand. Ex: too many goods are produced and waiting to be sold at the warehouse. In software development, it means developing the wrong feature, either because it is badly designed or because it doesn't match any requirement and is therefore not used.
+
+* Waiting
+
+Waiting is the delay between steps in production. Ex: when the next person in line is overwhelmed, you must wait. In software development, it can happen in several places: when developers are waiting for a change request approval, when they are waiting for functional clarification, when they wait for builds in the CI.
+
+* Not-Utilized Talent
+
+In small businesses, the team is often the most critical asset; not and underutilized talents, skills, and knowledge can have a pernicious, negative and sometimes destructive effect on an organization. In small businesses and in startups in particular, people join you because they believe they can have a true impact which is way harder to achieve in big corporations. Recognizing their energy, nurturing them will provide great benefits. You must trust your team and leverage it as much as you can, and this is why you always must seek and be attentive to feedback. Wrong task assignment, lack of training, lack of teamwork, secrecy or poor communication are some evidence of not and underutilized talents.
+
+* Transportation
+
+Transportation waste is the movement of materials and goods that are not required to perform the processing. Ex: when you need to move a piece to another plant area because of a poorly desing arrangement. It can be because of too many steps, miss designed workflows. In software development, we are speaking of information transportation which might seem seamless. Nevertheless, it can happen: when your customer feedback is going through too many steps before becoming actual lines of code, when you have to switch tasks continuously or when you have to duplicate data to perform machine learning training locally.
+
+* Inventory
+
+Inventory waste is all produced parts and material that have been purchased and are waiting to be used. It also includes work-in-process, everything that is not yet ready for shipment or sale. In software development, I mainly see it as non-deployed software which can be due to too long development cycles or finished software not validated and waiting for prime time
+
+* Motion
+
+Motion waste refers to any movement one has to do to accomplish his task for one employee, between employees, for a machine. In software development, we can see it as the necessary hand-offs between different jobs. Beyond the material conditions, such as the quality of the workspace highlighted in the industry, motion waste can be seen as the knowledge which is lost each time a deliverable is handed off between 2 employees to finish a task.
+
+* Extra-Processing
+
+Extra-processing waste is deduced from processes that require multiple versions of the same task, poorly defined processes or task with low value added. Examples: Excessive reports, data duplications, lack of standards. In software development, some working with agile methodologies argues that even estimating development time is a waste; this is the [#NoEstimates](https://twitter.com/search?q=%23noestimates) movement.
+
+These eight varieties of waste are inspired by the [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System). You can learn more about their definition and some other examples [here](https://www.processexcellencenetwork.com/business-transformation/articles/the-8-deadly-lean-wastes-downtime), [here](https://www.solutionsiq.com/resource/blog-post/waste-in-software-development/), and [here](https://www.solutionsiq.com/resource/blog-post/more-waste-in-software-development/).
+
+### DMAIC & DMADV
+
+DMAIC used for projects aiming at improving an existing business process and DMADV used for projects aiming at creating new product or process designs are two 5 steps methodologies coming from Six Sigma.
+
+What is interesting is the actions these methodologies trigger.
+
+#### DMAIC
+
+* Define the project goals from the voice of the customer and their requirements
+* Measure key aspects of the current process, collect relevant data and calculate the 'as-is' process capability
+* Analyze your measures to determine cause-and-effect relationships. Verify all factors have been considered. Get to the root cause of the problems you are looking at
+* Improve the current process. Set up a pilot to establish process capability
+* Control the new process to ensure that it can achieve the objective. If there is a deviation, repeat the process.
+
+#### DMADV
+
+* Define the goals that are consistent with customer requirements and demands according to your strategy
+* Measure criteria which are crucial to your new product or process
+* Analyze your findings to identify alternatives
+* Design an improve these alternatives
+* Verify these alternatives, set up a pilot, implement the process or product.
+
+### Value-stream mapping (VSM)
+
+In short, value-stream mapping is a technique that helps to determine and distinguish valuable activities from wasted time and value in a production flow of material and information that is executed to bring products to customers.
+
+VSM uses a set of predetermined symbols to map your process in an intelligible way.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/VSM1.JPG/1000px-VSM1.JPG" alt="VSM standard symbols from Wikipedia"/>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ValueStreamMapParts.png/600px-ValueStreamMapParts.png" alt="A VSM example from Wikipedia"/>
+
+VSM can be used to improve any process where there are repeatable steps, and handoffs. In software development, you can make an analogy with continuous delivery.
+
+Learn more on [wikipedia](Value-stream mapping) or watching ["How to read a value stream map?"](https://vimeo.com/23684934) video.
+
+## Working Remotely
+
+The cost of living is increasing so much in so many places that it is not a risk anymore; it is an issue for most of us. Our world is rapidly changing, and one thing is for sure, we will see more and more all-remote workforces rather than the contrary.
+
+Also, talents are all around the world, not only close to the place you are physically located. In the fast pace economy, it is crucial to get the right skills at the right time.
+
+Being able to handle and support remote workforces - either they are partial or 100% - is key to any modern company. From the new generation's habits to the cost of living in world capitals, this is becoming a mandatory capability.
+
+The following paragraph assembles my findings on that topic.
+
+* [Remote: Office Not Required](https://amzn.to/2UAYe9N) - A mandatory reading on that topic.
+* [Remote only](https://www.remoteonly.org/) - A commonity driven state of best practices
+
+> "We are designers, engineers, and communicators united by a common goal, not a common location." - [Doist](https://doist.com/)
+
+### Manifesto & handbooks
+
+* [GitLab handbook](https://about.gitlab.com/handbook/) and [GitLab Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
+* [Perks and benefits](https://open.buffer.com/benefits-remote-company/) - How does Buffer provide team benefits as a remote and international company?
+* [Open blog at Buffer](https://open.buffer.com/) - The whole open blog of the Buffer company appears as their manifesto to me.
+* [Innolitics](https://innolitics.com/about/handbook/) - The innolitics handbook.
+
+### Testimonials
+
+* [Elastic: how does a 250 people team work 100% remote](https://www.youtube.com/watch?v=rrlPhedNjbA)
+* [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies.
+* [how they make it work](https://open.buffer.com/buffer-distributed-team-how-we-work/) - As part of the open culture of buffer, they share their way of working along with nice cards and pictures of some employees workspace
+* [The Joys and Benefits of Working as a Distributed Team](https://open.buffer.com/distributed-team-benefits/) - How does they make it work at Buffer?
+* [State of remote Work 2019](https://buffer.com/state-of-remote-work-2019) - The latest installment of being a remote company: benefits and struggles of working remotely
+* [no office](https://open.buffer.com/no-office/) - The reasons why Buffer moved from on site to remote.
+* [doist blog](https://doist.com/blog/category/remote-work/) - The doist remote work publications
+
+### Lists of companies
+
+* [established-remote](https://github.com/yanirs/established-remote) - A list of remote companies
+* [Remoteok](https://remoteok.io/remote-companies) - This is a remote dedicated job post index.
+* [We Work Remotely](https://weworkremotely.com/) - Another remote dedicated job post index.
+* [Remote only](https://www.remoteonly.org/) - In addition to the tips, the pros and cons, you'll find another list of remote companies.
+* [25+ Fully Remote Companies That Let You Work From Anywhere](https://zapier.com/blog/companies-hiring-remote-workers/) - A review of famous remote ok companies.
+
+## Further inspiration
 
 * [Can you bootstrap a startup on the side?](https://justinjackson.ca/bootstrap-side-project) - Build you own path based on your experience, will and target.
 * [40+ Startup Jargon Words You Need To Know To Raise Money](https://www.forbes.com/sites/kateharrison/2014/08/29/40-start-up-jargon-words-you-need-to-know-to-raise-money/)
 * [This is hard](https://justinjackson.ca/hard) - Never forget that stopping your project is the main reason for failure
 * [10 Lessons from 10 Years of Amazon Web Services](https://www.allthingsdistributed.com/2016/03/10-lessons-from-10-years-of-aws.html) - Simple rules, carefuly understand them.
 * [The Inevitable Future: Startup Transparency](https://medium.com/swlh/the-inevitable-future-startup-transparency-3c5e92fcd96b) -
-* Working remotely
-  * [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies. World is changing, cost of living is increasing in a lot of places, talents are all around the world. One thing for sure, you will see more and more all-remote rather than the contrary.
-  * [State of remote Work 2019](https://buffer.com/state-of-remote-work-2019) - The benefits and struggles of working remotely
-  * [Elastic: how does a 250 people team work 100% remote](https://www.youtube.com/watch?v=rrlPhedNjbA)
 * The management world
   * [Most leaders don't even know the game they are in](https://www.youtube.com/watch?v=RyTQ5-SQYTo)
   * [Simon Sinek on Millennials in the Workplace](https://www.youtube.com/watch?v=hER0Qp6QJNU) - A shorter version focusing on Millennials.
-* Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
-* Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
 * Boss vs leader
   * [10 Huge Differences Between A Boss And A Leader](https://www.lifehack.org/287785/10-differences-between-boss-and-real-leader)
   * [The Difference Between A Great Leader And A Regular Manager](https://www.lifehack.org/articles/work/the-difference-between-great-leader-and-regular-manager.html)

@@ -1,3 +1,4 @@
 certifi
+tqdm
 urllib3
 urlextract

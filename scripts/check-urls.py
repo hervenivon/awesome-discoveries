@@ -164,7 +164,7 @@ def generate_argparse():
         default=FILE_EXCLUDED,
         help='Provided files are excluded from the analysis.\n'
              'Defaults: %s' % ', '.join(FILE_EXCLUDED))
-    parser.add_argument('-v', '--verbose', action='store_true')
+    parser.add_argument('-s', '--silent', action='store_true')
 
     return parser
 
@@ -173,25 +173,26 @@ def main():
     parser = generate_argparse()
     args = parser.parse_args()
 
-    if args.verbose:
+    if not args.silent:
         print('Listing files...')
     file_list = list_files(root_path=args.path,
                            included_extensions=args.extensions,
                            file_excluded=args.exclusions)
 
-    if args.verbose:
+    if not args.silent:
         print('Extracting urls from %d files...' % len(file_list))
-    urls = parallel_file_extraction(file_list, verbose=args.verbose)
+    urls = parallel_file_extraction(file_list, verbose=(not args.silent))
     unique_urls = get_unique_urls(urls)
-    if args.verbose:
+    if not args.silent:
         print('%d unique urls to verify over %d total' %
               (len(unique_urls), len(urls)))
         print('Checking urls...')
 
-    url_results = parallel_url_validation(unique_urls, verbose=args.verbose)
+    url_results = parallel_url_validation(unique_urls,
+                                          verbose=(not args.silent))
     (errors_per_file, success_per_file) = get_stats(url_results)
 
-    if args.verbose:
+    if not args.silent:
         for success in success_per_file:
             print('✓ %d urls successfully verified in "%s":' %
                   (success[1], success[0]))

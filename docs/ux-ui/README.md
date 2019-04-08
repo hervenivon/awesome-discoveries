@@ -14,6 +14,12 @@ The Sketch application is by far the most intuitive tool I ever used enabling me
 
 Then entered [adobe XD](https://www.adobe.com/products/xd.html) which is a serious contender in my heart, but still hasn't bit my favorite. Will certainly give it other tries in the future.
 
+Whatever you are about to do, whatever your tools will be, you should always keep in mind how your end users will use your product!
+
+<img src="./resources/he-like-it.jpg" alt="'He like it' Images may be subject to copyright.">
+
+I found this image [here](http://web.archive.org/web/20190327000730/https://twitter.com/vipinmittal143/status/1095287089111941120)
+
 ## Bridging the gap between UX/UI designers and developers
 
 It is crucial that everyone in your team speaks the same languages. In particular, in Software development, starting on the smallest component of an application button may not mean the same thing among people. You may build a button in a thousand different ways. This can lead to situations where your application may look fuzzy worst; you will develop again and again the same component duplicating code.
@@ -21,6 +27,12 @@ It is crucial that everyone in your team speaks the same languages. In particula
 Facebook has built a development environment for UI components: [storybook](https://github.com/storybooks/storybook). This kind of solution will lead you to build and share a common visual language on which you’ll be able to iterate and extend your application.
 
 Some paying services also exist, ex: [bitsrc.io](https://bitsrc.io/).
+
+## Resources
+
+* [Material icons](https://material.io/tools/icons/)
+* [Fontawesome](https://github.com/FortAwesome/Font-Awesome)
+* [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - One repository to rule them all. It includes severals such as fontawesome.
 
 ## Further UX/UI inspiration
 

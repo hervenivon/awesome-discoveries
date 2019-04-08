@@ -1,5 +1,18 @@
 # Productivity
 
+## Methods
+
+The [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) technique helps you getting more productive splitting your work in small chunks of arround 25 minutes separated by short breaks:
+
+1. Define the task you are going to accomplish
+1. Set your timer to 25 minutes
+1. Works on the task until the timer rings
+1. Take a short 5 minutes break
+1. Repeat 1. to 4. 4 times
+1. Take a 15-30 minutes break
+
+## Tools
+
 The following are my day to day productivity tools:
 
 * [Grammarly](https://app.grammarly.com) - The best english spell checker I've tried so far. I use it everyday. They also have a keyboard for iOS. They are missing an API to create 3rd party applications, like a vscode spell checker for `markdown` 😑.

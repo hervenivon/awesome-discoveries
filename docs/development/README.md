@@ -1,7 +1,7 @@
 # Development
 
 * Programming paradigms
-  * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53) - That lecture helps to jolt away preconceived ideas that have been learned over the years OR simply point usual mistakes. Take a look. _(`OO`)_
+  * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53) - That lecture helps to jolt away preconceived ideas that have been learned over the years OR simply point usual mistakes. Take a look.
 * Code quality
   * [Code climate](https://codeclimate.com/quality/) - A lot of tools in the industry, give a try to this one.
 * Tutorials
@@ -9,24 +9,36 @@
 
 ## Software design and principles
 
-### mono-repo vs multi-repo | microservices vs monolith
+### mono-repo vs multi-repo and microservices vs monolith
 
 We have experienced both mono repo and multi repo along with microservices and monolith for years now. My conclusion regarding our context:
 
 * It is hard to set a mono repository right,
-* It is harder to manage hundreds of repository for several service right,
-* You have to build or use tools dedicated to mono repository management, and in particular for continuous integration,
-* A monorepo still is way more efficient regarding deployment, coherence, bug tracking, cleaning and "community management",
-* Microservices are way more efficient in term of flexibility, possible innovation and creativity, overall velocity,
-* The microservices set in a monorepo combination was perfect for our team, size and project.
+* It is harder to manage hundreds of repository for several services,
+* You have to build or use tools dedicated to mono repository management, and in particular for its continuous integration,
+* A monorepo, compared to multi repo, still is way more efficient regarding deployment, coherence, bug tracking, cleaning and "community management,"
+* Onboarding a new team member in a microservices architecture along with a mono repository is tedious,
+* Onboarding a new team member in a microservices architecture along with multi repositories is tedious squared,
+* Only documentation updated on a regular basis can compete with onboarding with a monolith,
+* Microservices are impossible to debug by default, you must build the debugging capabilities,
+* Microservices are way more efficient in term of flexibility, innovation possibilities, and creativity; overall it brings velocity,
 * Continuous delivery setup is a journey. Keep the focus and priority: often it is delivering reliably new features to your customers.
 
-Several sources, so you can have a better idea of the debate:
+Microservices set in a monorepo was the perfect combination for our team, its size, and our project.
 
+Other sources, so you can have a better idea of the debate:
+
+* [Advantages of monorepos](https://danluu.com/monorepo/) - "Conversation wrote down to avoid repeating things"
+* [Confessions of Continuous Delivery Experts: From microservices back to monolith](https://www.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith/) - Lesson learned moving from microservice to monolith.
 * [Segment's transition back to a monorepo](https://changelog.com/podcast/312) and its original [blog post](https://segment.com/blog/goodbye-microservices/)
-* [Confessions of Continuous Delivery Experts: From microservices back to monolith](https://www.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith/) - Lesson learnt moving from microservice to monolith.
 
-For the same context that were ours, what I might consent is to split application tiers into different repositories (example: front-end in one repository, back-end in another), that's all!
+For the same context that was ours, what I might consent is to split application tiers into different repositories (example: front-end in one repository, back-end in another), that's all!
+
+### Technical debt
+
+> ["Technical Debt Is Like Tetris"](https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700). You can't win. You can only control how quickly you lose.
+
+Technical Debt is part of the engineering landscape of any developing business. And you create some technical debt with any arbitrage in favor of new feature against sanitation of any kind. The Tetris analogy is excellent in the sense that you can mark higher scores only when you accept technical debt, when you are aware of it and when you play with it. Then, every new feature is an opportunity to fix it, just like when you close several raws at once.
 
 ## Development environment
 
@@ -53,6 +65,24 @@ You can heavily personalize your setup, but there is only one real big issue whe
 
 I'll do nothing else in the future. My developers will have choice between a laptop Mac or Linux one. In any case a Linux/Unix base centralised development environment with a crypted harddrive.
 
+#### Automation
+
+In order to setup a brand new Mac from scratch I build a bootstraping script that:
+
+* Install [Homebrew](https://brew.sh)
+* Install [mas](https://github.com/mas-cli/mas), a Mac App Store command line utility
+* Install xcode tools
+* Install usefull packages (such as aws cli, htop, mosh, etc.)
+* Setup [zsh](http://zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) and [iTerm2](https://www.iterm2.com/)
+* Bind my [dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory) with my `$HOME` directory
+
+You can find more details [here](https://github.com/hervenivon/dotfiles)
+
+Some more complete example or tools are available out there:
+
+* [strap](https://github.com/MikeMcQuaid/strap) - The so called "minimal" macOS development system bootstrap will give you way more than mine previously mentioned.
+* [mac setup](https://sourabhbajaj.com/mac-setup/) - The reference guide for setting up a mac for development "manually". Source is available [here](https://github.com/sb2nov/mac-setup)
+
 ### Code editor
 
 [`vscode`](https://code.visualstudio.com/) replaces the long 1st in my heart [`Sublime`](https://www.sublimetext.com/): it has proven to turn myself into a better "prototyper", data extractor and developer in the past year. It is reliable, able to handle large files, has a small memory footprint and perfectly extendable.
@@ -64,6 +94,7 @@ My mandatory extensions:
 Further awesomenesssss 🤩:
 
 * [awesome-vscode](https://github.com/viatsko/awesome-vscode) - a extensive list of interesting resources for `vscode`.
+* [code-server](https://github.com/codercom/code-server) - Executing vscode in webbrowser from your server!
 
 ### Command line enhancements
 
@@ -84,25 +115,55 @@ Further awesomenesssss 🤩:
 
 * [gitleaks](https://github.com/zricethezav/gitleaks) - Waiting for github next move in the security landscape, here is a way for you to scan code source for unencrypted secrets. 👮‍♂️
 
+## Agile Methodology
+
+Tools:
+
+* [DailyBot](https://dailybot.co/) - Helps remote teams to fill their daily scrum
+
 ## Languages and technologies
 
 ### `CSS`
 
 CSS animations in [action](http://animista.net/play/background/color-change)
 
-### `Javascript`
+### `Nodejs`
 
-* Command line
-  * [ervy](https://github.com/chunqiuyiyu/ervy) - Bringing charts to the terminal, because every project needs a command line and dataviz is fun!
-  * [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts with no dependencies
+#### Building Command line
+
+* [ervy](https://github.com/chunqiuyiyu/ervy) - Bringing charts to the terminal, because every project needs a command line and dataviz is fun!
+* [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts with no dependencies.
+* [ink](https://github.com/vadimdemedes/ink) - Building your command-line applications with React, Test your command-line applications with components.
+
+#### Performance
+
+If performance is key to your application, please spend time on testing and tweaking it.
+
+You can use some great open source tools before jumping into the service or paying landscape like [autocannon](https://github.com/mcollina/autocannon) which simulates concurrent HTTP calls. The following [article](https://www.smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers/) from Smash magazine will give you a very good entry point for perfomance analysis on node.js serveur projects.
 
 ### `Python`
 
-* Performances
-  * [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/) - An online book that teaches how to migrate from standard `Python` to `Numpy` through vectorization.
-  * [7 Strategies for Optimizing Numerical Code](https://speakerdeck.com/jakevdp/seven-strategies-for-optimizing-numerical-code) - An overview of 7 technics to enhance `Python` performances.
-  * [Python Data Visualization landscape](https://www.anaconda.com/blog/developer-blog/python-data-visualization-2018-why-so-many-libraries) - An heavy loaded landscape of data visualization tools in python ready for convergence.
-  * [plot.ly](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e) - Extensive zoom and discovery of `plotly` for `Python`.
+Python comes with a lot of popular Python libraries and frameworks. The following diagram made by [Paco Nathan](https://community.ibm.com/community/user/datascience/people/paco-nathan) is a landscape diagram that introduces 50 of the most popular Python libs used in [data science](./data-science). It was introduced in ["A landscape diagram for Python data"](https://community.ibm.com/community/user/datascience/blogs/paco-nathan/2019/03/12/a-landscape-diagram-for-python-data). Definitely the place to go first if you are looking for something.
+
+<img src="./resources/python-landscape.png" width="720px" />
+
+#### Performance
+
+Performance (or lake of) drains a lot of attention in python. It is not a compiled language, and yes, it can be slow. Have a look to the following, some extra to enhance your beautiful python code.
+
+* [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/) - An online book that teaches how to migrate from standard `Python` to `Numpy` through vectorization.
+* [7 Strategies for Optimizing Numerical Code](https://speakerdeck.com/jakevdp/seven-strategies-for-optimizing-numerical-code) - An overview of 7 technics to enhance `Python` performances.
+
+#### Data-viz
+
+* [Python Data Visualization landscape](https://www.anaconda.com/blog/developer-blog/python-data-visualization-2018-why-so-many-libraries) - An heavy loaded landscape of data visualization tools in python ready for convergence.
+* [plot.ly](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e) - Extensive zoom and discovery of `plotly` for `Python`.
+* [Introduction to plotly express](https://medium.com/@plotlygraphs/introducing-plotly-express-808df010143d) - Introduction to the supercharged version of `plotly`. (see below)
+
+Sometimes the everything is possible frameworks and libraries are too complicated and one just need a quick datavize:
+
+* [Plotly Express](https://www.plotly.express/plotly_express/) supercharges [Plotly.py](https://plot.ly/python/)
+* [Seaborn](https://seaborn.pydata.org/) supercharges [matplotlib](https://matplotlib.org/)
 
 ### `Ruby`
 
@@ -118,3 +179,7 @@ CSS animations in [action](http://animista.net/play/background/color-change)
 
 * Lambda Optimization:
   * [Lambda optimization tip – enable HTTP keep-alive](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/) - Drastically reduce average execution time of each lambda function working with a DB
+
+### Web development
+
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Lighthous is an open source developer tool from Google that helps to audit web sites for performance, accessibility, and more. It is an extension to Chrome dev tools, a command line and a node module.
