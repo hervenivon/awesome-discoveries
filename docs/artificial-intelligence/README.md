@@ -105,6 +105,22 @@ You must be careful with whoever tells he can surely explain how a deep learning
 
 ## Ethics 👴🏻
 
+<img src="./resources/facebook_discrimination.png" alt="MIT Technology Review • Source: Ali & Sapiezynski et al. • Created with Datawrapper"/>
+
+All algorithms [are biased](https://www.technologyreview.com/s/612876/this-is-how-ai-bias-really-happensand-why-its-so-hard-to-fix/); Facebook’s is no exception.
+
+United States of America Department of Housing and Urban Development [sued Facebook on the 28th of March 2019](https://www.hud.gov/sites/dfiles/Main/documents/HUD_v_Facebook.pdf). The HUD alleged that the paying Facebook ads service let advertisers purposefully target their ads based on race, color, religion, sex, familial status, national origin or disability.
+
+This is the tip of the iceberg; bias can be found in a lot of places in artificial intelligence projects. The following is a result of a set of celebration images.
+
+<img src="./resources/wedding_bias.png" alt="Wedding photographs labeled by a classifier trained on the Open Images dataset. Image Credit: Google AI"/>
+
+A "simple" analysis of the ImageNet [images origin](https://www.nature.com/articles/d41586-018-05707-8) gives clues on the bias reasons.
+
+<img src="./resources/imagenet_images_origin.png" alt="ImageNet pictures country origins. Image Credit: Nature"/>
+
+This paragraph focuses on fact analysis and key initiatives.
+
 * [AI Safety Needs Social Scientists](https://distill.pub/2019/safety-needs-social-scientists/) - An extensive explanation towards the Social Scientists requirement explanation.
 * [Advanced Technology External Advisory Council (ATEAC)](https://www.technologyreview.com/s/613203/google-appoints-an-ai-council-to-head-off-controversy-but-it-proves-controversial/) - The idea was that a team made of philosophers, engineers, and policy experts would have regulated Google's AI projects based on [AI principles](https://www.blog.google/technology/ai/ai-principles/). The controversy raised by this initiative was so high than in less than a month the initiative [has been canceled](https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board). Despite all that noise, I see here a trend and a light on a growing issue with artificial intelligence projects and their potential impacts on real lives.
 * [China’s top AI scientist drives development of ethical guidelines](https://www.scmp.com/news/china/science/article/2181573/chinas-top-ai-scientist-drives-development-ethical-guidelines) - Yes it is time for the world to align itself on where it wants to go
