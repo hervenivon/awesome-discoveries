@@ -177,6 +177,12 @@ As we are loosing most of the [nonverbal communications](https://en.wikipedia.or
 
 ### Experiments & Art 🎨
 
+> On October 2018, an ink-on-canvas portrait created using artificial intelligence was sold at Christie’s New York. The first AI-generated artwork to be offered by a major auction house. The estimate was $7,000-$10,000. It went for $432,500.
+
+<img src="./resources/Edmond_de_belamy_3.png" alt="Edmond de Belamy by Obvious, which sold at Christie’s for $432,500"/>
+
+The 1917 "Fountain" from Marcel Duchamp, a porcelain urinal signed "R. Mutt" arranged as a piece of art is world famous. In 1999, a replica of Marcel Duchamp’s original Fountain was purchased by Dimitri Daskalopoulos, a Greek collector, for [1.76 million dollars](https://independent-collectors.com/interviews/dimitris-daskalopoulos-arterritory/). I'm not a philosopher. I'm not an artist. I can't say what Art is. The sole fact some are discussing it is the sign that Artificial intelligence generated pieces might be art. Earth, everyday furniture, paint, pen, pencil, coffee, Lego, computers painting, and [now](https://howtospendit.ft.com/art-philanthropy/205746-artificial-intelligence-the-art-world-s-weird-and-wonderful-new-medium) artificial intelligence are to me medium to produce pieces of art: pieces that tell you something about yourself.
+
 * Music:
   * [Semi-Conductor](https://experiments.withgoogle.com/semi-conductor) - A Google AI experiment that allow one to conduct an orchestra from the browser
 * Painting:
