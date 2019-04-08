@@ -1,5 +1,7 @@
 # Various
 
+This section is about pieces which don't fit at the moment in any other section and are more than eclectic 😅.
+
 ## Charting API
 
 [quickchart](https://quickchart.io/) - Open source API that replace the deprecated [Google Chart API](https://developers.google.com/chart/image/).
