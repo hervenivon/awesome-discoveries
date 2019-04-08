@@ -1,7 +1,7 @@
 # Development
 
 * Programming paradigms
-  * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53) - That lecture helps to jolt away preconceived ideas that have been learned over the years OR simply point usual mistakes. Take a look. _(`OO`)_
+  * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53) - That lecture helps to jolt away preconceived ideas that have been learned over the years OR simply point usual mistakes. Take a look.
 * Code quality
   * [Code climate](https://codeclimate.com/quality/) - A lot of tools in the industry, give a try to this one.
 * Tutorials
