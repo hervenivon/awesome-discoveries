@@ -47,6 +47,7 @@ Here are the most relevant findings we leverage for our project and some more re
 * Polygon-RNN:
   * [Efficient Interactive Annotation of Segmentation Datasets with Polygon-RNN++](https://www.youtube.com/watch?v=evGqMnL4P3E)
   * [Demo](http://www.cs.toronto.edu/polyrnn/)
+* [A Guide to Learning with Limited Labeled Data](https://blog.fastforwardlabs.com/2019/04/02/a-guide-to-learning-with-limited-labeled-data.html) - This overview guide to active learning comes with a neat and inspiring [prototype](https://activelearner.fastforwardlabs.com/).
 
 Annotation as services:
 
@@ -310,6 +311,7 @@ The 1917 "Fountain" from Marcel Duchamp, a porcelain urinal signed "R. Mutt" arr
 * [Iconary](https://iconary.allenai.org/) - Iconary from researchers at the Allen Institute for #AI is an online drawing and guessing game based on Pictionary. Its engine #AllenAI will blow your mind.
 * [AI Experiments](https://experiments.withgoogle.com/collection/ai) - Curated list of AI experiments from Google. Doodle guessing, AI assisted drawing, Music, etc.
 * [NVIDIA playground](https://www.nvidia.com/en-us/research/ai-playground/) - Recent AI research available as online playgrounds. "Under construction"
+* [Active Learning](https://activelearner.fastforwardlabs.com/) - Active Learner Prototype that illustrates learning with limited labeled data
 
 ### Physics and astronomy 👩🏻‍🔬
 
