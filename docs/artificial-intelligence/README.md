@@ -191,7 +191,7 @@ If you are an equivalent to Google or Facebook 😄 - written otherwise, you hav
 * Data Engineer: responsible for data delivery to the rest of the team. From a spreadsheet to big data engineer (block storage management, database, data lake, etc.)
 * Analyst: responsible for the first set of data analysis, familiar with more advanced tools than the spreadsheet like R or programmatic data viz.
 * Expert Analyst: responsible for the same tasks than the analyst at a higher speed. Faster, stronger.
-* Statistician: responsible for preventing others to conclude too quickly at the end of every day.
+* Statistician: responsible for preventing others from concluding too quickly at the end of every day.
 * Applied Machine Learning Engineer: responsible for leveraging on the shelf algorithms, connecting them to your data.
 * Data Scientist: responsible for all above roles except decision making.
 * Qualitative Expert / Social Scientist: responsible for setting the right KPI and metrics understood by all the stakeholders.
