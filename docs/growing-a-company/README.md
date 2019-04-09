@@ -232,19 +232,21 @@ The following paragraph assembles my findings on that topic.
 ### Manifesto & handbooks
 
 * [GitLab handbook](https://about.gitlab.com/handbook/) and [GitLab Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
-* [Perks and benefits](https://open.buffer.com/benefits-remote-company/) - How does Buffer provide team benefits as a remote and international company?
-* [Open blog at Buffer](https://open.buffer.com/) - The whole open blog of the Buffer company appears as their manifesto to me.
+* [Google Distributed Work Playbooks](http://services.google.com/fh/files/blogs/distributedworkplaybooks.pdf) - The result of remote work experience from Google.
 * [Innolitics](https://innolitics.com/about/handbook/) - The innolitics handbook.
+* [Open blog at Buffer](https://open.buffer.com/) - The whole open blog of the Buffer company appears as their manifesto to me.
+* [Perks and benefits](https://open.buffer.com/benefits-remote-company/) - How does Buffer provide team benefits as a remote and international company?
 
 ### Testimonials
 
-* [Elastic: how does a 250 people team work 100% remote](https://www.youtube.com/watch?v=rrlPhedNjbA)
 * [All-remote workforce](https://www.businessinsider.fr/us/gitlab-zapier-remote-emsisoft-invision-workforce-2019-1) - A series of pros and cons from all-remote companies like Zapier and GitLab. Some ideas to gather, some lessons to learn or confirm you're not alone. Some are applicable to global companies.
-* [how they make it work](https://open.buffer.com/buffer-distributed-team-how-we-work/) - As part of the open culture of buffer, they share their way of working along with nice cards and pictures of some employees workspace
-* [The Joys and Benefits of Working as a Distributed Team](https://open.buffer.com/distributed-team-benefits/) - How does they make it work at Buffer?
+* [Elastic: how does a 250 people team work 100% remote](https://www.youtube.com/watch?v=rrlPhedNjbA)
 * [State of remote Work 2019](https://buffer.com/state-of-remote-work-2019) - The latest installment of being a remote company: benefits and struggles of working remotely
-* [no office](https://open.buffer.com/no-office/) - The reasons why Buffer moved from on site to remote.
+* [The Joys and Benefits of Working as a Distributed Team](https://open.buffer.com/distributed-team-benefits/) - How does they make it work at Buffer?
+* [Working together when we’re not together](https://blog.google/inside-google/working-google/working-together-when-were-not-together/) - With 100,000 "Googlers" across 150 cities in more than 50 countries, Google asked +5,000 employees about remote work. This is what they learned. Extract, 3 top tips: "Get to know each other as people", "Set [clear and diclosed] boundaries", and "Forge in-person and virtual connections"
 * [doist blog](https://doist.com/blog/category/remote-work/) - The doist remote work publications
+* [how they make it work](https://open.buffer.com/buffer-distributed-team-how-we-work/) - As part of the open culture of buffer, they share their way of working along with nice cards and pictures of some employees workspace
+* [no office](https://open.buffer.com/no-office/) - The reasons why Buffer moved from on site to remote.
 
 ### Lists of companies
 
