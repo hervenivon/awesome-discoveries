@@ -4,6 +4,11 @@ If you are new to Artificial Intelligence and machine learning, there is one pla
 
 For the complete bibliography, please look at the [bibliography](bibliography.tsv) file.
 
+## Train yourselft 🤓
+
+* [Best Deep Learning Courses: Updated for 2019](https://blog.floydhub.com/best-deep-learning-courses-updated-for-2019/)
+* [Best Deep Learning Books: Updated for 2019](https://blog.floydhub.com/best-deep-learning-books-updated-for-2019/)
+
 ## Embedding 🎹
 
 * [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) - A solution which transforms an image into a compact Euclidean space allowing to enhance Face Recognition. [implementation](https://github.com/davidsandberg/facenet) _(`Embedding`, `image2vec`, `Tensorflow`)_
