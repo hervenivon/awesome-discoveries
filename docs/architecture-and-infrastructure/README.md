@@ -60,6 +60,9 @@ I was part of the opportunistics. As an early stage company I didn't want us to 
   * [Seed](https://seed.run/) - A solution that industrializes in a few clicks your serverless deployments. Frow manual command line deployment to production ready deployment board in minutes, literally.
   * [The serverless stack](https://serverless-stack.com/) - The guys behind [Seed](https://seed.run/) wrote an amazing book which push you straight to your first true serverless deployment proving how fast a team can soon focus on building value instead of spending time to set an infrastructure.
 
+* [Serverless for data scientists](https://mike.place/talks/serverless/) - A [talk](https://www.youtube.com/watch?v=9PR2-ogB5qM) about what makes serveless paradigm, and function as service a good tool for data scientist. This talk comes with good examples, and neat logic.
+* [Occupy the Cloud: Distributed Computing for the 99%](https://arxiv.org/abs/1702.04024) - A demonstration to achieve teraflops computing capability with AWS Lambda and [Pywren](http://pywren.io/).
+
 ## Data protection
 
 Any SaaS business leads to customer data management. And, with customer data management comes responsibilities.
