@@ -127,6 +127,17 @@ Tools:
 
 CSS animations in [action](http://animista.net/play/background/color-change)
 
+### `Javascript`
+
+#### Animation
+
+* [Three.js](https://github.com/mrdoob/three.js/) - 3D animation.
+* [Anime.js](https://github.com/juliangarnier/anime) - CSS, DOM, SVG transform.
+* [Mo.js](https://github.com/legomushroom/mojs) - Equivalent to anime.js. Another taste, you choose.
+* [Vivus](https://github.com/maxwellito/vivus) - Focus on SVGs animation.
+* [GreenSock](https://github.com/greensock/GreenSock-JS) - The swiss knife and Veteran of the pack.
+* [Scrollreveal](https://github.com/jlmakes/scrollreveal) - Zero dependencies scrolling animation.
+
 ### `Nodejs`
 
 #### Building Command line
