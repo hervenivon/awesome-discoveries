@@ -186,6 +186,23 @@ When it come to artificial intelligence project definition I see two main purpos
 
 The [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) article highlights best practices that a good manager will discover himself executing an artificial intelligence project. Pragmatism has always been at the heart of our strategy including went it came to our artificial intelligence projects. I always prefered to leverage in place resources. And there is one thing for sure: as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." With the right project and the rock solid computer scientists you can kick-start an artificial intelligence project with a small team.
 
+If you are an equivalent to Google or Facebook 😄 - written otherwise, you have the means to set a large team and set different roles, and responsibilities - [here](https://hackernoon.com/top-10-roles-for-your-data-science-team-e7f05d90d961) are twelve functions which operate on Artificial Intelligence projects. It is meant to give a taste of the variety of responsibilities. The below listing is an adaptation of the article mentioned above.
+
+* Data Engineer: responsible for data delivery to the rest of the team. From a spreadsheet to big data engineer (block storage management, database, data lake, etc.)
+* Analyst: responsible for the first set of data analysis, familiar with more advanced tools than the spreadsheet like R or programmatic data viz.
+* Expert Analyst: responsible for the same tasks than the analyst at a higher speed. Faster, stronger.
+* Statistician: responsible for preventing others to conclude too quickly at the end of every day.
+* Applied Machine Learning Engineer: responsible for leveraging on the shelf algorithms, connecting them to your data.
+* Data Scientist: responsible for all above roles except decision making.
+* Qualitative Expert / Social Scientist: responsible for setting the right KPI and metrics understood by all the stakeholders.
+* Researcher: responsible for solving your issues if the project is in its last resort and that you have exhausted all industry options.
+* Domain expert: responsible for providing the best insight on the industry you are working, data definition, business rules, scenarios, etc.
+* UX designer: responsible for getting the most out of your project putting the model into action and crafting end users interactions with it.
+* Ethicist: responsible for checking the validity of your project according to a set of predetermined rules (several are available more in to come on this topic in the current page); from diversity to explainability, etc.
+* Analytics Manager / Data Science Leader / Decision-Maker: responsible for team orchestration, getting the most of everyone and the data. This implies strong decision making accounting for the potential impact on business. A wide topic that heavily depends on data nature and team members. I assured that role at Airware.
+
+Several of these roles are detailed or approached from other angles in this documentation.
+
 ### From craftsmanship to engineering 🏗
 
 Productionizing an artificial intelligence project, tracking its progress or solely being able to reproduce an experiment is a challenge. We see traditional computing systems as deterministic: for a particular version of your code, you get specific behavior. You can upgrade your software or dependencies to a specific version to benefit some improvements or you can roll-back to a previous version of it if you face some unexpected issues. Infrastructure as code paradigm enables the same features for the underlying elements supporting your project.
