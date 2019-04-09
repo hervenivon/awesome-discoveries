@@ -233,6 +233,12 @@ As we are loosing most of the [nonverbal communications](https://en.wikipedia.or
 
 * [Machine learning is making pesto even more delicious](https://www.technologyreview.com/s/613262/machine-learning-is-making-pesto-even-more-delicious/) - How machine learning was used to develop a surrogate model of Basil and provide new counter intuitive recipes. [Source paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213918)
 
+### Augmented reality 👓
+
+* [Real-Time AR Self-Expression with Machine Learning](https://ai.googleblog.com/2019/03/real-time-ar-self-expression-with.html) - Impressive on device real time AR applied on faces. Two networks work jointly to first detect the face on the stream and second to generate the Mesh.
+
+<img src="./resources/face-augmented-reality.gif" alt="Real time 3D meshing in action. Image copyright: Google"/>
+
 ### Compression, enhancement 🗜
 
 * [Learned Video Compression](https://arxiv.org/abs/1811.06981) - A traditional codec architecture where elements are replaced by Machine Learning ones. Results: the new codec outperforms all existing video codecs.
