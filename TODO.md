@@ -7,6 +7,7 @@
 * [ ] Dig my pocket archives
 * [ ] Dig my medium archives
 * [ ] Dig evernote
+* [ ] For "Setting an artificial intelligence project 📈" also look at The-Roadmap-to-Machine-Learning-Maturity-v1.pdf
 * [ ] Add strips
 * [ ] Build this as a static site myself instead of gitbook.io
 * [ ] Script to analyze text [nltk](https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk)

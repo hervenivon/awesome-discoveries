@@ -47,6 +47,7 @@ Annotation as services:
 
 * [supervise.ly](supervise.ly) - Is a an online service that enable automatic annotation of data. Fron the tens I tested it is my current favorite.
 * [Alegion](https://alegion.com) - Annotation service that deals with computer vision, NLP, and data cleansing. The service alleges to combine machine learning and Human intelligence.
+* [Scale.ai](https://scale.ai/) - With a "simple" API to programmaticaly request Human annotation from their service, Scale.ai aims to free projects from the annotation task.
 
 ## Data Generation 🖌
 
@@ -161,18 +162,56 @@ other `sagemaker` key features:
 
 ## Setting an artificial intelligence project 📈
 
-Executing an enterprise grade machine learning project is complicated, a lot of steps are necessary in a highly uncertain context. As of today, you have a lot of choices to set your projects right. Depending on your team size, you might even willing to reinvent the wheel suffering from the ["Not Invented Here"](https://en.wikipedia.org/wiki/Not_invented_here) syndrome. The good news is there is a lot to learn from the already maturing industry. Here are some source to read before jumping straight ahead!
+Executing an enterprise grade artificial intelligence project is complicated, a lot of steps are necessary in a highly uncertain context. As of today, you have a lot of choices to set your projects right. Depending on your team size, you might even willing to reinvent the wheel suffering from the ["Not Invented Here"](https://en.wikipedia.org/wiki/Not_invented_here) syndrome. The good news is there is a lot to learn from the already maturing industry.
 
-* [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) - Pragmatism has always been at the heart of our strategy regarding our machine learning projects. This article formalize best practice that a good manager will discover himself executing a machine learning project. One thing for sure, as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." And, with the right project and the rock solid computer scientist you can kick-start a machine learning in a small team.
-* Productionizing an artificial intelligence project, tracking its progress or solely being able to reproduce an experiment is a challenge. A traditional system is seen as deterministic, for a particular version of your code, you have specific behavior. You can upgrade your software or dependencies to a particular version to benefit some improvements or you can roll-back to a previous version of it if you face some unexpected issues. Infrastructure as code paradigm enables the same features for the underlying elements supporting your project. For years now, continuous delivery is a well-known concept, often applied in production. When it comes to artificial intelligence projects it is steadily way more tricky: how do you manage that so-called black box? The good news is that the black box can also be versioned. You can version an artificial intelligence project on [different axes](https://emilygorcenski.com/post/data-versioning): code, model, data schema, data values, and data annotations. There is not only one approach, and it can become highly complex. It depends on your project ambition, data variation, number of people involved, go-live frequencies, etc. You must find the most appropriate way for each project. In my experience, versioning models, associated code and data annotations have proven to be the bare minimum - and even it wasn't always sufficient to reproduce a particular experiment. Some tools or services might assist you in this mission:
-  * [comet](https://comet.ml)
-  * [DVC](https://dvc.org/doc/dvc-philosophy/core-features)
-  * [MLflow](https://mlflow.org/)
-* [IBM Machine Learning Maturity Model](https://arxiv.org/abs/1811.04871) - Presents a set of best practices to implement when a company wants to deploy machine learning at scale and in a friendly fashion with enterprise landscape. Many of them might be complicated to achieve, anyhow, it will highlight any shortcomings in your projects or potential area of focus.
+In its [Machine Learning Maturity Model](https://arxiv.org/abs/1811.04871) IBM presents a set of best practices to implement when a company wants to deploy artificial intelligence projects at scale and in a friendly fashion with enterprise landscape. Many of those best practices might be too complicated to achieve, anyhow, it will highlight any shortcomings in your projects and potential area of focus.
 
-My synthesis: also look at The-Roadmap-to-Machine-Learning-Maturity-v1.pdf
+The following are some thoughts on different aspects of an artificial intelligence project.
 
-Conclusions:
+### Defining the purpose of the system 🎯
+
+When it come to artificial intelligence project definition I see two main purpose:
+
+1. The business outcome: either we will automate manual activity or we will create new value,
+1. The technical results of your project.
+
+[Building safe artificial intelligence](https://medium.com/@deepmindsafetyresearch/building-safe-artificial-intelligence-52f5f75058f1) describes the nascent field of technical AI safety and propose a framework to model and understand AI system. This is the second aspect.
+
+### The team 🎳
+
+The [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) article highlights best practices that a good manager will discover himself executing an artificial intelligence project. Pragmatism has always been at the heart of our strategy including went it came to our artificial intelligence projects. I always prefered to leverage in place resources. And there is one thing for sure: as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." With the right project and the rock solid computer scientists you can kick-start an artificial intelligence project with a small team.
+
+### From craftsmanship to engineering 🏗
+
+Productionizing an artificial intelligence project, tracking its progress or solely being able to reproduce an experiment is a challenge. We see traditional computing systems as deterministic: for a particular version of your code, you get specific behavior. You can upgrade your software or dependencies to a specific version to benefit some improvements or you can roll-back to a previous version of it if you face some unexpected issues. Infrastructure as code paradigm enables the same features for the underlying elements supporting your project.
+
+For years now, continuous delivery is a well-known concept, often applied in production.
+
+When it comes to artificial intelligence projects it is steadily way more tricky: how do you manage that so-called black box? The good news is that the black box can also be versioned. You can version an artificial intelligence project on [different axes](https://emilygorcenski.com/post/data-versioning): code, model, data schema, data values, and data annotations. There is not only one approach, and it can become highly complex. It depends on your project ambition, data variation, number of people involved, go-live frequencies, etc. You must find the most appropriate way for each project. In my experience, versioning models, associated code and data annotations have proven to be the bare minimum - and even it wasn't always sufficient to reproduce a particular experiment. Some tools or services that might assist you in this mission:
+
+* [comet](https://comet.ml)
+* [DVC](https://dvc.org/doc/dvc-philosophy/core-features)
+* [MLflow](https://mlflow.org/)
+
+Another divergence from traditional computer science problems is testing and debugging. During the past 70 years, computer science engineers have established strategies and best practices for testing, debugging and ensuring code quality before deployments. The toolkit is impressive: unit tests, integration test, test driven development, performance verification, human acceptance tests, etc. Those practices are not directly applicable nor always suitable for modern artificial intelligence projects. How to formally test a network of millions of parameters? The current de facto method is to split your training database intelligently in a train set and a test set - We used to apply genetic programming to get the most of this split at Airware. But this often doesn't ensure production high performance nor robustness and doesn't verify that your models are bulletproof to worst cases or worse to hacking.
+
+Some Tencent engineers "simply" used [little stickers](https://keenlab.tencent.com/en/whitepapers/Experimental_Security_Research_of_Tesla_Autopilot.pdf) to force the "in production" Tesla's autopilot to change lane: from the right one to the wrong one. With autonomous vehicles, it would be disastrous. With medicine, financial, insurance or retail the consequences could be just as unfortunate or painful.
+
+The following example illustrates how changing imperceptively an image can trick a model into identifying a "Sloth" as a "Racecar" with >99% confidence. And, it gives an idea of how weak networks can be.
+
+<img src="./resources/sloth-or-race_car.png" alt="Sloth identified as a race car with 99%+ confidence. Image Credit: Deepmind" />
+
+This is called an adversarial example: inputs to a neural network resulting in incorrect outputs. [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) will provide you all technical details. [How to trick a neural network into thinking a panda is a vulture](https://codewords.recurse.com/issues/five/why-do-neural-networks-think-a-panda-is-a-vulture) will give you technical information to reproduce the experiment yourself. This [article](http://www.evolvingai.org/fooling) will provide you with yet another taste.
+
+In [Towards Robust and Verified AI](https://medium.com/@deepmindsafetyresearch/towards-robust-and-verified-ai-specification-testing-robust-training-and-formal-verification-69bd1bc48bda) Deepmind states that machine learning systems are not robust by default and exposes three approaches for rigorously identifying and eliminating bugs in learned models to achieve Machine Learning robustness. These three approaches are directed toward ensuring that the produced system complies with its [specifications](https://medium.com/@deepmindsafetyresearch/building-safe-artificial-intelligence-52f5f75058f1).
+
+1. **Adversarial testing**: the idea is to leverage adversarial strategies to systematize and harnessing testing over random approaches, searching for the worst case outcome. Given example illustrates that surprisingly simple adversarial example can lead to failure.
+1. **Robust learning**: the idea is to build networks that are agnostic to adversarial testing changing the learning algorithms.
+1. **Formal verification**: the idea is to provably demonstrate that models' predictions are consistent with a specification for all possible inputs bounding the outputs of the network.
+
+These three approaches are in their early stage. I expect a lot more to come.
+
+### Conclusions
 
 * Don't reinvent the wheel, just like all other computer science project!
 * Don't be afraid to get your hands dirty, if you are working on cutting edge projects, your data won't be annotated. Obviously you can outsource annotation, but one need to understand what it means.
