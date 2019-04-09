@@ -52,6 +52,7 @@ Here are the most relevant findings we leverage for our project and some more re
   * [Fast Interactive Object Annotation with Curve-GCN](https://arxiv.org/abs/1903.06874) - Graph Convolutional Network (GCN) leveraged to speedup manual objects annotation. Trained on Cityscape, yet generalized on other data types such as Aerial or Medicine. Advertised to be 10 to 100 times faster that polygon-RNN.
   * ["Code"](https://github.com/fidler-lab/curve-gcn) - You need to signup to get an access to the code!
   * [Video](https://youtu.be/ycD2BtO-QzU?t=164)
+* [doccano](https://github.com/chakki-works/doccano) - Open source text annotation tool
 * [A Guide to Learning with Limited Labeled Data](https://blog.fastforwardlabs.com/2019/04/02/a-guide-to-learning-with-limited-labeled-data.html) - This overview guide to active learning comes with a neat and inspiring [prototype](https://activelearner.fastforwardlabs.com/).
 
 Annotation as services:
