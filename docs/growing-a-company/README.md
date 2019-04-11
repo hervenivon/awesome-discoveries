@@ -142,6 +142,8 @@ They are many different problem solving and optimization approaches or methodolo
 
 While some are coming from industrial production improvement with the idea of reducing waste, and others are synthesis from famous entrepreneurs, they are all directed toward better serving customers. In the end, they provide an incredible toolbelt that you can leverage to enhance your process, better design your product and becoming a profitable company. I see here an abundant source of tools and techniques to solve issues and organize yourself and your company.
 
+### The company loop
+
 Redbird was a data management platform using data acquired by drones to generate business and actionable insights for various verticals. When I was the CTO of Redbird, on top of building the platform, we started partnership discussions with large companies in some of the industries we were serving: mines and quarries first. The idea was to develop a joint product: they will provide the data (tire, trucks, blast, sensor), we will aggregate and enhance them along with the data we were already producing from drone imagery. As a conclusion, we built several products we sold from machine efficiency geolocalized to blasting history and quality measurement becoming a digital twin of our customers' physical world.
 
 These partnerships forced us to organize our startup as being the most efficient possible:
@@ -201,11 +203,9 @@ A pivot is a shift in your business strategy in order to test and potentially va
 
 Another virtue of this cycle: a strict implementation will lead to a better market fit.
 
-### Others
+For here on, the paragraphs further list and detail methods or tools that have proven useful to me.
 
-The following paragraphs further list and detail methods or tools that have proven useful to me.
-
-#### 8 types of waste
+### 8 types of waste
 
 Lean Six Sigma principles focus on eliminating eight varieties of waste (you will often read Muda). They form the acronym DOWNTIME. The following paragraph describes them applied to software development.
 
@@ -243,13 +243,13 @@ Extra-processing waste is deduced from processes that require multiple versions 
 
 These eight varieties of waste are inspired by the [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System). You can learn more about their definition and some other examples [here](https://www.processexcellencenetwork.com/business-transformation/articles/the-8-deadly-lean-wastes-downtime), [here](https://www.solutionsiq.com/resource/blog-post/waste-in-software-development/), and [here](https://www.solutionsiq.com/resource/blog-post/more-waste-in-software-development/).
 
-#### DMAIC & DMADV
+### DMAIC & DMADV
 
 DMAIC used for projects aiming at improving an existing business process and DMADV used for projects aiming at creating new product or process designs are two 5 steps methodologies coming from Six Sigma.
 
 What is interesting is the actions these methodologies trigger.
 
-##### DMAIC
+#### DMAIC
 
 * Define the project goals from the voice of the customer and their requirements
 * Measure key aspects of the current process, collect relevant data and calculate the 'as-is' process capability
@@ -257,7 +257,7 @@ What is interesting is the actions these methodologies trigger.
 * Improve the current process. Set up a pilot to establish process capability
 * Control the new process to ensure that it can achieve the objective. If there is a deviation, repeat the process.
 
-##### DMADV
+#### DMADV
 
 * Define the goals that are consistent with customer requirements and demands according to your strategy
 * Measure criteria which are crucial to your new product or process
@@ -265,7 +265,7 @@ What is interesting is the actions these methodologies trigger.
 * Design an improve these alternatives
 * Verify these alternatives, set up a pilot, implement the process or product.
 
-#### Value-stream mapping (VSM)
+### Value-stream mapping (VSM)
 
 In short, value-stream mapping is a technique that helps to determine and distinguish valuable activities from wasted time and value in a production flow of material and information that is executed to bring products to customers.
 
@@ -279,7 +279,7 @@ VSM can be used to improve any process where there are repeatable steps, and han
 
 Learn more on [wikipedia](Value-stream mapping) or watching ["How to read a value stream map?"](https://vimeo.com/23684934) video.
 
-#### Interviews
+### Interviews
 
 * Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
 * Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
