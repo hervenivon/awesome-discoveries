@@ -324,3 +324,7 @@ The 1917 "Fountain" from Marcel Duchamp, a porcelain urinal signed "R. Mutt" arr
 ### Physics and astronomy 👩🏻‍🔬
 
 * [AI helped discovering two new planets](https://phys.org/news/2019-03-planets-artificial-intelligence.html) Deep learning - more precisely a convolutional neural network - helped astronomers at the University of Texas in Austin, NASA and Google Brain searchers to predict whether a given possible exoplanet signal is a true exoplanet or a false positive. Result: two new planets, K2-293b and K2-294b, orbit stars in the constellation Aquarius, 1,300 light years away. [Original Paper](https://www.cfa.harvard.edu/~avanderb/Deep_Learning_2.pdf)
+
+### Robotics 🤖
+
+* [kPAM: KeyPoint Affordances for Category-Level Robotic Manipulation](https://arxiv.org/abs/1903.06684) - How defining a semantic 3D keypoints as the object representation help drastically reduce need for data during training phase to teach a robot arm to move objects.
