@@ -54,7 +54,9 @@ Every piece of your work, from idea to real life architecture, should be documen
 
 ### Embrace change
 
-What you have in mind will never be in place, the secret is to adapt yourself, your strategy, your vision, your plan and everything in order to keep it alive.
+What you have in mind will never be in place, the secret is to adapt yourself, your strategy, your vision, your plan and everything in order to keep your project healthy. You must be agile and [don't just pretend to be](https://www.flickr.com/photos/lucaminudel/6059269914/).
+
+<img src="./resources/lucaminudel_dilbert_bermuda_triangle_of_agile.png" alt="You can be agile inside this triangle! Image Credit: Luca Minudel"/>
 
 ### Default to Transparency
 
