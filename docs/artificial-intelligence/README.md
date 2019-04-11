@@ -327,4 +327,4 @@ The 1917 "Fountain" from Marcel Duchamp, a porcelain urinal signed "R. Mutt" arr
 
 ### Robotics 🤖
 
-* [kPAM: KeyPoint Affordances for Category-Level Robotic Manipulation](https://arxiv.org/abs/1903.06684) - How defining a semantic 3D keypoints as the object representation help drastically reduce need for data during training phase to teach a robot arm to move objects.
+* [kPAM: KeyPoint Affordances for Category-Level Robotic Manipulation](https://arxiv.org/abs/1903.06684) - How defining a semantic 3D keypoints as the object representation help drastically reduce need for data during training phase to teach a robot arm to move objects. [Video Demonstration](https://youtu.be/fm5RZ-ht1y0).
