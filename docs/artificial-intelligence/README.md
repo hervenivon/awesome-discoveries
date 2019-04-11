@@ -219,8 +219,9 @@ For years now, continuous delivery is a well-known concept, often applied in pro
 When it comes to artificial intelligence projects it is steadily way more tricky: how do you manage that so-called black box? The good news is that the black box can also be versioned. You can version an artificial intelligence project on [different axes](https://emilygorcenski.com/post/data-versioning): code, model, data schema, data values, and data annotations. There is not only one approach, and it can become highly complex. It depends on your project ambition, data variation, number of people involved, go-live frequencies, etc. You must find the most appropriate way for each project. In my experience, versioning models, associated code and data annotations have proven to be the bare minimum - and even it wasn't always sufficient to reproduce a particular experiment. Some tools or services that might assist you in this mission:
 
 * [comet](https://comet.ml)
-* [DVC](https://dvc.org/doc/dvc-philosophy/core-features)
-* [MLflow](https://mlflow.org/)
+* [DVC](https://dvc.org)
+* [qri](https://qri.io) - A distributed web version of DVC
+* [MLflow](https://mlflow.org)
 
 Another divergence from traditional computer science problems is testing and debugging. During the past 70 years, computer science engineers have established strategies and best practices for testing, debugging and ensuring code quality before deployments. The toolkit is impressive: unit tests, integration test, test driven development, performance verification, human acceptance tests, etc. Those practices are not directly applicable nor always suitable for modern artificial intelligence projects. How to formally test a network of millions of parameters? The current de facto method is to split your training database intelligently in a train set and a test set - We used to apply genetic programming to get the most of this split at Airware. But this often doesn't ensure production high performance nor robustness and doesn't verify that your models are bulletproof to worst cases or worse to hacking.
 

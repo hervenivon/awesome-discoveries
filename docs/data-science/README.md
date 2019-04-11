@@ -29,6 +29,7 @@ They are several initiative directed toward collaboration and reproductibilty en
 ## Data management
 
 * [DVC](https://dvc.org/doc/dvc-philosophy/core-features) - A neat structured approach to the data science workflow management aiming to become a standard as git has become in the development workflow.
+* [qri](https://qri.io) - A distributed web version of DVC
 
 ## Dataviz
 
