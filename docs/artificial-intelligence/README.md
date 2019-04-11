@@ -63,10 +63,11 @@ Annotation as services:
 
 ## Data Generation 🖌
 
-### Face generation 🎭
+### Face and ImageNet generation 🎭
 
 * [Inside the world of AI that forges beautiful art and terrifying deepfakes](https://www.technologyreview.com/s/612501/inside-the-world-of-ai-that-forges-beautiful-art-and-terrifying-deepfakes/) - A 2018 overview of GAN and latests progress in the field of generative networks.
 * [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) - Here we are, on December 2018 we discovered than a computer can generate images that we can definitely take for real ones. [summary](https://www.technologyreview.com/s/612612/these-incredibly-real-fake-faces-show-how-algorithms-can-now-mess-with-us/).
+* [High-Fidelity Image Generation With Fewer Labels](https://arxiv.org/abs/1903.02271) - This paper proposes a solution to achieve state of the art GAN performance on ImageNet with 10% of the labels. [Blog announcement](https://ai.googleblog.com/2019/03/reducing-need-for-labeled-data-in.html)
 
 ### Scenes generation 🌄
 
