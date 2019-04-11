@@ -48,8 +48,6 @@ Some key reasons gathered from the [FAQ](https://www.grammarly.com/faq) page of 
 > * Most satellite transmissions are carried in English.
 > * More than half of the world’s newspapers are published in English.
 
-And I don't speack Chinese ☹️.
-
 ### Document everything
 
 Every piece of your work, from idea to real life architecture, should be documented.
@@ -326,9 +324,27 @@ The following paragraph assembles my findings on that topic.
 * [Remote only](https://www.remoteonly.org/) - In addition to the tips, the pros and cons, you'll find another list of remote companies.
 * [25+ Fully Remote Companies That Let You Work From Anywhere](https://zapier.com/blog/companies-hiring-remote-workers/) - A review of famous remote ok companies.
 
-## Tools
+## Product management
 
-### Product management
+### The minimum rodmap
+
+The minimum features of a product which is target to length years are the following:
+
+Step 1: setup of your delivery toolchain
+
+* Monorepo and its development tools
+* Continuous Deployment
+* Continuous Delivery
+* The MVP
+
+Step 2: core functions
+
+* Single Sign On (SSO)
+* API first (strongly separation of Front-end and Back-end)
+* Security at all stages (encryption at REST and in Transit)
+* Usage tracking
+
+### Tools
 
 * [airfocus](https://airfocus.io) - Some interesting view to render your roadmap.
 * [trello](http://trello.com/) - The famous Kanban based online service to manage your task and roadmap.
