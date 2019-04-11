@@ -1,6 +1,8 @@
 # Growing a company
 
-This paragraph is the least technical piece of this document. It covers what I think are the core principles of the ideal startup company to make it innovative and successful as much as possible. This is the sum of lessons I learned over time.
+This section covers what I think are the core principles of the ideal startup company to make it innovative and successful as much as possible. This is the sum of lessons I learned over time.
+
+Focusing on the company itself or the product it builds, it provides inights and tools to focus on.
 
 ## Principles
 
@@ -66,7 +68,14 @@ What do you need to take a good decision? Personnaly, I require as much informat
 
 > "lots of traditional, widely accepted, and perfectly legal business practices just can’t be trusted by customers, and will soon become extinct, driven to dust by rising levels of transparency, increasing consumer demand for fair treatment, and competitive pressure" - Don Peppers and Martha Rogers in [Extreme Trust: Honesty as a Competitive Advantage](https://amzn.to/2Cg0BYz)
 
-Transparency will help more than it will harm. Transparency builds and strengthens trust.
+Transparency will help more than it will harm. Transparency builds and strengthens trust in your team and with your customers.
+
+[Why we made our product roadmap public (and how to build your own)](https://frontapp.com/blog/2015/04/02/why-we-made-our-roadmap-public-and-how-to-build-your-own/) - Front application explain why they made their roadmap public. It still is the case. Personnaly, I trully believe, that secrecy doesn't help any company to expand, its capabality to execute better, and faster is. In short: users like that you share tour vision, product gets better even faster because of direct feedback, team accountability. Some public roadmaps:
+
+* [Trello](https://trello.com/b/nC8QJJoZ/trello-development-roadmap)
+* [Front](https://trello.com/b/kZsVVrc8/front-product-roadmap)
+* [KanbanMail](https://www.notion.so/Public-Roadmap-7adabe84ea7a47588f4b5e8fa9e5dde8)
+* [notion](https://www.notion.so/What-s-New-157765353f2c4705bd45474e5ba8b46c)
 
 ### Data driven
 
@@ -316,6 +325,17 @@ The following paragraph assembles my findings on that topic.
 * [We Work Remotely](https://weworkremotely.com/) - Another remote dedicated job post index.
 * [Remote only](https://www.remoteonly.org/) - In addition to the tips, the pros and cons, you'll find another list of remote companies.
 * [25+ Fully Remote Companies That Let You Work From Anywhere](https://zapier.com/blog/companies-hiring-remote-workers/) - A review of famous remote ok companies.
+
+## Tools
+
+### Product management
+
+* [airfocus](https://airfocus.io) - Some interesting view to render your roadmap.
+* [trello](http://trello.com/) - The famous Kanban based online service to manage your task and roadmap.
+* [notion.so](https://www.notion.so) - The one tool for all replacing evernote, trello, asana, etc.
+* [uservoice](https://www.uservoice.com/) - User centric roadmap definition.
+
+In any case, please avoid using [aha!](https://www.aha.io/). This is certainly unfair, but my experience with this tool, and the support team is dramatic. aha! was hated in our company. It's code name was "the place were ideas die". It was slow, hard to use, nearly impossible to find information. And, at the end we weren't able to export our data. Cherry on the cake: way too expensive.
 
 ## Further inspiration
 
