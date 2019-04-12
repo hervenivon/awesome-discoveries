@@ -140,6 +140,10 @@ CSS animations in [action](http://animista.net/play/background/color-change)
 
 ### `Nodejs`
 
+#### npm
+
+* [3 Tools to Keep npm Packages Updated](https://scotch.io/bar-talk/3-tools-to-keep-npm-packages-updated) - Keeping your package up to date is critical for security and stability. Use any mean to achieve it. Here the standard way, a VS Code extension and ncu are presented.
+
 #### Building Command line
 
 * [ervy](https://github.com/chunqiuyiyu/ervy) - Bringing charts to the terminal, because every project needs a command line and dataviz is fun!
