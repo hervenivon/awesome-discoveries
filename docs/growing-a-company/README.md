@@ -288,6 +288,49 @@ Learn more on [wikipedia](Value-stream mapping) or watching ["How to read a valu
 * Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
 * Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
 
+## Product management
+
+### Designing Successful Products
+
+From [Hugh Dubberly](http://www.dubberly.com/topics/design/successful-product.html), the Venn diagram that depict what makes a successful product:
+
+1. Desirability
+1. Technology
+1. Sustainability
+
+<img src="./resources/successful_product.png" alt="Successful Products. Image Credit: Hugh Dubberly"/>
+
+An that framework applied to three tech giants:
+
+<img src="./resources/successful_product_examples.jpg" alt="Successful Products Examples. Image Credit: Wired"/>
+
+### The minimum rodmap
+
+The minimum features of a product which is target to length years are the following:
+
+Step 1: setup of your delivery toolchain
+
+* Monorepo and its development tools
+* Continuous Deployment
+* Continuous Delivery
+* The MVP
+
+Step 2: core functions
+
+* Single Sign On (SSO)
+* API first (strongly separation of Front-end and Back-end)
+* Security at all stages (encryption at REST and in Transit)
+* Usage tracking
+
+### Tools
+
+* [airfocus](https://airfocus.io) - Some interesting view to render your roadmap.
+* [trello](http://trello.com/) - The famous Kanban based online service to manage your task and roadmap.
+* [notion.so](https://www.notion.so) - The one tool for all replacing evernote, trello, asana, etc.
+* [uservoice](https://www.uservoice.com/) - User centric roadmap definition.
+
+In any case, please avoid using [aha!](https://www.aha.io/). This is certainly unfair, but my experience with this tool, and the support team is dramatic. aha! was hated in our company. It's code name was "the place were ideas die". It was slow, hard to use, nearly impossible to find information. And, at the end we weren't able to export our data. Cherry on the cake: way too expensive.
+
 ## Working Remotely
 
 The cost of living is increasing so much in so many places that it is not a risk anymore; it is an issue for most of us. Our world is rapidly changing, and one thing is for sure, we will see more and more all-remote workforces rather than the contrary.
@@ -329,35 +372,6 @@ The following paragraph assembles my findings on that topic.
 * [We Work Remotely](https://weworkremotely.com/) - Another remote dedicated job post index.
 * [Remote only](https://www.remoteonly.org/) - In addition to the tips, the pros and cons, you'll find another list of remote companies.
 * [25+ Fully Remote Companies That Let You Work From Anywhere](https://zapier.com/blog/companies-hiring-remote-workers/) - A review of famous remote ok companies.
-
-## Product management
-
-### The minimum rodmap
-
-The minimum features of a product which is target to length years are the following:
-
-Step 1: setup of your delivery toolchain
-
-* Monorepo and its development tools
-* Continuous Deployment
-* Continuous Delivery
-* The MVP
-
-Step 2: core functions
-
-* Single Sign On (SSO)
-* API first (strongly separation of Front-end and Back-end)
-* Security at all stages (encryption at REST and in Transit)
-* Usage tracking
-
-### Tools
-
-* [airfocus](https://airfocus.io) - Some interesting view to render your roadmap.
-* [trello](http://trello.com/) - The famous Kanban based online service to manage your task and roadmap.
-* [notion.so](https://www.notion.so) - The one tool for all replacing evernote, trello, asana, etc.
-* [uservoice](https://www.uservoice.com/) - User centric roadmap definition.
-
-In any case, please avoid using [aha!](https://www.aha.io/). This is certainly unfair, but my experience with this tool, and the support team is dramatic. aha! was hated in our company. It's code name was "the place were ideas die". It was slow, hard to use, nearly impossible to find information. And, at the end we weren't able to export our data. Cherry on the cake: way too expensive.
 
 ## Further inspiration
 
