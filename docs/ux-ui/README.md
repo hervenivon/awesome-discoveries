@@ -40,3 +40,4 @@ Some paying services also exist, ex: [bitsrc.io](https://bitsrc.io/).
 * [Paintcode](https://www.paintcodeapp.com/sketch) - Converting your sketch designs in code.
 * [awesome-design-tools](https://github.com/LisaDziuba/Awesome-Design-Tools) - The place to go if you want to find a particular tool for a particular activity.
 * [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9) - The place to go if you are asking yourself animation questions for your mobile or web application.
+* [Visual evolution of Algorithmia platform](https://blog.algorithmia.com/we-got-a-new-look/) - Interesting tour of the Algorithmia platform, from 2015 to 2019.
