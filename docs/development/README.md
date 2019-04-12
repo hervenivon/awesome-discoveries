@@ -121,7 +121,7 @@ Tools:
 
 * [DailyBot](https://dailybot.co/) - Helps remote teams to fill their daily scrum
 
-## Languages and technologies
+## Languages
 
 ### `CSS`
 
@@ -186,10 +186,16 @@ Sometimes the everything is possible frameworks and libraries are too complicate
   * [bash-boilerplate](https://github.com/alphabetum/bash-boilerplate) - Name speaks for itself. Even today, bash might be the best answer to a simple clear problem that needs a repetitive way to being reproduced. This repository kick-starts it even further.
   * [bash-oo-framework](https://github.com/niieani/bash-oo-framework) - If `bash-boilerplate` is not enough you should find everything you need here.
 
+## Technologies
+
 ### AWS
 
 * Lambda Optimization:
   * [Lambda optimization tip – enable HTTP keep-alive](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/) - Drastically reduce average execution time of each lambda function working with a DB
+
+### Serverless Examples
+
+* [Dynamic image resizing with Node.js and the Serverless Framework](https://serverless.com/blog/dynamic-image-resizing-nodejs/) - Leverage AWS S3 events, API Gateway and Lambda to automatically resize images based on S3 requests.
 
 ### Web development
 
