@@ -104,6 +104,8 @@ GitHub is providing more and more services ([token scanning](https://github.blog
 
 You must be careful at any stage. I often share a story with my new hires about an intern that had to pay more than $8000 because of pushing AWS secret keys on one of his public repository. [`gitleaks`](https://github.com/zricethezav/gitleaks) will help you to ensure that in a CI/CD pipeline.
 
+When you are dealing with large enterprises you are asked to prove the security level of your company. The security of devices used by your employees is part of the equation. Tools such as [Jamf](https://www.jamf.com/products/jamf-pro/) will help you manage and protect all Apple devices from anywhere.
+
 ### Cloud only
 
 Everything must be in the cloud, nothing should ever take a way into your IT office, not a single server should ever exist into that cabinet. The only thing you should ever need is a VERY good internet connection. Every tool you’re about to use should be a service otherwise drawbacks are licensing nightmares and or on-site server maintenance. The other advantage of hosting everything in the cloud is to accelerate really strong, really quick.
