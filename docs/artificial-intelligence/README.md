@@ -314,6 +314,12 @@ The 1917 "Fountain" from Marcel Duchamp, a porcelain urinal signed "R. Mutt" arr
 * [Face2Gene](https://www.nature.com/articles/d41586-019-00027-x#ref-CR1) - From Professional crowdsourcing to real life medicine aid use case, the face2gene application that spot genetic disorders is a promise for future medicine.
 * [Learning to Design RNA](https://arxiv.org/abs/1812.11951) - Reinforcement Learning used to design RNA sequence to test
 
+### NLP
+
+Natural Language Processing
+
+* [Ten trends in Deep learning NLP](https://blog.floydhub.com/ten-trends-in-deep-learning-nlp/) - 10 trends for 2019 on NLP. Discove BERT, ELMO, Embedding, Transformers and predictions for 2019
+
 ### Online AI experiments 🔬
 
 * [Iconary](https://iconary.allenai.org/) - Iconary from researchers at the Allen Institute for #AI is an online drawing and guessing game based on Pictionary. Its engine #AllenAI will blow your mind.
