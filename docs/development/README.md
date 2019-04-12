@@ -115,7 +115,7 @@ Further awesomenesssss 🤩:
 
 * [gitleaks](https://github.com/zricethezav/gitleaks) - Waiting for github next move in the security landscape, here is a way for you to scan code source for unencrypted secrets. 👮‍♂️
 
-## Agile Methodology
+## Agile
 
 Tools:
 
@@ -189,6 +189,10 @@ Sometimes the everything is possible frameworks and libraries are too complicate
 * Command line:
   * [bash-boilerplate](https://github.com/alphabetum/bash-boilerplate) - Name speaks for itself. Even today, bash might be the best answer to a simple clear problem that needs a repetitive way to being reproduced. This repository kick-starts it even further.
   * [bash-oo-framework](https://github.com/niieani/bash-oo-framework) - If `bash-boilerplate` is not enough you should find everything you need here.
+
+## Open Source
+
+* [project-checklist](https://github.com/amilajack/project-checklist) - The project checklist when you want to share your creation with the world. An extensive list of actions to execution before the release.
 
 ## Technologies
 
