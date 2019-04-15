@@ -93,7 +93,7 @@ For any service, you should avoid to build your own authentication system and yo
 
 There are always ways to enhance your security. Beware, the system’s security your building should never slow down your people otherwise they will find a workaround. Everyone in the company should embrace it and support it. (Another question for your future recruitment).
 
-[GDPR](https://eugdpr.org/) is here to help anyway 🚨.
+[GDPR](https://eugdpr.org) is here to help anyway 🚨.
 
 Open source in the recent years helps accelerate development of new projects, in the mean time, it has been a way to spread vulnerabilities in the most efficient way ever. To understand how open source can arm any project read ["I'm harvesting credit card numbers and passwords from your site. Here's how."](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5).
 
