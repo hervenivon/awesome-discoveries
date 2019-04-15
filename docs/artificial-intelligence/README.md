@@ -56,11 +56,12 @@ Here are the most relevant findings we leverage for our project and some more re
 * [doccano](https://github.com/chakki-works/doccano) - Open source text annotation tool
 * [A Guide to Learning with Limited Labeled Data](https://blog.fastforwardlabs.com/2019/04/02/a-guide-to-learning-with-limited-labeled-data.html) - This overview guide to active learning comes with a neat and inspiring [prototype](https://activelearner.fastforwardlabs.com/).
 
-Annotation as services:
+Annotation (as a) services:
 
 * [supervise.ly](supervise.ly) - Is a an online service that enable automatic annotation of data. Fron the tens I tested it is my current favorite.
 * [Alegion](https://alegion.com) - Annotation service that deals with computer vision, NLP, and data cleansing. The service alleges to combine machine learning and Human intelligence.
 * [Scale.ai](https://scale.ai/) - With a "simple" API to programmaticaly request Human annotation from their service, Scale.ai aims to free projects from the annotation task.
+* [Super Annotate](https://www.superannotate.ai/) - Seems to leverage both AI and [superpixels](https://arxiv.org/abs/1612.01601) to support the annotation process.
 
 ## Data Generation 🖌
 

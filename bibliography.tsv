@@ -1,5 +1,5 @@
 Link	Date	Title	Comment	Tags
-http://jmlr.org/papers/v15/srivastava14a.html	2014-06-15	Dropout: A Simple Way to Prevent Neural Networks from Overfitting	Dropout introduction.	DL
+http://jmlr.org/papers/v15/srivastava14a.html	2014-06-15	Dropout: A Simple Way to Prevent Neural Networks from Overfitting	Dropout introduction.	DL;
 http://openaccess.thecvf.com/content_ECCV_2018/html/Di_Lin_Multi-Scale_Context_Intertwining_ECCV_2018_paper.html	2018	Multi-Scale Context Intertwining for Semantic Segmentation	An approach to use multi scale scene understanding in order to enhance segmentation results. The multiscale merging is bidirectional from higher res to lower res and from lower res to higher res thanks to LSTM cells.	DL;LSTM;segmentation;
 https://arxiv.org/abs/1210.5644	2012-10-20	Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials	Dense CRF (base to CRFasRNN), how to enhance deep learning networks results with conditional random fields.	DL;CRF;
 https://arxiv.org/abs/1412.6572	2014-12-20	Explaining and Harnessing Adversarial Examples	Adversarial examples explanations and harnessing methodology.	DL;
@@ -7,6 +7,7 @@ https://arxiv.org/abs/1503.03832	2015-03-12	FaceNet: A Unified Embedding for Fac
 https://arxiv.org/abs/1506.01186	2015-06-03 - 2017-04-04	Cyclical Learning Rates for Training Neural Networks	A new approach to the learning rate hyperparameter tuning named cyclical learning rates. This learning rate policy varies the learning rate between reasonable boundary values.	DL;hyperparameters;
 https://arxiv.org/abs/1512.07729	2015-12-24	G-CNN: an Iterative Grid Based Object Detector	A faster than Fast R-CNN object detection algorithm with still a taste of recursivity.	DL;object-detection;
 https://arxiv.org/abs/1602.02068	2016-02-05	From Softmax to Sparsemax: A Sparse Model of Attention and Multi-Label Classification	Sparcemax activiation function and smooth and convex loss introduction.	DL;
+https://arxiv.org/abs/1612.01601	2016-12-06	Superpixels: An Evaluation of the State-of-the-Art	An index to all super pixels methods in the wild.	CV;
 https://arxiv.org/abs/1701.04862	2017-01-17	Towards principles methods for training generative advesarial networks	Make theoretical steps toward the understanding of the training dynamics of generative adversarial networks.	DL;understanding;GAN;
 https://arxiv.org/abs/1703.04977	2017-03-15	What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?	Epistemic and aleatoric uncertainty definition for computer vision task in deep learning.	DL;understanding;segmentation
 https://arxiv.org/abs/1703.09695	2017-03-28	Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network	Combining labelled data with numerous unlabelled or weakly labelled data and fake GAN images to enhance segmentation results.	DL;segmentation;GAN
