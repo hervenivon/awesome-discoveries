@@ -168,6 +168,7 @@ Performance (or lake of) drains a lot of attention in python. It is not a compil
 
 * [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/) - An online book that teaches how to migrate from standard `Python` to `Numpy` through vectorization.
 * [7 Strategies for Optimizing Numerical Code](https://speakerdeck.com/jakevdp/seven-strategies-for-optimizing-numerical-code) - An overview of 7 technics to enhance `Python` performances.
+* [Anaconda, GPUs, and the Ecosystem](https://docs.google.com/presentation/d/e/2PACX-1vQSu13Rg6DEcHbk3bNOa-7WV5Bi7gJMCI8_inAQMy6zV8DhPk0kzRSn0Y37MejM3m0qMuMCGpeaVXFK/pub?start=false&loop=false&delayms=60000&slide=id.p1) - A detail review of the current state of python with GPUs and the necessary steps toward a better interoperable ecosystem.
 
 #### Data-viz
 
