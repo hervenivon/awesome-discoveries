@@ -208,7 +208,6 @@ Open source has been awesome for Redbird, Airware and Delair in many ways. First
 
 * AWS Amplify:
   * [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify)
->>>>>>> 250bd1f5474d1e6b404f988464d75566f7333289
 
 ### iOS
 
