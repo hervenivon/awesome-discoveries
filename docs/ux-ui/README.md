@@ -33,6 +33,7 @@ Some paying services also exist, ex: [bitsrc.io](https://bitsrc.io/).
 * [Material icons](https://material.io/tools/icons/)
 * [Fontawesome](https://github.com/FortAwesome/Font-Awesome)
 * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - One repository to rule them all. It includes severals such as fontawesome.
+* [The noun project](https://thenounproject.com/) - An ulimited source of icons for everything
 
 ## Further UX/UI inspiration
 
