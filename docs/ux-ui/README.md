@@ -35,6 +35,10 @@ Some paying services also exist, ex: [bitsrc.io](https://bitsrc.io/).
 * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - One repository to rule them all. It includes severals such as fontawesome.
 * [The noun project](https://thenounproject.com/) - An ulimited source of icons for everything
 
+## Sketch application
+
+* [Charts](https://www.ls.graphics/charts) - A impressive collection of charts for sketch
+
 ## Further UX/UI inspiration
 
 * [Sketch 43 is coming to town with a new game. An open file format!](https://medium.com/sketch-app-sources/sketch-43-is-coming-to-town-with-a-new-game-an-open-file-format-ae62e7e7c223) - Using open source file format to strentgh your position enabling really strong automation and becoming the hub for the design process.
