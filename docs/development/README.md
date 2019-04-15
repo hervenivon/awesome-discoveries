@@ -51,28 +51,28 @@ Technical Debt is part of the engineering landscape of any developing business. 
   * [Adding mosh support to your AWS servers](http://fuzzyblog.io/blog/aws/2017/07/02/adding-mosh-support-to-your-aws-servers.html)
   * [Mosh is available on AWS Linux](https://aws.amazon.com/amazon-linux-ami/2017.03-packages/)
 
-A lot of people have tried, I tried, the last iteration of the iPad pro almost convinced me. For me, this is still not possible. It is fine to programm remotely with a AWS server but it is expensive, and doesn't cover all usages. What if you need to manipulate data from your iPad on your remote server? I need to programmaticaly access my data locally, that's all. I still need my "natural" terminal with data access.
+A lot of people have tried, I tried, the last iteration of the iPad pro almost convinced me. For me, this is still not possible. It is fine to program remotely with a AWS server but it is expensive, and doesn't cover all usages. What if you need to manipulate data from your iPad on your remote server? I need to programmatically access my data locally, that's all. I still need my "natural" terminal with data access.
 
 In the process, I discovered mosh and that is a damned good solution for remote access to server. It misses a strong solution for ssh forwarding necessary in a bastion implementation.
 
 ### Mac OS X
 
-Mac OS X on a MacBook is a wonderfull development environment. When we have been acquired by Airware, all our developers had to switch from a centralized development server to distributed development environment on Mac OS X. As we hadn't raised much, we were almost shocked by that sudden developer onboarding cost increase.
+Mac OS X on a MacBook is a wonderful development environment. When we have been acquired by Airware, all our developers had to switch from a centralized development server to distributed development environment on Mac OS X. As we hadn't raised much, we were almost shocked by that sudden developer onboarding cost increase.
 
 It enabled smoother meeting sessions, remote working and for some others it offered a real computer at home.
 
 You can heavily personalize your setup, but there is only one real big issue when you unbox a Mac. It lakes a real package manager, but there is a solution for that: [homebrew](https://brew.sh).
 
-I'll do nothing else in the future. My developers will have choice between a laptop Mac or Linux one. In any case a Linux/Unix base centralised development environment with a crypted harddrive.
+I'll do nothing else in the future. My developers will have choice between a laptop Mac or Linux one. In any case a Linux/Unix base centralized development environment with a encrypted hard-drive.
 
 #### Automation
 
-In order to setup a brand new Mac from scratch I build a bootstraping script that:
+In order to setup a brand new Mac from scratch I build a bootstrapping script that:
 
 * Install [Homebrew](https://brew.sh)
 * Install [mas](https://github.com/mas-cli/mas), a Mac App Store command line utility
 * Install xcode tools
-* Install usefull packages (such as aws cli, htop, mosh, etc.)
+* Install useful packages (such as aws cli, htop, mosh, etc.)
 * Setup [zsh](http://zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) and [iTerm2](https://www.iterm2.com/)
 * Bind my [dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory) with my `$HOME` directory
 
@@ -91,10 +91,10 @@ My mandatory extensions:
 
 * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - You might spend a bunch of time configuring `vscode` (extensions, settings and keybindings). When you are changing your computer, you are happy being able to grasp all that configuration automatically. One extension to rule them all!.
 
-Further awesomenesssss 🤩:
+Further awesomeness 🤩:
 
 * [awesome-vscode](https://github.com/viatsko/awesome-vscode) - a extensive list of interesting resources for `vscode`.
-* [code-server](https://github.com/codercom/code-server) - Executing vscode in webbrowser from your server!
+* [code-server](https://github.com/codercom/code-server) - Executing vscode in a web browser from your server!
 
 ### Command line enhancements
 
@@ -154,7 +154,7 @@ CSS animations in [action](http://animista.net/play/background/color-change)
 
 If performance is key to your application, please spend time on testing and tweaking it.
 
-You can use some great open source tools before jumping into the service or paying landscape like [autocannon](https://github.com/mcollina/autocannon) which simulates concurrent HTTP calls. The following [article](https://www.smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers/) from Smash magazine will give you a very good entry point for perfomance analysis on node.js serveur projects.
+You can use some great open source tools before jumping into the service or paying landscape like [autocannon](https://github.com/mcollina/autocannon) which simulates concurrent HTTP calls. The following [article](https://www.smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers/) from Smash magazine will give you a very good entry point for performance analysis on node.js server projects.
 
 ### `Python`
 
@@ -195,7 +195,7 @@ Sometimes the everything is possible frameworks and libraries are too complicate
 
 * [project-checklist](https://github.com/amilajack/project-checklist) - The project checklist when you want to share your creation with the world. An extensive list of actions to execution before the release.
 
-Open source has been awesome for Redbird, Airware and Delair in many ways. First providing the necessary tools for processing GIS data, second providing an unlimited source of inspiration. Some trully inspiring open source projects.
+Open source has been awesome for Redbird, Airware and Delair in many ways. First providing the necessary tools for processing GIS data, second providing an unlimited source of inspiration. Some truly inspiring open source projects.
 
 * [Open Drone Map](https://www.opendronemap.org/)
 
@@ -216,4 +216,4 @@ Open source has been awesome for Redbird, Airware and Delair in many ways. First
 
 ### Web development
 
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Lighthous is an open source developer tool from Google that helps to audit web sites for performance, accessibility, and more. It is an extension to Chrome dev tools, a command line and a node module.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Lighthouse is an open source developer tool from Google that helps to audit web sites for performance, accessibility, and more. It is an extension to Chrome dev tools, a command line and a node module.
