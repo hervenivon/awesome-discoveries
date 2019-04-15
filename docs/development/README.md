@@ -129,6 +129,8 @@ CSS animations in [action](http://animista.net/play/background/color-change)
 
 ### `Javascript`
 
+* [Math as Code](https://github.com/Jam3/math-as-code) - A reference to ease developers into mathematical notation by showing comparisons with JavaScript code.
+
 #### Animation
 
 * [Three.js](https://github.com/mrdoob/three.js/) - 3D animation.
