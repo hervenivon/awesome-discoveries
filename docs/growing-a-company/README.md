@@ -333,6 +333,10 @@ Step 2: core functions
 
 In any case, please avoid using [aha!](https://www.aha.io/). This is certainly unfair, but my experience with this tool, and the support team is dramatic. aha! was hated in our company. It's code name was "the place were ideas die". It was slow, hard to use, nearly impossible to find information. And, at the end we weren't able to export our data. Cherry on the cake: way too expensive.
 
+### Features, epics, user stories
+
+* [Engineering guide to writing correct User Stories](https://sobolevn.me/2019/02/engineering-guide-to-user-stories)
+
 ## Working Remotely
 
 The cost of living is increasing so much in so many places that it is not a risk anymore; it is an issue for most of us. Our world is rapidly changing, and one thing is for sure, we will see more and more all-remote workforces rather than the contrary.
