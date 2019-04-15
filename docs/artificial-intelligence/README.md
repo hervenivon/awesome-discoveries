@@ -9,6 +9,7 @@ For the complete bibliography, please look at the [bibliography](bibliography.ts
 * [Best Deep Learning Courses: Updated for 2019](https://blog.floydhub.com/best-deep-learning-courses-updated-for-2019/)
 * [Best Deep Learning Books: Updated for 2019](https://blog.floydhub.com/best-deep-learning-books-updated-for-2019/)
 * [A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/) - Discovering or rediscovering Gaussian Processes in an interactive fashion.
+* [A Comprehensive Introduction to Different Types of Convolutions in Deep Learning](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-convolutions-in-deep-learning-669281e58215) - A comprehensive guide to convolutions.
 
 ## Embedding 🎹
 
