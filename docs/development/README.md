@@ -205,6 +205,8 @@ Open source has been awesome for Redbird, Airware and Delair in many ways. First
 
 * Lambda Optimization:
   * [Lambda optimization tip – enable HTTP keep-alive](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/) - Drastically reduce average execution time of each lambda function working with a DB
+* AWS Amplify:
+  * [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify)
 
 ### Serverless Examples
 
