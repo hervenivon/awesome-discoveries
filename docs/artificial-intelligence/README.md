@@ -152,7 +152,7 @@ This paragraph focuses on fact analysis and key initiatives.
 * [Research priorities for robust and beneficial Artificial Intelligence](https://futureoflife.org/ai-open-letter/) - The first round of people who expressed worries in the current research state of AI. It should be directed toward beneficial outcomes: "our AI systems must do what we want them to do".
 * [Thinking inside the box: using and controlling an Oracle AI](https://link.springer.com/article/10.1007/s11023-012-9282-2) - Controlling AI has been a problem for a while even before the rise of deep learning. In this paper, you'll discover that a particular topic can raise a lot of questions, even if it seems simple at first: here controlling an Oracle AI that doesn't act in the world except by answering questions.
 
-## Technology 👩🏼‍🔧
+## Supporting Technology 👩🏼‍🔧
 
 In our experience, Keras and Ternsorflow served us well, allowing us to reach our targets within the boundaries of our budget. For some others, it might be pyTorch and FastAI. The current landscape is evolving [fast](https://towardsdatascience.com/which-deep-learning-framework-is-growing-fastest-3f77f14aa318), and some new players or languages are [entering the game](https://www.youtube.com/watch?v=s65BigoMV_I).
 
