@@ -152,7 +152,13 @@ This paragraph focuses on fact analysis and key initiatives.
 * [Research priorities for robust and beneficial Artificial Intelligence](https://futureoflife.org/ai-open-letter/) - The first round of people who expressed worries in the current research state of AI. It should be directed toward beneficial outcomes: "our AI systems must do what we want them to do".
 * [Thinking inside the box: using and controlling an Oracle AI](https://link.springer.com/article/10.1007/s11023-012-9282-2) - Controlling AI has been a problem for a while even before the rise of deep learning. In this paper, you'll discover that a particular topic can raise a lot of questions, even if it seems simple at first: here controlling an Oracle AI that doesn't act in the world except by answering questions.
 
-## Sagemaker 🤖
+## Technology 👩🏼‍🔧
+
+In our experience, Keras and Ternsorflow served us well, allowing us to reach our targets within the boundaries of our budget. For some others, it might be pyTorch and FastAI. The current landscape is evolving [fast](https://towardsdatascience.com/which-deep-learning-framework-is-growing-fastest-3f77f14aa318), and some new players or languages are [entering the game](https://www.youtube.com/watch?v=s65BigoMV_I).
+
+In any case, please do not move to another framework just because "it is better". One more time, all the time you spend should be devoted to business value creation, not dogmatism. You should move to another framework if and only if it serves a purpose and you are carefully making that decision.
+
+### Sagemaker 🤖
 
 [`sagemaker`](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) is quickly becoming a state of the art for machine learning project. It assembles under this sole name a lot of capabilities that would accelerate and standardize any launching project involving machine learning of any sort. From [collaboration](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebooks-now-support-git-integration-for-increased-persistence-collaboration-and-reproducibility) to [continuous deployment of model](https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions), through [ground truth generation](https://aws.amazon.com/blogs/aws/amazon-sagemaker-ground-truth-build-highly-accurate-datasets-and-reduce-labeling-costs-by-up-to-70) `sagemaker` provides all necessary tools for most of the use cases.
 
@@ -172,6 +178,10 @@ A `sagemaker` workflow for continuous deployment © [AWS](https://aws.amazon.com
 other `sagemaker` key features:
 
 * [Pipe mode](https://aws.amazon.com/blogs/machine-learning/accelerate-model-training-using-faster-pipe-mode-on-amazon-sagemaker/) - It allows to stream data directly from an `S3` bucket without the need to download the data on the machine. It leverages the [protobuf](https://developers.google.com/protocol-buffers/) to speedup streaming from S3 to the training instances.
+
+### Tensorflow
+
+* [9 Things You Should Know About TensorFlow](https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995)
 
 ## Setting an artificial intelligence project 📈
 
