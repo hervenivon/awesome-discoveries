@@ -194,6 +194,10 @@ Sometimes the everything is possible frameworks and libraries are too complicate
 
 * [project-checklist](https://github.com/amilajack/project-checklist) - The project checklist when you want to share your creation with the world. An extensive list of actions to execution before the release.
 
+Open source has been awesome for Redbird, Airware and Delair in many ways. First providing the necessary tools for processing GIS data, second providing an unlimited source of inspiration. Some trully inspiring open source projects.
+
+* [Open Drone Map](https://www.opendronemap.org/)
+
 ## Technologies
 
 ### AWS
