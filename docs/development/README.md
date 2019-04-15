@@ -206,6 +206,10 @@ Open source has been awesome for Redbird, Airware and Delair in many ways. First
 * Lambda Optimization:
   * [Lambda optimization tip – enable HTTP keep-alive](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/) - Drastically reduce average execution time of each lambda function working with a DB.
 
+* AWS Amplify:
+  * [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify)
+>>>>>>> 250bd1f5474d1e6b404f988464d75566f7333289
+
 ### iOS
 
 * [Hawkeye](https://www.usehawkeye.com/) - Implement eye tracking tests and get heatmap in no time for your iOS devices.
