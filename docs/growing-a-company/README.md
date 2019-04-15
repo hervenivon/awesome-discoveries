@@ -211,7 +211,7 @@ Another virtue of this cycle: a strict implementation will lead to a better mark
 
 When I think about the sentence "What the customer really wanted", here is the drawing which comes to my mind first. [How Projects Really Work?](http://www.projectcartoon.com/). It has been circulating for years with several variations and additions. My preferred version:
 
-<img src="./resources/how-projects-really-work.png" alt="What th customer really wanted"/>
+<img src="./resources/how-projects-really-work.png" alt="What the customer really wanted"/>
 
 From here on, the paragraphs further list and detail methods or tools that have proven useful to me.
 
