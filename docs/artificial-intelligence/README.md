@@ -327,11 +327,10 @@ The 1917 "Fountain" from Marcel Duchamp, a porcelain urinal signed "R. Mutt" arr
 * [Face2Gene](https://www.nature.com/articles/d41586-019-00027-x#ref-CR1) - From Professional crowdsourcing to real life medicine aid use case, the face2gene application that spot genetic disorders is a promise for future medicine.
 * [Learning to Design RNA](https://arxiv.org/abs/1812.11951) - Reinforcement Learning used to design RNA sequence to test
 
-### NLP
-
-Natural Language Processing
+### Natural Language Processing (NLP)
 
 * [Ten trends in Deep learning NLP](https://blog.floydhub.com/ten-trends-in-deep-learning-nlp/) - 10 trends for 2019 on NLP. Discove BERT, ELMO, Embedding, Transformers and predictions for 2019
+* [Lithium-Ion Batteries](https://link.springer.com/book/10.1007/978-3-030-16800-1) - Lithium-Ion Batteries is a machine generated summury of current research in Lithium-Ion Batteries; an impressive result of NLP algorithm. [Press release](https://group.springernature.com/gp/group/media/press-releases/springer-nature-machine-generated-book/16590134)
 
 ### Online AI experiments 🔬
 
