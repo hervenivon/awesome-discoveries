@@ -111,5 +111,5 @@ Then create an environment dedicated to this project:
 In order to verify that referenced urls are valid please execute the following in the conda environment at the repository root directory:
 
 ```shell
-./scripts/check-urls.py -v
+./scripts/check-urls.py
 ```
