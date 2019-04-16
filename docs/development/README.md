@@ -101,7 +101,7 @@ Further awesomeness 🤩:
 * [`fkill-cli`](https://github.com/sindresorhus/fkill-cli) - An interactive killing command, much nicer than your traditional way. Would love a native one not going through `node`.
 * [`graphcurl`](https://github.com/hasura/graphqurl) - Turn your command line into a `curl` like tool for GraphQL, keeping the exploration taste of [graphiql](https://github.com/graphql/graphiql)
 * [`jq`](https://stedolan.github.io/jq/) - Must have tool for any modern devOps or serious people working with a `Terminal` 😄 _(`json`)_
-* [`rb`](https://github.com/thisredone/rb) - Extends your command line workflow with a fully loaded inline ruby interpreter. Just in case you are alergic to `awk` and `sed` _(`Ruby`)_
+* [`rb`](https://github.com/thisredone/rb) - Extends your command line workflow with a fully loaded inline ruby interpreter. Just in case you are allergic to `awk` and `sed` _(`Ruby`)_
 * [`terminalizer`](https://github.com/faressoft/terminalizer) - A way to record your `Terminal` and create gif images.
 * [`tldr`](https://github.com/tldr-pages/tldr) - Ever wanted to get just what you need instead of verbose man pages?
 * [`q`](https://github.com/harelba/q) - Run SQL queries directly on CSV files.
@@ -178,7 +178,7 @@ Performance (or lake of) drains a lot of attention in python. It is not a compil
 * [plot.ly](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e) - Extensive zoom and discovery of `plotly` for `Python`.
 * [Introduction to plotly express](https://medium.com/@plotlygraphs/introducing-plotly-express-808df010143d) - Introduction to the supercharged version of `plotly`. (see below)
 
-Sometimes the everything is possible frameworks and libraries are too complicated and one just need a quick datavize:
+Sometimes the everything is possible frameworks and libraries are too complicated and one just need a quick dataviz:
 
 * [Plotly Express](https://www.plotly.express/plotly_express/) supercharges [Plotly.py](https://plot.ly/python/)
 * [Seaborn](https://seaborn.pydata.org/) supercharges [matplotlib](https://matplotlib.org/)

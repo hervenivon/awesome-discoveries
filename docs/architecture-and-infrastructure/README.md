@@ -45,9 +45,9 @@ Serverless is sometimes referred to as “Functions as a Service” or “FaaS�
 
 Serverless logic has been at the heart of my strategy at Redbird then Airware. With this model we have been able to focus all our resources on creating new value for our customers while our cloud provider was handling everything else.
 
-There are different school to serverless, with a caricature we can split them into two categories, the cloud agnostic gurus and the opportunistics.
+There are different school to serverless, with a caricature we can split them into two categories, the cloud agnostic gurus and the opportunists.
 
-I was part of the opportunistics. As an early stage company I didn't want us to spend a cent in devops and infrastructure management. Why setting us a kubernetes cluster while we were able to use lambdas instead? Why setting our own database in a cluster while dynamo was here? Why setting us a custom HTTP gateway or building our own workflow engine? As a results, we ended with a fully scallable solution built out entirely on top of serverless services from AWS. All our man power directed into value added project that no one else were doing.
+I was part of the opportunists. As an early stage company I didn't want us to spend a cent in devops and infrastructure management. Why setting us a kubernetes cluster while we were able to use lambdas instead? Why setting our own database in a cluster while dynamo was here? Why setting us a custom HTTP gateway or building our own workflow engine? As a results, we ended with a fully scalable solution built out entirely on top of serverless services from AWS. All our man power directed into value added project that no one else were doing.
 
 * [Serverless Stack](https://serverless-stack.com/) - A comprehensive guide to build your first serverless application
 
@@ -60,7 +60,7 @@ I was part of the opportunistics. As an early stage company I didn't want us to 
   * [Seed](https://seed.run/) - A solution that industrializes in a few clicks your serverless deployments. Frow manual command line deployment to production ready deployment board in minutes, literally.
   * [The serverless stack](https://serverless-stack.com/) - The guys behind [Seed](https://seed.run/) wrote an amazing book which push you straight to your first true serverless deployment proving how fast a team can soon focus on building value instead of spending time to set an infrastructure.
 
-* [Serverless for data scientists](https://mike.place/talks/serverless/) - A [talk](https://www.youtube.com/watch?v=9PR2-ogB5qM) about what makes serveless paradigm, and function as service a good tool for data scientist. This talk comes with good examples, and neat logic.
+* [Serverless for data scientists](https://mike.place/talks/serverless/) - A [talk](https://www.youtube.com/watch?v=9PR2-ogB5qM) about what makes serverless paradigm, and function as service a good tool for data scientist. This talk comes with good examples, and neat logic.
 * [Occupy the Cloud: Distributed Computing for the 99%](https://arxiv.org/abs/1702.04024) - A demonstration to achieve teraflops computing capability with AWS Lambda and [Pywren](http://pywren.io/).
 
 ## Data protection
