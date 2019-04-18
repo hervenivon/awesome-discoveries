@@ -294,6 +294,14 @@ Learn more on [wikipedia](Value-stream mapping) or watching ["How to read a valu
 * Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
 * Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
 
+### Virtues of constraint
+
+[Peecho](https://www.peecho.com/) product owners had to do fifty push-ups as payment for each user story that they wanted to add to an ongoing sprint.
+[myTommorows](https://mytomorrows.com/) Developer dance-offs are legendary: during the daily stand-ups, you are only allowed to speak while dancing
+[Teletext](https://teletext.io) For example, all our logo design is done with technical diagramming tool Omnigraffle, so there is no way we could use hideous lens flares and such.
+
+At redbird, budget constraints and technology constraints ended up fueling our creativity.
+
 ## Product management
 
 ### Designing Successful Products
