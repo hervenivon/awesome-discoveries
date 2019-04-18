@@ -13,14 +13,14 @@ Modern infrastructures, and in particular public cloud providers have paved the 
 Infrastructure as code has changed the development lifecycle changing forever project scale involving infrastructure deployment: from month or years to weeks.
 
 * [CAP Theorem](https://www.itechart.com/blog/all-you-didnt-know-about-cap-theorem) - The CAP theorem extensive description - and its drawbacks. The CAP (Consistency, Availability, Partition-Tolerance) theorem helps selecting the best suited database solution for a particular problem. In this article, you will also discover its limits.
-* AWS
+* AWS:
   * [AWS Blog](https://aws.amazon.com/blogs/aws/) - If you want to be amazed by the innovation pace of AWS, be sure to subscribe to their blog, in addition to the day to day announcements you also get hands on blog post and a lot of inspiration.
-* Cloud native
+* Cloud native:
   * [Cloud Native Computing Foundation](https://www.cncf.io/) - The entry point to an open source journey in the cloud computing
-* Tools for local development
+* Tools for local development:
   * [minio](https://min.io/product) - A distributed object storage server that mimic the "de facto standard API for object storage", named AWS S3.
   * [localstack](https://github.com/localstack/localstack) - The folks aren't really responsive, nor their enterprise offer seems to conclude in one way or another, but there is a lot of value and a lot to learn from that project.
-* API design
+* API design:
   * [REST is the new SOAP](https://medium.freecodecamp.org/rest-is-the-new-soap-97ff6c09896d) - An article with a counter-current point of view that emphasizes every negative aspects of `REST`.
 * Tools:
   * [Cloudcraft](https://cloudcraft.co/) - Isometric 3D drawing of your AWS infrastructure (to be or the actual one). Will help you document automatically your cloud infrastructure and to advertise it.
