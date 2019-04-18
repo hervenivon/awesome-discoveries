@@ -49,7 +49,16 @@ There are different school to serverless, with a caricature we can split them in
 
 I was part of the opportunists. As an early stage company I didn't want us to spend a cent in devops and infrastructure management. Why setting us a kubernetes cluster while we were able to use lambdas instead? Why setting our own database in a cluster while dynamo was here? Why setting us a custom HTTP gateway or building our own workflow engine? As a results, we ended with a fully scalable solution built out entirely on top of serverless services from AWS. All our man power directed into value added project that no one else were doing.
 
+To start:
+
 * [Serverless Stack](https://serverless-stack.com/) - A comprehensive guide to build your first serverless application
+* [Serverless GraphQL](https://www.youtube.com/watch?reload=9&v=lnOIcKibKzc) - A 2016 speak by Jared Short that explains how to build a Serverless GraphQL on Lambda - before AWS released [AppSync](https://aws.amazon.com/appsync/). This is outdated but gives you a good taste of the serverless spirit
+
+Testimonials:
+
+* [The Serverless Start-Up - Down With Servers!](http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html) - A detailed return of experience on building a new adventure on top of API Gateway, Lambda, DynamoDB, S3 and Cloudfront ONLY: "The Virtues of Constraint". The no server startup!
+* [Serverless Architecture and Box Platform](https://blog.box.com/blog/serverless-architecture-and-box-platform) - A testimonial from Box that illustrates a serverless authentication workflow.
+
 
 ### Controversy
 
