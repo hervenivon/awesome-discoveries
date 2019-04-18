@@ -59,7 +59,6 @@ Testimonials:
 * [The Serverless Start-Up - Down With Servers!](http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html) - A detailed return of experience on building a new adventure on top of API Gateway, Lambda, DynamoDB, S3 and Cloudfront ONLY: "The Virtues of Constraint". The no server startup!
 * [Serverless Architecture and Box Platform](https://blog.box.com/blog/serverless-architecture-and-box-platform) - A testimonial from Box that illustrates a serverless authentication workflow.
 
-
 ### Controversy
 
 The biggest concern that raises when you think about the serverless idea and you start implementing your application on top of cloud providers services is the vendor locking you are entering in. You are becoming wholly dependent on your cloud provider. This concern was the main argument for a potential full rewrite of Redbird application when Airware acquired it fall 2016 - (TLDR, we never did it.)
