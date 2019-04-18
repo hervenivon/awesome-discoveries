@@ -212,14 +212,16 @@ Open source has been awesome for Redbird, Airware and Delair in many ways. First
 * AWS Amplify:
   * [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify)
 
+* Serverless Examples:
+  * [Resize Images on the Fly with Amazon S3, AWS Lambda, and Amazon API Gateway](https://aws.amazon.com/blogs/compute/resize-images-on-the-fly-with-amazon-s3-aws-lambda-and-amazon-api-gateway/) - In this article, John Pignata demonstrates how an AWS based serverless system built on top of S3, Lambda and API Gateway can process images on a per request basis instead of processing and resizing images into all necessary sizes upon upload. This “on the fly” processing approach has several upsides: Increased agility, Reduced storage costs and Resilience to failure.
+  * [Dynamic image resizing with Node.js and the Serverless Framework](https://serverless.com/blog/dynamic-image-resizing-nodejs/) - Leverage AWS S3 events, API Gateway and Lambda to automatically resize images based on S3 requests. This is the serverless framework version of it.
+
+* Tools:
+  * [Serverless framework](https://serverless.com) formerly known as jAWS for Javascript AWS is now a framework that streamline serverless development and ease moving from one cloud provider to another.
+
 ### iOS
 
 * [Hawkeye](https://www.usehawkeye.com/) - Implement eye tracking tests and get heatmap in no time for your iOS devices.
-
-### Serverless Examples
-
-* [Resize Images on the Fly with Amazon S3, AWS Lambda, and Amazon API Gateway](https://aws.amazon.com/blogs/compute/resize-images-on-the-fly-with-amazon-s3-aws-lambda-and-amazon-api-gateway/) - In this article, John Pignata demonstrates how an AWS based serverless system built on top of S3, Lambda and API Gateway can process images on a per request basis instead of processing and resizing images into all necessary sizes upon upload. This “on the fly” processing approach has several upsides: Increased agility, Reduced storage costs and Resilience to failure.
-* [Dynamic image resizing with Node.js and the Serverless Framework](https://serverless.com/blog/dynamic-image-resizing-nodejs/) - Leverage AWS S3 events, API Gateway and Lambda to automatically resize images based on S3 requests. This is the serverless framework version of it.
 
 ### Web development
 
