@@ -219,6 +219,15 @@ Open source has been awesome for Redbird, Airware and Delair in many ways. First
 * Tools:
   * [Serverless framework](https://serverless.com) formerly known as jAWS for Javascript AWS is now a framework that streamline serverless development and ease moving from one cloud provider to another.
 
+### Google analytics
+
+If you want to know what is happening to your application, you must track at least two aspects - more on that in the [Growing a company](docs/growing-a-company/README.md) section:
+
+* Sessions (session duration, session length, etc.)
+* Events (actions launched, type of file processed, type of download, etc.)
+
+There is a well known tool that allows that: [Google analytics](https://google.com/analytics) and it can track [events](https://github.com/googleanalytics/autotrack/blob/master/docs/plugins/event-tracker.md). Some return of experiment: [“The Google Analytics Setup I Use on Every Site I Build”](https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/).
+
 ### iOS
 
 * [Hawkeye](https://www.usehawkeye.com/) - Implement eye tracking tests and get heatmap in no time for your iOS devices.
