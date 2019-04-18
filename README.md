@@ -59,6 +59,7 @@ There are a couple of books mentioned in this document, and there are some books
 * [Eric Rise's The lean startup](https://amzn.to/2RDDf3H) - This book led me to become CTO of a startup training me to the "lean approach." So much time saved from this lecture.
 * [Toby Segaran's Programming Collective Intelligence](https://amzn.to/2HiJrgc) - This book built my interest for intelligent applications, it gives me a taste of how important are data in modern applications, and it was fun to read and to apply.
 * [Yuval Noah Harari's Sapiens: A Brief History of Humankind](https://amzn.to/2WrN6fK) - This book and the followings "Homo Deus" and "21 lessons for the 21st century" were thrilling to discover. They give the key to understand Human relations, from where we are coming from and our possible futures.
+* [The serverless stack](https://serverless-stack.com/) - The guys behind [Seed](https://seed.run/) wrote an this online book that pushes you straight to your first true serverless deployment proving how fast a team can focus on building value instead of spending time to set an infrastructure. More details on my though regarding this topic in the [Architecture and infrastructure section](docs/architecture-and-infrastructure/README.md).
 
 ## Feeback is welcome 📢
 
