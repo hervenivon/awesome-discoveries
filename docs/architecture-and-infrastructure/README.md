@@ -51,15 +51,29 @@ I was part of the opportunists. As an early stage company I didn't want us to sp
 
 * [Serverless Stack](https://serverless-stack.com/) - A comprehensive guide to build your first serverless application
 
+### Controversy
+
+The biggest concern that raises when you think about the serverless idea and you start implementing your application on top of cloud providers services is the vendor locking you are entering in. You are becoming wholly dependent on your cloud provider. This concern was the main argument for a potential full rewrite of Redbird application when Airware acquired it fall 2016 - (TLDR, we never did it.)
+
+As a CTO, I carefully weighted and chose to empower the serverless paradigm over being cloud agnostic. I often had to justify that decision which happened to appear as a wrong choice for some of my interlocutors. But the equation is easy to solve: when you want to create as much value as you can, you must focus your energy and resource on building that value.  When the serverless paradigm supports that vision and accelerates the value creation, this is a no-brainer.
+
+Embracing the serverless idea will save you time, resources and let you focus on what makes your business and application unique.
+
+There are other controversies:
+
 > While AWS continues its [Mr. Softy](https://en.wikipedia.org/wiki/Microsoft) strategy of [extend, embrace and extinguish](https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish) with Lambda, Google is doubling down on its Kubernetes masterstroke with the upcoming “Knative.” - Abraham Ingersoll
 
-* [Serverless on kubernetes](https://gravitational.com/blog/serverless-on-kubernetes/)
+Or the fact that Amazon Web Services [doesn't support the open source community](https://techcrunch.com/2019/01/09/aws-gives-open-source-the-middle-finger) while other [do](https://techcrunch.com/2019/04/09/google-gives-aws-the-open-source-middle-finger), but that is an entire other topic.
 
-* Tools:
-  * [Epsagon](https://epsagon.com/) - Observability is as of today the biggest challenge in serverless infrastructure - even with latest AWS enhancements on Cloudwatch, at least allowing textual search across your logs. Epsagon provides an observability SaaS board which creates - among other features - an execution map of all your connected services on a per API call basis. Tremendously useful.
-  * [Seed](https://seed.run/) - A solution that industrializes in a few clicks your serverless deployments. Frow manual command line deployment to production ready deployment board in minutes, literally.
-  * [The serverless stack](https://serverless-stack.com/) - The guys behind [Seed](https://seed.run/) wrote an amazing book which push you straight to your first true serverless deployment proving how fast a team can soon focus on building value instead of spending time to set an infrastructure.
+### Tools
 
+* [Epsagon](https://epsagon.com/) - Observability is as of today the biggest challenge in serverless infrastructure - even with latest AWS enhancements on Cloudwatch, at least allowing textual search across your logs. Epsagon provides an observability SaaS board which creates - among other features - an execution map of all your connected services on a per API call basis. Tremendously useful.
+* [Seed](https://seed.run/) - A solution that industrializes in a few clicks your serverless deployments. Frow manual command line deployment to production ready deployment board in minutes, literally.
+* [The serverless stack](https://serverless-stack.com/) - The guys behind [Seed](https://seed.run/) wrote an amazing book which push you straight to your first true serverless deployment proving how fast a team can soon focus on building value instead of spending time to set an infrastructure.
+
+### Various
+
+* [Serverless on kubernetes](https://gravitational.com/blog/serverless-on-kubernetes/) - The concept seems strange to me in the sense it still forces you to handle the kubernetes cluster. To my mind, the real power of serverless resides in the infrastructure layer vanishment.
 * [Serverless for data scientists](https://mike.place/talks/serverless/) - A [talk](https://www.youtube.com/watch?v=9PR2-ogB5qM) about what makes serverless paradigm, and function as service a good tool for data scientist. This talk comes with good examples, and neat logic.
 * [Occupy the Cloud: Distributed Computing for the 99%](https://arxiv.org/abs/1702.04024) - A demonstration to achieve teraflops computing capability with AWS Lambda and [Pywren](http://pywren.io/).
 
