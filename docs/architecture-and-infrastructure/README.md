@@ -82,7 +82,7 @@ Or the fact that Amazon Web Services [doesn't support the open source community]
 
 * [Serverless on kubernetes](https://gravitational.com/blog/serverless-on-kubernetes/) - The concept seems strange to me in the sense it still forces you to handle the kubernetes cluster. To my mind, the real power of serverless resides in the infrastructure layer vanishment.
 * [Serverless for data scientists](https://mike.place/talks/serverless/) - A [talk](https://www.youtube.com/watch?v=9PR2-ogB5qM) about what makes serverless paradigm, and function as service a good tool for data scientist. This talk comes with good examples, and neat logic.
-* [Occupy the Cloud: Distributed Computing for the 99%](https://arxiv.org/abs/1702.04024) - A demonstration to achieve teraflops computing capability with AWS Lambda and [Pywren](http://pywren.io/).
+* [Occupy the Cloud: Distributed Computing for the 99%](https://arxiv.org/abs/1702.04024) - A demonstration to achieve teraflops computing capability with [AWS Lambda](https://aws.amazon.com/lambda/) and [Pywren](http://pywren.io/).
 
 ## Data protection
 
