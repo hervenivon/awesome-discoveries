@@ -22,7 +22,7 @@ Our partners trusted us. As a conclusion, we built several products we sold from
 
 The following illustration represents my ideal methodology to grow a company and a product in a fast innovative and competitive environment (Design Thinking + Lean Startup + Scrum + Experience): the company loop.
 
-<img src="../resources/company-loop.png" alt="The company loop. Image Credit: Hervé Nivon"/>
+<img src="./resources/company-loop.png" alt="The company loop. Image Credit: Hervé Nivon"/>
 
 While "Ideas" may be the starting point of the loop, I advise starting from insights which often are a pain point.
 
@@ -71,7 +71,7 @@ Another virtue of this cycle: a strict implementation will lead to a better mark
 
 When I think about the sentence "What the customer really wanted", here is the drawing which comes to my mind first. [How Projects Really Work?](http://www.projectcartoon.com/). It has been circulating for years with several variations and additions. My preferred version:
 
-<img src="../resources/how-projects-really-work.png" alt="What the customer really wanted"/>
+<img src="./resources/how-projects-really-work.png" alt="What the customer really wanted"/>
 
 From here on, the paragraphs further list and detail methods or tools that have proven useful to me.
 

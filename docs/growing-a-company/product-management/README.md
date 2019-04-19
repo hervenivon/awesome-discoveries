@@ -8,11 +8,11 @@ From [Hugh Dubberly](http://www.dubberly.com/topics/design/successful-product.ht
 1. Technology
 1. Sustainability
 
-<img src="../resources/successful_product.png" alt="Successful Products. Image Credit: Hugh Dubberly"/>
+<img src="./resources/successful_product.png" alt="Successful Products. Image Credit: Hugh Dubberly"/>
 
 An that framework applied to three tech giants:
 
-<img src="../resources/successful_product_examples.jpg" alt="Successful Products Examples. Image Credit: Wired"/>
+<img src="./resources/successful_product_examples.jpg" alt="Successful Products Examples. Image Credit: Wired"/>
 
 ## The minimum roadmap
 
