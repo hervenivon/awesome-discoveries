@@ -154,10 +154,88 @@ Learn more on [wikipedia](Value-stream mapping) or watching ["How to read a valu
 * Use the [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result) technique to conduct your interviews: **S**ituation, **T**ask, **A**ction, **R**esult. This will help you gathering all relevant information and help interviewed people being complete.
 * Set your objectives and review objectives of other with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) Goals only: **S**pecific, **M**easurable, **A**chievable, **R**ealistic, **T**ime-related
 
-## Virtues of constraint
+## Virtues of Constraints
 
-[Peecho](https://www.peecho.com/) product owners had to do fifty push-ups as payment for each user story that they wanted to add to an ongoing sprint.
+A common belief consists of thinking that creativity is proportional to freedom. In reality, an unlimited schedule with an unlimited budget will lead any project to a black hole. The fewer resources you have, the more it will push you to use your ingenuity and to achieve your goal.
+
+### The decision fatigue
+
+From our childhood education and the importance of being able to choose the right studies to the modern consumerist culture where you can craft the ultimate coffee exactly matching your taste, we are conditioned to worship choice.
+
+But according to [researches](https://michaelhyatt.com/the-science-of-decision-fatigue) our mental resources are limited and are depleted with use; every decision we take is consuming that mental tank.
+
+Kathy Sierra in [Building the Minimum Badass User](https://businessofsoftware.org/2013/02/kathy-sierra-building-the-minimum-badass-user-business-of-software-a-masterclass-in-thinking-about-software-product-development/) depicted Professor Baba Shiv experiment in which two groups were asked to memorize 2-digit and 7-digit numbers respectively. When they were ready, the two groups were offered a piece of cake. Those who faced the more mentally consuming task were significantly more likely to eat the cake.
+
+> "This was unbelievable; it took them a long time to figure out what was happening because it seemed so bizarre. But what happened is willpower and focus and concentration and working on problem-solving are all coming from the same pool of cognitive resources. More significantly, it’s really a scarce resource that’s easily depleted."
+
+It is not in the labs only; it also happens in real life: a [study](https://www.pnas.org/content/108/17/6889) demonstrated that extraneous factors exist in judicial decisions - it is not just about laws and facts. The research indicates that favorable rulings "drops gradually from ≈65% to nearly zero within each decision session and returns abruptly to ≈65% after a break."
+
+The fact is that no matter how rational you are, you can't indefinitely be a great serial decision maker. Your pool of right daily decision is limited.
+
+With constraints come fewer choices, with fewer options you benefit more mental fuel to be creative.
+
+The article ["Proof That Constraints Can Actually Make You More Creative"](https://www.fastcompany.com/3027379/the-psychology-of-limitations-how-and-why-constraints-can-make-you-more-creative),  demonstrates with real-life stories how constraints can turn people into more creative being. My favorite is the surprisingly compelling six words story.
+
+> "For sale: baby shoes, never worn" — [supposed](https://en.wikipedia.org/wiki/For_sale:_baby_shoes,_never_worn) Ernest Hemingway
+
+### The constraints bounding box
+
+There are four aspects you can tweak to harness the power of constraints and encourage creativity: a bounding box in which a team can bloom.
+
+#### Language
+
+Twitter is famous for its 140 characters limitation that [used to](https://www.theguardian.com/technology/2017/nov/08/twitter-to-roll-out-280-character-tweets-to-everyone) force people to write more consisely.
+
+The ["six pages"](https://use-cases.org/2018/01/03/the-evil-genius-of-the-amazon-six-page-narrative/) narrative leadership tools used by Amazon to take decisions is another example. The six pages' hard restriction forces the author to go through numerous drafts, to reshape, to polish, to select the best parts, to summarize, to craft the best possible purpose and decision tool.
+
+Being part of worldwide companies, we lead most of our meetings in English. Being French, even if being fluent English speakers automatically reduce your speech flow when you live in France and you switch to English for just a small portion of your day. I noticed that loquacious people, when they need to speak in their not native language reduce their message and often go straight to the point — ending in more productive meetings.
+
 [myTommorows](https://mytomorrows.com/) Developer dance-offs are legendary: during the daily stand-ups, you are only allowed to speak while dancing
-[Teletext](https://teletext.io) For example, all our logo design is done with technical diagramming tool Omnigraffle, so there is no way we could use hideous lens flares and such.
 
-At redbird, budget constraints and technology constraints ended up fueling our creativity.
+#### Budget
+
+With a limited budget, teams must think outside of the box to turn ideas into reality and achieve their goal.
+
+This budget limitation must be applied at both the material and Human level.
+
+Apply the ["two-pizza"](http://blog.idonethis.com/two-pizza-team/) team rule form Amazon - New York [size](https://en.wikipedia.org/wiki/New_York-style_pizza) 😄. The idea is to empower a small group of all power in a small affordable context that reduces the chance of all common productivity traps you can fall into.
+
+#### Time
+
+You must bound your task and teams with deadlines. ["Marissa Ann Mayer"](https://en.wikipedia.org/wiki/Marissa_Mayer) -Lumi Labs founder, former CEO of Yahoo! -  [explains](http://www.businessweek.com/stories/2006-02-12/creativity-loves-constraints) why and how she applied time constraints to foster creativity.
+
+> "We often can get a sense of just how good a new concept is if we only prototype for a single day or week [...] In the case of the Toolbar beta, several key features (custom buttons, shared bookmarks) were tried out in under a week. In fact, during the brainstorming phase, we came up with about five times as many ‘key features.’ Most were discarded after a week of prototyping. Since only 1 in every 5 to 10 ideas works out, the strategy of limiting the time we have to prove that an idea works allows us to try out more ideas, increasing our odds of success.”
+
+Without a deadline in mind, you get too much freedom, too many choices and will end up scattering yourself and the team.
+
+At a personal level, the [Pomodoro Technique](http://en.wikipedia.org/wiki/Pomodoro_Technique) leverages the small tasks separated by short breaks principle to force yourself to jump into work and dig as soon as possible.
+
+#### Space
+
+If you think about the eighties console games that today's people still [love playing](https://www.gamepur.com/news/35291-snes-mini-sales.html) it is hard to figure out how engineers needed to be creative to make an entire game fit in a 128 to 384kB average size. The average size of any modern phone picture is 8MB or so, up to 62.5 times more space!
+
+That is the same in physical space, think about tiny homes, or bagpacking.
+
+<img src="./resources/bagpacking.png" alt="Bagpack organization, how to fit so much in so few space. (Found somewhere on Internet, pleased to attribute credit, contact me)"/>
+
+### Conclusion
+
+At Redbird, with a 2M raising, we managed to develop a product that leveraged cutting edge technology to produce a unique value proposition in the drone industry. On the opposite, in our drone industry, Airware raised 100M.  By the end of 2018, the only product Airware was selling was the one we built at Redbird back before the Redbird acquisition: Cardinal. More on that story [here](https://medium.com/@hervenivon/crafting-the-future-was-just-the-beginning-herve-nivon-3b7312a73184).
+
+Our constraints ended up fueling our creativity, with a low budget we ended up to limit our choices and took the most profitable decisions.
+
+> “I think frugality drives innovation, just like other constraints do.
+One of the only ways to get out of a tight box is to invent your way out.”
+—Jeff Bezos
+
+You can leverage your actual constraints for the greater.
+
+### Further inspiration
+
+You can also explicitly set rules to force people to think twice before taking a decision. At [Peecho](https://www.peecho.com/) product owners had to do fifty push-ups for each user story that they wanted to add to an ongoing sprint. A bit "expensive" but undoubtedly efficient!
+
+In 2019 AWS Summit in Paris, at the startup central panel to elect [the architecture of the year](https://aws.amazon.com/fr/events/summits/paris/contenu/?mkt_tok=eyJpIjoiWVRNd01URmpaRGMyWkdWbSIsInQiOiJsK1ZWOU1uQW1ubkx3YzhtanJzWTg3WENMVGFRZUkxempWWmpDNFZWQzZYdGFNeTBNRE11d0ZNUGVOQ0thUnVleHR1dkMyMnhKUE5TeVpzV3MzeVJnWVwvZjlSNE1NSTZOcEVibVFSa21lWFA0TlJsNkRPK0VjS255NUE4Z28yK0RCV213b2RRU085U05MVkkxRGZXa253PT0ifQ%3D%3D#Startup_Central) most keynote presenters spoke of lambda constraints in liberatory terms fueling their approach to achieve their goal. The winner: [Klap](https://www.getklap.com/) use AWS Lambda scaling capability to build a serverless resilient brut force video analysis tool; they embraced the tools' constraints to create a new kind of video analysis solution.
+
+### Note
+
+Peecho and myTommorows examples mentioned above come from an [article](http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html) explaining how a serverless architecture help a company to achieve its goal
