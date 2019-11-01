@@ -10,7 +10,7 @@ I will list here new ideas I have - I will certainly won't develop as a business
 
 ## Generative deep learning for Sign-language
 
-Disable people disserve all our computer science attention. Today's technology can help them in their daily life. [Google Lookout](https://www.engadget.com/2018/05/08/google-lookout-app/) is an example: the phone is continuously describing the surrounding environment with words.
+Disable people disserve all our computer science attention. Today's technology can help them in their daily life. [Google Lookout](https://www.blog.google/outreach-initiatives/accessibility/lookout-discover-your-surroundings-help-ai/) is an example: the phone is continuously describing the surrounding environment with words.
 
 What about a GAN that will generate sign-language from speeches in real time.
 

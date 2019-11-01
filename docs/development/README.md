@@ -51,28 +51,28 @@ Technical Debt is part of the engineering landscape of any developing business. 
   * [Adding mosh support to your AWS servers](http://fuzzyblog.io/blog/aws/2017/07/02/adding-mosh-support-to-your-aws-servers.html)
   * [Mosh is available on AWS Linux](https://aws.amazon.com/amazon-linux-ami/2017.03-packages/)
 
-A lot of people have tried, I tried, the last iteration of the iPad pro almost convinced me. For me, this is still not possible. It is fine to programm remotely with a AWS server but it is expensive, and doesn't cover all usages. What if you need to manipulate data from your iPad on your remote server? I need to programmaticaly access my data locally, that's all. I still need my "natural" terminal with data access.
+A lot of people have tried, I tried, the last iteration of the iPad pro almost convinced me. For me, this is still not possible. It is fine to program remotely with a AWS server but it is expensive, and doesn't cover all usages. What if you need to manipulate data from your iPad on your remote server? I need to programmatically access my data locally, that's all. I still need my "natural" terminal with data access.
 
 In the process, I discovered mosh and that is a damned good solution for remote access to server. It misses a strong solution for ssh forwarding necessary in a bastion implementation.
 
 ### Mac OS X
 
-Mac OS X on a MacBook is a wonderfull development environment. When we have been acquired by Airware, all our developers had to switch from a centralized development server to distributed development environment on Mac OS X. As we hadn't raised much, we were almost shocked by that sudden developer onboarding cost increase.
+Mac OS X on a MacBook is a wonderful development environment. When we have been acquired by Airware, all our developers had to switch from a centralized development server to distributed development environment on Mac OS X. As we hadn't raised much, we were almost shocked by that sudden developer onboarding cost increase.
 
 It enabled smoother meeting sessions, remote working and for some others it offered a real computer at home.
 
 You can heavily personalize your setup, but there is only one real big issue when you unbox a Mac. It lakes a real package manager, but there is a solution for that: [homebrew](https://brew.sh).
 
-I'll do nothing else in the future. My developers will have choice between a laptop Mac or Linux one. In any case a Linux/Unix base centralised development environment with a crypted harddrive.
+I'll do nothing else in the future. My developers will have choice between a laptop Mac or Linux one. In any case a Linux/Unix base centralized development environment with a encrypted hard-drive.
 
 #### Automation
 
-In order to setup a brand new Mac from scratch I build a bootstraping script that:
+In order to setup a brand new Mac from scratch I build a bootstrapping script that:
 
 * Install [Homebrew](https://brew.sh)
 * Install [mas](https://github.com/mas-cli/mas), a Mac App Store command line utility
 * Install xcode tools
-* Install usefull packages (such as aws cli, htop, mosh, etc.)
+* Install useful packages (such as aws cli, htop, mosh, etc.)
 * Setup [zsh](http://zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) and [iTerm2](https://www.iterm2.com/)
 * Bind my [dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory) with my `$HOME` directory
 
@@ -91,17 +91,17 @@ My mandatory extensions:
 
 * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - You might spend a bunch of time configuring `vscode` (extensions, settings and keybindings). When you are changing your computer, you are happy being able to grasp all that configuration automatically. One extension to rule them all!.
 
-Further awesomenesssss 🤩:
+Further awesomeness 🤩:
 
 * [awesome-vscode](https://github.com/viatsko/awesome-vscode) - a extensive list of interesting resources for `vscode`.
-* [code-server](https://github.com/codercom/code-server) - Executing vscode in webbrowser from your server!
+* [code-server](https://github.com/codercom/code-server) - Executing vscode in a web browser from your server!
 
 ### Command line enhancements
 
 * [`fkill-cli`](https://github.com/sindresorhus/fkill-cli) - An interactive killing command, much nicer than your traditional way. Would love a native one not going through `node`.
 * [`graphcurl`](https://github.com/hasura/graphqurl) - Turn your command line into a `curl` like tool for GraphQL, keeping the exploration taste of [graphiql](https://github.com/graphql/graphiql)
 * [`jq`](https://stedolan.github.io/jq/) - Must have tool for any modern devOps or serious people working with a `Terminal` 😄 _(`json`)_
-* [`rb`](https://github.com/thisredone/rb) - Extends your command line workflow with a fully loaded inline ruby interpreter. Just in case you are alergic to `awk` and `sed` _(`Ruby`)_
+* [`rb`](https://github.com/thisredone/rb) - Extends your command line workflow with a fully loaded inline ruby interpreter. Just in case you are allergic to `awk` and `sed` _(`Ruby`)_
 * [`terminalizer`](https://github.com/faressoft/terminalizer) - A way to record your `Terminal` and create gif images.
 * [`tldr`](https://github.com/tldr-pages/tldr) - Ever wanted to get just what you need instead of verbose man pages?
 * [`q`](https://github.com/harelba/q) - Run SQL queries directly on CSV files.
@@ -115,19 +115,36 @@ Further awesomenesssss 🤩:
 
 * [gitleaks](https://github.com/zricethezav/gitleaks) - Waiting for github next move in the security landscape, here is a way for you to scan code source for unencrypted secrets. 👮‍♂️
 
-## Agile Methodology
+## Agile
 
 Tools:
 
 * [DailyBot](https://dailybot.co/) - Helps remote teams to fill their daily scrum
 
-## Languages and technologies
+## Languages
 
 ### `CSS`
 
 CSS animations in [action](http://animista.net/play/background/color-change)
 
+### `Javascript`
+
+* [Math as Code](https://github.com/Jam3/math-as-code) - A reference to ease developers into mathematical notation by showing comparisons with JavaScript code.
+
+#### Animation
+
+* [Three.js](https://github.com/mrdoob/three.js/) - 3D animation.
+* [Anime.js](https://github.com/juliangarnier/anime) - CSS, DOM, SVG transform.
+* [Mo.js](https://github.com/legomushroom/mojs) - Equivalent to anime.js. Another taste, you choose.
+* [Vivus](https://github.com/maxwellito/vivus) - Focus on SVGs animation.
+* [GreenSock](https://github.com/greensock/GreenSock-JS) - The swiss knife and Veteran of the pack.
+* [Scrollreveal](https://github.com/jlmakes/scrollreveal) - Zero dependencies scrolling animation.
+
 ### `Nodejs`
+
+#### npm
+
+* [3 Tools to Keep npm Packages Updated](https://scotch.io/bar-talk/3-tools-to-keep-npm-packages-updated) - Keeping your package up to date is critical for security and stability. Use any mean to achieve it. Here the standard way, a VS Code extension and ncu are presented.
 
 #### Building Command line
 
@@ -139,7 +156,7 @@ CSS animations in [action](http://animista.net/play/background/color-change)
 
 If performance is key to your application, please spend time on testing and tweaking it.
 
-You can use some great open source tools before jumping into the service or paying landscape like [autocannon](https://github.com/mcollina/autocannon) which simulates concurrent HTTP calls. The following [article](https://www.smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers/) from Smash magazine will give you a very good entry point for perfomance analysis on node.js serveur projects.
+You can use some great open source tools before jumping into the service or paying landscape like [autocannon](https://github.com/mcollina/autocannon) which simulates concurrent HTTP calls. The following [article](https://www.smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers/) from Smash magazine will give you a very good entry point for performance analysis on node.js server projects.
 
 ### `Python`
 
@@ -153,6 +170,7 @@ Performance (or lake of) drains a lot of attention in python. It is not a compil
 
 * [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/) - An online book that teaches how to migrate from standard `Python` to `Numpy` through vectorization.
 * [7 Strategies for Optimizing Numerical Code](https://speakerdeck.com/jakevdp/seven-strategies-for-optimizing-numerical-code) - An overview of 7 technics to enhance `Python` performances.
+* [Anaconda, GPUs, and the Ecosystem](https://docs.google.com/presentation/d/e/2PACX-1vQSu13Rg6DEcHbk3bNOa-7WV5Bi7gJMCI8_inAQMy6zV8DhPk0kzRSn0Y37MejM3m0qMuMCGpeaVXFK/pub?start=false&loop=false&delayms=60000&slide=id.p1) - A detail review of the current state of python with GPUs and the necessary steps toward a better interoperable ecosystem. It comes with neat performance improvements demo leveraging `cupy`
 
 #### Data-viz
 
@@ -160,7 +178,7 @@ Performance (or lake of) drains a lot of attention in python. It is not a compil
 * [plot.ly](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e) - Extensive zoom and discovery of `plotly` for `Python`.
 * [Introduction to plotly express](https://medium.com/@plotlygraphs/introducing-plotly-express-808df010143d) - Introduction to the supercharged version of `plotly`. (see below)
 
-Sometimes the everything is possible frameworks and libraries are too complicated and one just need a quick datavize:
+Sometimes the everything is possible frameworks and libraries are too complicated and one just need a quick dataviz:
 
 * [Plotly Express](https://www.plotly.express/plotly_express/) supercharges [Plotly.py](https://plot.ly/python/)
 * [Seaborn](https://seaborn.pydata.org/) supercharges [matplotlib](https://matplotlib.org/)
@@ -175,11 +193,45 @@ Sometimes the everything is possible frameworks and libraries are too complicate
   * [bash-boilerplate](https://github.com/alphabetum/bash-boilerplate) - Name speaks for itself. Even today, bash might be the best answer to a simple clear problem that needs a repetitive way to being reproduced. This repository kick-starts it even further.
   * [bash-oo-framework](https://github.com/niieani/bash-oo-framework) - If `bash-boilerplate` is not enough you should find everything you need here.
 
+## Open Source
+
+* [project-checklist](https://github.com/amilajack/project-checklist) - The project checklist when you want to share your creation with the world. An extensive list of actions to execution before the release.
+
+Open source has been awesome for Redbird, Airware and Delair in many ways. First providing the necessary tools for processing GIS data, second providing an unlimited source of inspiration. Some truly inspiring open source projects.
+
+* [Open Drone Map](https://www.opendronemap.org/)
+
+## Technologies
+
 ### AWS
 
 * Lambda Optimization:
-  * [Lambda optimization tip – enable HTTP keep-alive](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/) - Drastically reduce average execution time of each lambda function working with a DB
+  * [Lambda optimization tip – enable HTTP keep-alive](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/) - Drastically reduce average execution time of each lambda function working with a DB.
+  * [Just how expensive is the full AWS SDK?](https://theburningmonk.com/2019/03/just-how-expensive-is-the-full-aws-sdk/) - Some tests leading to the intuitive conclusion that you should require only the module you need!
+
+* AWS Amplify:
+  * [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify)
+
+* Serverless Examples:
+  * [Resize Images on the Fly with Amazon S3, AWS Lambda, and Amazon API Gateway](https://aws.amazon.com/blogs/compute/resize-images-on-the-fly-with-amazon-s3-aws-lambda-and-amazon-api-gateway/) - In this article, John Pignata demonstrates how an AWS based serverless system built on top of S3, Lambda and API Gateway can process images on a per request basis instead of processing and resizing images into all necessary sizes upon upload. This “on the fly” processing approach has several upsides: Increased agility, Reduced storage costs and Resilience to failure.
+  * [Dynamic image resizing with Node.js and the Serverless Framework](https://serverless.com/blog/dynamic-image-resizing-nodejs/) - Leverage AWS S3 events, API Gateway and Lambda to automatically resize images based on S3 requests. This is the serverless framework version of it.
+
+* Tools:
+  * [Serverless framework](https://serverless.com) formerly known as jAWS for Javascript AWS is now a framework that streamline serverless development and ease moving from one cloud provider to another.
+
+### Google analytics
+
+If you want to know what is happening to your application, you must track at least two aspects - more on that in the [Growing a company](docs/growing-a-company/README.md) section:
+
+* Sessions (session duration, session length, etc.)
+* Events (actions launched, type of file processed, type of download, etc.)
+
+There is a well known tool that allows that: [Google analytics](https://google.com/analytics) and it can track [events](https://github.com/googleanalytics/autotrack/blob/master/docs/plugins/event-tracker.md). Some return of experiment: [“The Google Analytics Setup I Use on Every Site I Build”](https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/).
+
+### iOS
+
+* [Hawkeye](https://www.usehawkeye.com/) - Implement eye tracking tests and get heatmap in no time for your iOS devices.
 
 ### Web development
 
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Lighthous is an open source developer tool from Google that helps to audit web sites for performance, accessibility, and more. It is an extension to Chrome dev tools, a command line and a node module.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Lighthouse is an open source developer tool from Google that helps to audit web sites for performance, accessibility, and more. It is an extension to Chrome dev tools, a command line and a node module.

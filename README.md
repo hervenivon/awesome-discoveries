@@ -22,7 +22,7 @@ I subscribed to several newsletters, and I have my favorite websites.
 * [arXiv](https://arxiv.org/) - The million e-prints open access to scientific papers that democratized Machine Learning over the globe. 99% of, not to say all, papers we were using are coming from that place. Even for not professional activities, it is inspiring to look at that source.
 * [github](https://www.github.com) - GitHub again, with [explore](https://github.com/explore) you will discover a lot of inspiring projects.
 * [MIT Technology Review](https://www.technologyreview.com/) - An endless stream of popular science, in particular in machine learning. The only one to which I have been willing to pay a subscription so far.
-* [Kaggle](https://www.kaggle.com) - "The place to do datascience", learn, share and access dataset, share and create algorithms, compete
+* [Kaggle](https://www.kaggle.com) - "The place to do data science", learn, share and access dataset, share and create algorithms, compete
 * Newsletters:
   * [Data Elixir](https://dataelixir.com/) - My most productive and de facto favorite newsletter regarding Artificial Intelligence and Data science in general.
   * [Changelog](https://changelog.com/weekly) - Staying up to date with the developer community and finding fun stuff.
@@ -35,12 +35,14 @@ The following are companies with new business models, innovative offerings or in
 
 * [Cogitai](https://www.cogitai.com/product/) - Reinforcement learning as a service promising to avoid heavy tasks of data annotation.
 * [Comet.ml](https://comet.ml) - Provides a GitHub like experience dedicated to ML.
+* [Stitchfix](https://www.stitchfix.com/), [Ebo Box](https://betalist.com/startups/ebo-box), and [Gofind.ai](http://gofind.ai/) for redefining the retail industry with artificial intelligence. Either with cutting edge recommendation - the first two - or ease discovery the latter.
 * [algorithmia](https://algorithmia.com/) - AI models provisioned as APIs.
 * [deepomatic](https://www.deepomatic.com/) - Their concept is to provide AI implementation acceleration service for fortune 500.
 * [fritz.ai](https://www.fritz.ai) - Focuses on mobile, provide a set of available models and allows for higher pricing some model customization.
 * [mobeye](https://www.mobeye-app.com/en/home) - How to crowdsource data annotation through a mobile application that lets people earn money.
 * [namr](https://namr.com/) - Their mission is to create value from open data.
-* [Stitchfix](https://www.stitchfix.com/), [Ebo Box](https://betalist.com/startups/ebo-box), and [Gofind.ai](http://gofind.ai/) for redefining the retail industry with artificial intelligence. Either with cutting edge recommendation - the first two - or ease discovery the latter.
+* [nervous system](https://n-e-r-v-o-u-s.com/) - For making jewelry, lighting, houseware, and puzzles from generative algorithms often bio-inspired and 3D printing or laser cutting.
+* [notion](https://notion.so) - For their product line, their energizing onboarding process and their will to simplify everyone day 2 day in documentation production, note taking, task and project management.
 
 ### Others
 
@@ -57,6 +59,7 @@ There are a couple of books mentioned in this document, and there are some books
 * [Eric Rise's The lean startup](https://amzn.to/2RDDf3H) - This book led me to become CTO of a startup training me to the "lean approach." So much time saved from this lecture.
 * [Toby Segaran's Programming Collective Intelligence](https://amzn.to/2HiJrgc) - This book built my interest for intelligent applications, it gives me a taste of how important are data in modern applications, and it was fun to read and to apply.
 * [Yuval Noah Harari's Sapiens: A Brief History of Humankind](https://amzn.to/2WrN6fK) - This book and the followings "Homo Deus" and "21 lessons for the 21st century" were thrilling to discover. They give the key to understand Human relations, from where we are coming from and our possible futures.
+* [The serverless stack](https://serverless-stack.com/) - The guys behind [Seed](https://seed.run/) wrote an this online book that pushes you straight to your first true serverless deployment proving how fast a team can focus on building value instead of spending time to set an infrastructure. More details on my though regarding this topic in the [Architecture and infrastructure section](docs/architecture-and-infrastructure/README.md).
 
 ## Feeback is welcome 📢
 
@@ -109,5 +112,5 @@ Then create an environment dedicated to this project:
 In order to verify that referenced urls are valid please execute the following in the conda environment at the repository root directory:
 
 ```shell
-./scripts/check-urls.py -v
+./scripts/check-urls.py
 ```

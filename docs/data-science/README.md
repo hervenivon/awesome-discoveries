@@ -22,12 +22,14 @@ They are several initiative directed toward collaboration and reproductibilty en
 
 * [Colaboratory](https://colab.research.google.com/) - It is a research tool for machine learning education and research, a Jupyter notebook environment that requires no setup to use. And it comes with free GPUs
 * [Iodide](https://alpha.iodide.io/) - Mozilla joining the game of reproducible data-science
-* [Observable](https://observablehq.com/) - The famous author of [d3.js](https://d3js.org/) javascript library - I named [Mike Bostock](https://twitter.com/mbostock) - announced in April 2017 ["A Better Way to Code"](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0).
 * [Kaggle](https://www.kaggle.com) - "The place to do datascience", learn, share and access dataset, share and create algorithms, compete
+* [Mode](https://mode.com/) - Execute SQL queries and pipe them into python or R notebooks; then share them across your company
+* [Observable](https://observablehq.com/) - The famous author of [d3.js](https://d3js.org/) javascript library - I named [Mike Bostock](https://twitter.com/mbostock) - announced in April 2017 ["A Better Way to Code"](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0).
 
 ## Data management
 
 * [DVC](https://dvc.org/doc/dvc-philosophy/core-features) - A neat structured approach to the data science workflow management aiming to become a standard as git has become in the development workflow.
+* [qri](https://qri.io) - A distributed web version of DVC
 
 ## Dataviz
 

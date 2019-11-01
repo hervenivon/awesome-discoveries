@@ -4,6 +4,13 @@ If you are new to Artificial Intelligence and machine learning, there is one pla
 
 For the complete bibliography, please look at the [bibliography](bibliography.tsv) file.
 
+## Train yourself 🤓
+
+* [Best Deep Learning Courses: Updated for 2019](https://blog.floydhub.com/best-deep-learning-courses-updated-for-2019/)
+* [Best Deep Learning Books: Updated for 2019](https://blog.floydhub.com/best-deep-learning-books-updated-for-2019/)
+* [A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/) - Discovering or rediscovering Gaussian Processes in an interactive fashion.
+* [A Comprehensive Introduction to Different Types of Convolutions in Deep Learning](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-convolutions-in-deep-learning-669281e58215) - A comprehensive guide to convolutions.
+
 ## Embedding 🎹
 
 * [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) - A solution which transforms an image into a compact Euclidean space allowing to enhance Face Recognition. [implementation](https://github.com/davidsandberg/facenet) _(`Embedding`, `image2vec`, `Tensorflow`)_
@@ -42,18 +49,27 @@ Here are the most relevant findings we leverage for our project and some more re
 * Polygon-RNN:
   * [Efficient Interactive Annotation of Segmentation Datasets with Polygon-RNN++](https://www.youtube.com/watch?v=evGqMnL4P3E)
   * [Demo](http://www.cs.toronto.edu/polyrnn/)
+* Curve-GCN:
+  * [Fast Interactive Object Annotation with Curve-GCN](https://arxiv.org/abs/1903.06874) - Graph Convolutional Network (GCN) leveraged to speedup manual objects annotation. Trained on Cityscape, yet generalized on other data types such as Aerial or Medicine. Advertised to be 10 to 100 times faster that polygon-RNN.
+  * ["Code"](https://github.com/fidler-lab/curve-gcn) - You need to signup to get an access to the code!
+  * [Video](https://youtu.be/ycD2BtO-QzU?t=164)
+* [doccano](https://github.com/chakki-works/doccano) - Open source text annotation tool
+* [A Guide to Learning with Limited Labeled Data](https://blog.fastforwardlabs.com/2019/04/02/a-guide-to-learning-with-limited-labeled-data.html) - This overview guide to active learning comes with a neat and inspiring [prototype](https://activelearner.fastforwardlabs.com/).
 
-Annotation as services:
+Annotation (as a) services:
 
 * [supervise.ly](supervise.ly) - Is a an online service that enable automatic annotation of data. Fron the tens I tested it is my current favorite.
 * [Alegion](https://alegion.com) - Annotation service that deals with computer vision, NLP, and data cleansing. The service alleges to combine machine learning and Human intelligence.
+* [Scale.ai](https://scale.ai/) - With a "simple" API to programmaticaly request Human annotation from their service, Scale.ai aims to free projects from the annotation task.
+* [Super Annotate](https://www.superannotate.ai/) - Seems to leverage both AI and [superpixels](https://arxiv.org/abs/1612.01601) to support the annotation process.
 
 ## Data Generation 🖌
 
-### Face generation 🎭
+### Face and ImageNet generation 🎭
 
 * [Inside the world of AI that forges beautiful art and terrifying deepfakes](https://www.technologyreview.com/s/612501/inside-the-world-of-ai-that-forges-beautiful-art-and-terrifying-deepfakes/) - A 2018 overview of GAN and latests progress in the field of generative networks.
 * [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) - Here we are, on December 2018 we discovered than a computer can generate images that we can definitely take for real ones. [summary](https://www.technologyreview.com/s/612612/these-incredibly-real-fake-faces-show-how-algorithms-can-now-mess-with-us/).
+* [High-Fidelity Image Generation With Fewer Labels](https://arxiv.org/abs/1903.02271) - This paper proposes a solution to achieve state of the art GAN performance on ImageNet with 10% of the labels. [Blog announcement](https://ai.googleblog.com/2019/03/reducing-need-for-labeled-data-in.html)
 
 ### Scenes generation 🌄
 
@@ -121,6 +137,14 @@ A "simple" analysis of the ImageNet [images origin](https://www.nature.com/artic
 
 This paragraph focuses on fact analysis and key initiatives.
 
+* [7 essentials for achieving trustworthy AI](http://europa.eu/rapid/press-release_IP-19-1893_en.htm) - The seven ethics principles from the European Commission regargind Artificial Intelligence development. "Trustworthy AI should respect all applicable laws and regulations, as well as a series of requirements":
+  1. **Human agency and oversight**: AI systems should enable equitable societies by supporting human agency (*ed: the capacity to act independently and to make their own free choices*) and fundamental rights, and not decrease, limit or misguide human autonomy.
+  1. **Robustness and safety**: Trustworthy AI requires algorithms to be secure, reliable and robust enough to deal with errors or inconsistencies during all life cycle phases of AI systems.
+  1. **Privacy and data governance**: Citizens should have full control over their own data, while data concerning them will not be used to harm or discriminate against them.
+  1. **Transparency**: The traceability of AI systems should be ensured.
+  1. **Diversity, non-discrimination and fairness**: AI systems should consider the whole range of human abilities, skills and requirements, and ensure accessibility.
+  1. **Societal and environmental well-being**: AI systems should be used to enhance positive social change and enhance sustainability and ecological responsibility.
+  1. **Accountability**: Mechanisms should be put in place to ensure responsibility and accountability for AI systems and their outcomes.
 * [AI Safety Needs Social Scientists](https://distill.pub/2019/safety-needs-social-scientists/) - An extensive explanation towards the Social Scientists requirement explanation.
 * [Advanced Technology External Advisory Council (ATEAC)](https://www.technologyreview.com/s/613203/google-appoints-an-ai-council-to-head-off-controversy-but-it-proves-controversial/) - The idea was that a team made of philosophers, engineers, and policy experts would have regulated Google's AI projects based on [AI principles](https://www.blog.google/technology/ai/ai-principles/). The controversy raised by this initiative was so high than in less than a month the initiative [has been canceled](https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board). Actually, [1720 Google employees have signed a petition](https://thehill.com/policy/technology/437278-google-in-tough-spot-over-conservative-pick-for-ai-board) asking the company to remove Kay Cole James, the president of the conservative Heritage Foundation, from the panel. Despite all that noise, I see here a trend and a light on a growing issue with artificial intelligence projects and their potential impacts on real lives.
 * [China’s top AI scientist drives development of ethical guidelines](https://www.scmp.com/news/china/science/article/2181573/chinas-top-ai-scientist-drives-development-ethical-guidelines) - Yes it is time for the world to align itself on where it wants to go
@@ -130,7 +154,13 @@ This paragraph focuses on fact analysis and key initiatives.
 * [Research priorities for robust and beneficial Artificial Intelligence](https://futureoflife.org/ai-open-letter/) - The first round of people who expressed worries in the current research state of AI. It should be directed toward beneficial outcomes: "our AI systems must do what we want them to do".
 * [Thinking inside the box: using and controlling an Oracle AI](https://link.springer.com/article/10.1007/s11023-012-9282-2) - Controlling AI has been a problem for a while even before the rise of deep learning. In this paper, you'll discover that a particular topic can raise a lot of questions, even if it seems simple at first: here controlling an Oracle AI that doesn't act in the world except by answering questions.
 
-## Sagemaker 🤖
+## Supporting Technology 👩🏼‍🔧
+
+In our experience, Keras and Ternsorflow served us well, allowing us to reach our targets within the boundaries of our budget. For some others, it might be pyTorch and FastAI. The current landscape is evolving [fast](https://towardsdatascience.com/which-deep-learning-framework-is-growing-fastest-3f77f14aa318), and some new players or languages are [entering the game](https://www.youtube.com/watch?v=s65BigoMV_I).
+
+In any case, please do not move to another framework just because "it is better". One more time, all the time you spend should be devoted to business value creation, not dogmatism. You should move to another framework if and only if it serves a purpose and you are carefully making that decision.
+
+### Sagemaker 🤖
 
 [`sagemaker`](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) is quickly becoming a state of the art for machine learning project. It assembles under this sole name a lot of capabilities that would accelerate and standardize any launching project involving machine learning of any sort. From [collaboration](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebooks-now-support-git-integration-for-increased-persistence-collaboration-and-reproducibility) to [continuous deployment of model](https://aws.amazon.com/blogs/machine-learning/automated-and-continuous-deployment-of-amazon-sagemaker-models-with-aws-step-functions), through [ground truth generation](https://aws.amazon.com/blogs/aws/amazon-sagemaker-ground-truth-build-highly-accurate-datasets-and-reduce-labeling-costs-by-up-to-70) `sagemaker` provides all necessary tools for most of the use cases.
 
@@ -151,20 +181,80 @@ other `sagemaker` key features:
 
 * [Pipe mode](https://aws.amazon.com/blogs/machine-learning/accelerate-model-training-using-faster-pipe-mode-on-amazon-sagemaker/) - It allows to stream data directly from an `S3` bucket without the need to download the data on the machine. It leverages the [protobuf](https://developers.google.com/protocol-buffers/) to speedup streaming from S3 to the training instances.
 
+### Tensorflow
+
+* [9 Things You Should Know About TensorFlow](https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995)
+
 ## Setting an artificial intelligence project 📈
 
-Executing an enterprise grade machine learning project is complicated, a lot of steps are necessary in a highly uncertain context. As of today, you have a lot of choices to set your projects right. Depending on your team size, you might even willing to reinvent the wheel suffering from the ["Not Invented Here"](https://en.wikipedia.org/wiki/Not_invented_here) syndrome. The good news is there is a lot to learn from the already maturing industry. Here are some source to read before jumping straight ahead!
+Executing an enterprise grade artificial intelligence project is complicated, a lot of steps are necessary in a highly uncertain context. As of today, you have a lot of choices to set your projects right. Depending on your team size, you might even willing to reinvent the wheel suffering from the ["Not Invented Here"](https://en.wikipedia.org/wiki/Not_invented_here) syndrome. The good news is there is a lot to learn from the already maturing industry.
 
-* [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) - Pragmatism has always been at the heart of our strategy regarding our machine learning projects. This article formalize best practice that a good manager will discover himself executing a machine learning project. One thing for sure, as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." And, with the right project and the rock solid computer scientist you can kick-start a machine learning in a small team.
-* Productionizing an artificial intelligence project, tracking its progress or solely being able to reproduce an experiment is a challenge. A traditional system is seen as deterministic, for a particular version of your code, you have specific behavior. You can upgrade your software or dependencies to a particular version to benefit some improvements or you can roll-back to a previous version of it if you face some unexpected issues. Infrastructure as code paradigm enables the same features for the underlying elements supporting your project. For years now, continuous delivery is a well-known concept, often applied in production. When it comes to artificial intelligence projects it is steadily way more tricky: how do you manage that so-called black box? The good news is that the black box can also be versioned. You can version an artificial intelligence project on [different axes](https://emilygorcenski.com/post/data-versioning): code, model, data schema, data values, and data annotations. There is not only one approach, and it can become highly complex. It depends on your project ambition, data variation, number of people involved, go-live frequencies, etc. You must find the most appropriate way for each project. In my experience, versioning models, associated code and data annotations have proven to be the bare minimum - and even it wasn't always sufficient to reproduce a particular experiment. Some tools or services might assist you in this mission:
-  * [comet](https://comet.ml)
-  * [DVC](https://dvc.org/doc/dvc-philosophy/core-features)
-  * [MLflow](https://mlflow.org/)
-* [IBM Machine Learning Maturity Model](https://arxiv.org/abs/1811.04871) - Presents a set of best practices to implement when a company wants to deploy machine learning at scale and in a friendly fashion with enterprise landscape. Many of them might be complicated to achieve, anyhow, it will highlight any shortcomings in your projects or potential area of focus.
+In its [Machine Learning Maturity Model](https://arxiv.org/abs/1811.04871) IBM presents a set of best practices to implement when a company wants to deploy artificial intelligence projects at scale and in a friendly fashion with enterprise landscape. Many of those best practices might be too complicated to achieve, anyhow, it will highlight any shortcomings in your projects and potential area of focus.
 
-My synthesis: also look at The-Roadmap-to-Machine-Learning-Maturity-v1.pdf
+The following are some thoughts on different aspects of an artificial intelligence project.
 
-Conclusions:
+### Defining the purpose of the system 🎯
+
+When it come to artificial intelligence project definition I see two main purpose:
+
+1. The business outcome: either we will automate manual activity or we will create new value,
+1. The technical results of your project.
+
+[Building safe artificial intelligence](https://medium.com/@deepmindsafetyresearch/building-safe-artificial-intelligence-52f5f75058f1) describes the nascent field of technical AI safety and propose a framework to model and understand AI system. This is the second aspect.
+
+### The team 🎳
+
+The [How to build a machine learning team when you are not google or facebook](https://www.wandb.com/blog/how-to-build-a-machine-learning-team-when-you-are-not-google-or-facebook) article highlights best practices that a good manager will discover himself executing an artificial intelligence project. Pragmatism has always been at the heart of our strategy including went it came to our artificial intelligence projects. I always prefered to leverage in place resources. And there is one thing for sure: as of today, "it’s more efficient to teach a engineers machine learning than to teach machine learning practitioners how to be good engineers." With the right project and the rock solid computer scientists you can kick-start an artificial intelligence project with a small team.
+
+If you are an equivalent to Google or Facebook 😄 - written otherwise, you have the means to set a large team and set different roles, and responsibilities - [here](https://hackernoon.com/top-10-roles-for-your-data-science-team-e7f05d90d961) are twelve functions which operate on Artificial Intelligence projects. It is meant to give a taste of the variety of responsibilities. The below listing is an adaptation of the article mentioned above.
+
+* Data Engineer: responsible for data delivery to the rest of the team. From a spreadsheet to big data engineer (block storage management, database, data lake, etc.)
+* Analyst: responsible for the first set of data analysis, familiar with more advanced tools than the spreadsheet like R or programmatic data viz.
+* Expert Analyst: responsible for the same tasks than the analyst at a higher speed. Faster, stronger.
+* Statistician: responsible for preventing others from concluding too quickly at the end of every day.
+* Applied Machine Learning Engineer: responsible for leveraging on the shelf algorithms, connecting them to your data.
+* Data Scientist: responsible for all above roles except decision making.
+* Qualitative Expert / Social Scientist: responsible for setting the right KPI and metrics understood by all the stakeholders.
+* Researcher: responsible for solving your issues if the project is in its last resort and that you have exhausted all industry options.
+* Domain expert: responsible for providing the best insight on the industry you are working, data definition, business rules, scenarios, etc.
+* UX designer: responsible for getting the most out of your project putting the model into action and crafting end users interactions with it.
+* Ethicist: responsible for checking the validity of your project according to a set of predetermined rules (several are available more in to come on this topic in the current page); from diversity to explainability, etc.
+* Analytics Manager / Data Science Leader / Decision-Maker: responsible for team orchestration, getting the most of everyone and the data. This implies strong decision making accounting for the potential impact on business. A wide topic that heavily depends on data nature and team members. I assured that role at Airware.
+
+Several of these roles are detailed or approached from other angles in this documentation.
+
+### From craftsmanship to engineering 🏗
+
+Productionizing an artificial intelligence project, tracking its progress or solely being able to reproduce an experiment is a challenge. We see traditional computing systems as deterministic: for a particular version of your code, you get specific behavior. You can upgrade your software or dependencies to a specific version to benefit some improvements or you can roll-back to a previous version of it if you face some unexpected issues. Infrastructure as code paradigm enables the same features for the underlying elements supporting your project.
+
+For years now, continuous delivery is a well-known concept, often applied in production.
+
+When it comes to artificial intelligence projects it is steadily way more tricky: how do you manage that so-called black box? The good news is that the black box can also be versioned. You can version an artificial intelligence project on [different axes](https://emilygorcenski.com/post/data-versioning): code, model, data schema, data values, and data annotations. There is not only one approach, and it can become highly complex. It depends on your project ambition, data variation, number of people involved, go-live frequencies, etc. You must find the most appropriate way for each project. In my experience, versioning models, associated code and data annotations have proven to be the bare minimum - and even it wasn't always sufficient to reproduce a particular experiment. Some tools or services that might assist you in this mission:
+
+* [comet](https://comet.ml)
+* [DVC](https://dvc.org)
+* [qri](https://qri.io) - A distributed web version of DVC
+* [MLflow](https://mlflow.org)
+
+Another divergence from traditional computer science problems is testing and debugging. During the past 70 years, computer science engineers have established strategies and best practices for testing, debugging and ensuring code quality before deployments. The toolkit is impressive: unit tests, integration test, test driven development, performance verification, human acceptance tests, etc. Those practices are not directly applicable nor always suitable for modern artificial intelligence projects. How to formally test a network of millions of parameters? The current de facto method is to split your training database intelligently in a train set and a test set - We used to apply genetic programming to get the most of this split at Airware. But this often doesn't ensure production high performance nor robustness and doesn't verify that your models are bulletproof to worst cases or worse to hacking.
+
+Some Tencent engineers "simply" used [little stickers](https://keenlab.tencent.com/en/whitepapers/Experimental_Security_Research_of_Tesla_Autopilot.pdf) to force the "in production" Tesla's autopilot to change lane: from the right one to the wrong one. With autonomous vehicles, it would be disastrous. With medicine, financial, insurance or retail the consequences could be just as unfortunate or painful. The article ["You created a machine learning application. Now make sure it’s secure."](https://www.oreilly.com/ideas/you-created-a-machine-learning-application-now-make-sure-its-secure) explains all known hacking technics a model can suffer from.
+
+The following example illustrates how changing imperceptively an image can trick a model into identifying a "Sloth" as a "Racecar" with >99% confidence. And, it gives an idea of how weak networks can be.
+
+<img src="./resources/sloth-or-race_car.png" alt="Sloth identified as a race car with 99%+ confidence. Image Credit: Deepmind" />
+
+This is called an adversarial example: inputs to a neural network resulting in incorrect outputs. [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) will provide you all technical details. [How to trick a neural network into thinking a panda is a vulture](https://codewords.recurse.com/issues/five/why-do-neural-networks-think-a-panda-is-a-vulture) will give you technical information to reproduce the experiment yourself. This [article](http://www.evolvingai.org/fooling) will provide you with yet another taste.
+
+In [Towards Robust and Verified AI](https://medium.com/@deepmindsafetyresearch/towards-robust-and-verified-ai-specification-testing-robust-training-and-formal-verification-69bd1bc48bda) Deepmind states that machine learning systems are not robust by default and exposes three approaches for rigorously identifying and eliminating bugs in learned models to achieve Machine Learning robustness. These three approaches are directed toward ensuring that the produced system complies with its [specifications](https://medium.com/@deepmindsafetyresearch/building-safe-artificial-intelligence-52f5f75058f1).
+
+1. **Adversarial testing**: the idea is to leverage adversarial strategies to systematize and harnessing testing over random approaches, searching for the worst case outcome. Given example illustrates that surprisingly simple adversarial example can lead to failure.
+1. **Robust learning**: the idea is to build networks that are agnostic to adversarial testing changing the learning algorithms.
+1. **Formal verification**: the idea is to provably demonstrate that models' predictions are consistent with a specification for all possible inputs bounding the outputs of the network.
+
+These three approaches are in their early stage. I expect a lot more to come.
+
+### Conclusions
 
 * Don't reinvent the wheel, just like all other computer science project!
 * Don't be afraid to get your hands dirty, if you are working on cutting edge projects, your data won't be annotated. Obviously you can outsource annotation, but one need to understand what it means.
@@ -176,6 +266,7 @@ Conclusions:
 * [Robust Website Fingerprinting Through the Cache Occupancy Channel](https://arxiv.org/abs/1811.07153) - What if you can leverage machine learning and a Javascript security hole to track anyone browsing history?
 * [Track the number of coffees consumed using AWS DeepLens](https://aws.amazon.com/blogs/machine-learning/track-the-number-of-coffees-consumed-using-aws-deeplens/) - How to build a coffee tracker in the open space with AWS deeplens.
 * [Deep Learning State of the Art (2019) - MIT](https://www.youtube.com/watch?v=53YvP6gdD7U) - A lecture from [@lexfridman](https://twitter.com/lexfridman) on recent developments in deep learning. That is a very good overview of 2018 state of the art in research and applied deep learning.
+* [Koniku](https://koniku.com/) - This company builds co-processors made of biological neurons.
 
 As we are loosing most of the [nonverbal communications](https://en.wikipedia.org/wiki/Nonverbal_communication) in a large portion of our day to day modern human to human interactions, I've always been curious on how we could extend it with expressive enhancements that would explain much more than lengthy descriptions. "A picture worths a thousand words." Some attempts:
 
@@ -185,6 +276,12 @@ As we are loosing most of the [nonverbal communications](https://en.wikipedia.or
 ### Agriculture 🌱
 
 * [Machine learning is making pesto even more delicious](https://www.technologyreview.com/s/613262/machine-learning-is-making-pesto-even-more-delicious/) - How machine learning was used to develop a surrogate model of Basil and provide new counter intuitive recipes. [Source paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213918)
+
+### Augmented reality 👓
+
+* [Real-Time AR Self-Expression with Machine Learning](https://ai.googleblog.com/2019/03/real-time-ar-self-expression-with.html) - Impressive on device real time AR applied on faces. Two networks work jointly to first detect the face on the stream and second to generate the Mesh.
+
+<img src="./resources/face-augmented-reality.gif" alt="Real time 3D meshing in action. Image copyright: Google"/>
 
 ### Compression, enhancement 🗜
 
@@ -230,12 +327,22 @@ The 1917 "Fountain" from Marcel Duchamp, a porcelain urinal signed "R. Mutt" arr
 * [Face2Gene](https://www.nature.com/articles/d41586-019-00027-x#ref-CR1) - From Professional crowdsourcing to real life medicine aid use case, the face2gene application that spot genetic disorders is a promise for future medicine.
 * [Learning to Design RNA](https://arxiv.org/abs/1812.11951) - Reinforcement Learning used to design RNA sequence to test
 
+### Natural Language Processing (NLP)
+
+* [Ten trends in Deep learning NLP](https://blog.floydhub.com/ten-trends-in-deep-learning-nlp/) - 10 trends for 2019 on NLP. Discove BERT, ELMO, Embedding, Transformers and predictions for 2019
+* [Lithium-Ion Batteries](https://link.springer.com/book/10.1007/978-3-030-16800-1) - Lithium-Ion Batteries is a machine generated summury of current research in Lithium-Ion Batteries; an impressive result of NLP algorithm. [Press release](https://group.springernature.com/gp/group/media/press-releases/springer-nature-machine-generated-book/16590134)
+
 ### Online AI experiments 🔬
 
 * [Iconary](https://iconary.allenai.org/) - Iconary from researchers at the Allen Institute for #AI is an online drawing and guessing game based on Pictionary. Its engine #AllenAI will blow your mind.
 * [AI Experiments](https://experiments.withgoogle.com/collection/ai) - Curated list of AI experiments from Google. Doodle guessing, AI assisted drawing, Music, etc.
 * [NVIDIA playground](https://www.nvidia.com/en-us/research/ai-playground/) - Recent AI research available as online playgrounds. "Under construction"
+* [Active Learning](https://activelearner.fastforwardlabs.com/) - Active Learner Prototype that illustrates learning with limited labeled data
 
 ### Physics and astronomy 👩🏻‍🔬
 
 * [AI helped discovering two new planets](https://phys.org/news/2019-03-planets-artificial-intelligence.html) Deep learning - more precisely a convolutional neural network - helped astronomers at the University of Texas in Austin, NASA and Google Brain searchers to predict whether a given possible exoplanet signal is a true exoplanet or a false positive. Result: two new planets, K2-293b and K2-294b, orbit stars in the constellation Aquarius, 1,300 light years away. [Original Paper](https://www.cfa.harvard.edu/~avanderb/Deep_Learning_2.pdf)
+
+### Robotics 🤖
+
+* [kPAM: KeyPoint Affordances for Category-Level Robotic Manipulation](https://arxiv.org/abs/1903.06684) - How defining a semantic 3D keypoints as the object representation help drastically reduce need for data during training phase to teach a robot arm to move objects. [Video Demonstration](https://youtu.be/fm5RZ-ht1y0).

@@ -3,10 +3,11 @@
 * [X] Create a `README.md` with the building pipeline
 * [ ] Organize "artificial intelligence" section with the development lifecyle of an AI project
 * [ ] Grammar and orthograph correction
-* [ ] Complete with "Being a startup CTO" from "Product management" paragraph
+* [ ] Complete with ["Being a startup CTO"](https://docs.google.com/document/d/1-zp7fcy_7SQUWwm61DLhDXzgQiQSIOQM00sHueYeDH4) from "Let's dive . Authentication and authorization" paragraph
 * [ ] Dig my pocket archives
 * [ ] Dig my medium archives
 * [ ] Dig evernote
+* [ ] For "Setting an artificial intelligence project 📈" also look at The-Roadmap-to-Machine-Learning-Maturity-v1.pdf
 * [ ] Add strips
 * [ ] Build this as a static site myself instead of gitbook.io
 * [ ] Script to analyze text [nltk](https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk)
