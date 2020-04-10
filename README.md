@@ -4,7 +4,7 @@ This repository hosts a curated list of useful, inspiring, fascinating, and ecle
 
 This repository uses the `hugo` static site generator along with the "Book" template. The result is hosted on AWS Amplify.
 
-To get a hugo template with AWS Amplify please refer to my other repository [hugo-book-amplify-template](https://github.com/hervenivon/hugo-book-amplify-template).
+To get a hugo static site generation template working with AWS Amplify please refer to my other repository [hugo-book-amplify-template](https://github.com/hervenivon/hugo-book-amplify-template).
 
 ## 🛠 Development
 

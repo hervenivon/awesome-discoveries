@@ -18,6 +18,10 @@ enableGitInfo = true
   url = "https://github.com/hervenivon/awesome-discoveries"
   weight = 10
 
+# (Optional) Set Google Analytics if you use it to track your website.
+# Always put it on the top of the configuration file, otherwise it won't work
+googleAnalytics = "UA-163319364-1"
+
 [params]
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
