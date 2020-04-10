@@ -1,4 +1,8 @@
-baseURL = "https://herve.nivon.io/"
+# (Optional) Set Google Analytics if you use it to track your website.
+# Always put it on the top of the configuration file, otherwise it won't work
+googleAnalytics = "UA-163319364-1"
+
+baseURL = "https://hervenivon.io/"
 languageCode = "en-us"
 title = "awesome-discoveries"
 theme = "book"
@@ -43,7 +47,7 @@ enableGitInfo = true
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to 'content' directory of repo.
-  BookEditPath = 'edit/master/awesome-discoveries/content'
+  BookEditPath = 'edit/master/content'
 
   # Configure the date format used on the pages
   # - In git information

@@ -4,7 +4,7 @@ This repository hosts a curated list of useful, inspiring, fascinating, and ecle
 
 This repository uses the `hugo` static site generator along with the "Book" template. The result is hosted on AWS Amplify.
 
-To get a hugo template with AWS Amplify please refer to my other repository [hugo-book-amplify-template](https://github.com/hervenivon/hugo-book-amplify-template).
+To get a hugo static site generation template working with AWS Amplify please refer to my other repository [hugo-book-amplify-template](https://github.com/hervenivon/hugo-book-amplify-template).
 
 ## 🛠 Development
 
@@ -56,7 +56,7 @@ If you click on the link for *Master* you'll see various pieces of information a
 
 ## Technical details 🛠
 
-This repository is automatically published on [hervenivon.io](https://hervenivon.io). The next iteration is available on [next.hervenivon.io](https://hervenivon.io).
+This repository is automatically published on [hervenivon.io](https://hervenivon.io).
 
 This repository is supported by `Python` scripts, here are some details that might be helpful.
 
