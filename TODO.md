@@ -5,6 +5,7 @@
 * [ ] Grammar and orthograph corrections
 * [ ] Complete with ["Being a startup CTO"](https://docs.google.com/document/d/1-zp7fcy_7SQUWwm61DLhDXzgQiQSIOQM00sHueYeDH4) from "Let's dive . Authentication and authorization" paragraph
 * [ ] Complete with My startup journey
+* [ ] Complete with Tagpacker
 * [ ] Dig my pocket archives
 * [ ] Dig my medium archives
 * [ ] Dig evernote
