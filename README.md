@@ -56,7 +56,7 @@ If you click on the link for *Master* you'll see various pieces of information a
 
 ## Technical details 🛠
 
-This repository is automatically published on [hervenivon.io](https://hervenivon.io). The next iteration is available on [next.hervenivon.io](https://hervenivon.io).
+This repository is automatically published on [hervenivon.io](https://hervenivon.io).
 
 This repository is supported by `Python` scripts, here are some details that might be helpful.
 
