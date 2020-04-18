@@ -5,9 +5,9 @@ title: awesome-discoveries introduction
 
 # Introduction
 
-This document is a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making being a startup advisor and the CTO of a world leading drone company. Some topics are highly technical; some are not.
+This website hosts a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making as a startup advisor, the CTO of a world leading drone company or a senior Solutions Architect at AWS. Some topics are highly technical; some are not.
 
-This document was written mainly as a guide for my future self, a tool to precisely remember what it means building something, helping people to grow, and growing myself. One can see it as my humble version of the [Encyclopedia of Absolute and Relative Knowledge](http://www.bernardwerber.com/livres/ESRA3.php).
+This was written mainly as a guide for my future self, a tool to precisely remember what it means building something, helping people to grow, and growing myself. One can see it as my humble version of the [Encyclopedia of Absolute and Relative Knowledge](http://www.bernardwerber.com/livres/ESRA3.php).
 
 This document exposes some of my ideas and views expressed are my own.
 
