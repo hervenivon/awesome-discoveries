@@ -1,22 +1,46 @@
 # Awesome-discoveries
 
-This repository hosts a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making being a startup advisor and the CTO of a world leading drone company. Some topics are highly technical; some are not.
+This repository hosts a curated list of useful, inspiring, fascinating, and eclectic discoveries and thoughts I made and produced during my readings, experiments and job decisions making as a startup advisor, the CTO of a world leading drone company or a senior Solutions Architect at AWS. Some topics are highly technical; some are not. Views expressed are my own.
 
 This repository uses the `hugo` static site generator along with the "Book" template. The result is hosted on AWS Amplify.
 
 To get a hugo static site generation template working with AWS Amplify please refer to my other repository [hugo-book-amplify-template](https://github.com/hervenivon/hugo-book-amplify-template).
 
-## 🛠 Development
+## 📝 Writing
 
-Once you have configured the Amplify Console deployment process from the previous paragraph, every time you push or you do a pull request, the Amplify Console will trigger a build and deployment pipeline.
+You can preview the site `markdown` content locally before pushing changes.
 
-If you want to see locally what is your impact on your `markdown` content change, please execute the following in your favorite terminal (with the Hugo Pre requisites applied).
+### 🛠 Installation
+
+> Homebrew, a package manager for macOS, can be installed from [`brew.sh`](https://brew.sh). See [install](https://gohugo.io/getting-started/installing) if you are running Windows, etc.
+
+Install `hugo`
 
 ```bash
-hugo server -D
+$> brew install hugo
 ```
 
-It will compiled your static web site content, include draft in process and launch a live reloading local server serving your content.
+### 🔎 Preview
+
+To preview your changes, execute the following command in your favorite terminal. This will compile and serve your content locally.
+
+```bash
+$> hugo server -D
+```
+
+The `-D` option includes drafts. This command launches a live reloading local server.
+
+### 💥 Troubleshooting
+
+If you get the following error, it certainly means that your `hugo` theme hasn't been fetched:
+
+```bash
+Error: Error building site: "/Users/herve/Developments/github.com/hervenivon/awesome-discoveries/content/docs/shortcodes/buttons.md:16:1": failed to extract shortcode: template for shortcode "button" not found
+```
+
+From [`git-scm`](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
+
+> It happens if you already cloned the project and forgot `--recurse-submodules`, you can combine the `git submodule init` and `git submodule update` steps by running `git submodule update --init`. To also initialize, fetch and checkout any nested submodules, you can use the foolproof `git submodule update --init --recursive`.
 
 ## ⚙️ Hugo's theme configuration
 
@@ -54,7 +78,9 @@ If you click on the link for *Master* you'll see various pieces of information a
 
 ![Amplify Client Renderings](static/images/readme/amplify-renderings.png)
 
-## Technical details 🛠
+Once you have configured the Amplify Console deployment process from the previous paragraph, every time you push or you do a pull request, the Amplify Console will trigger a build and a deployment pipeline.
+
+## 🛠 Technical details
 
 This repository is automatically published on [hervenivon.io](https://hervenivon.io).
 
