@@ -12,6 +12,8 @@ Modern infrastructures, and in particular public cloud providers have paved the 
 
 Infrastructure as code has changed the development lifecycle changing forever project scale involving infrastructure deployment: from month or years to weeks.
 
+Various sources in scattered order while waiting to detail and dive deep certain topics:
+
 * [CAP Theorem](https://www.itechart.com/blog/all-you-didnt-know-about-cap-theorem) - The CAP theorem extensive description - and its drawbacks. The CAP (Consistency, Availability, Partition-Tolerance) theorem helps selecting the best suited database solution for a particular problem. In this article, you will also discover its limits.
 * AWS:
   * [AWS Blog](https://aws.amazon.com/blogs/aws/) - If you want to be amazed by the innovation pace of AWS, be sure to subscribe to their blog, in addition to the day to day announcements you also get hands on blog post and a lot of inspiration.
