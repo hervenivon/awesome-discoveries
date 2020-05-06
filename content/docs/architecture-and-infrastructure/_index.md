@@ -22,14 +22,15 @@ Infrastructure as code has changed the development lifecycle changing forever pr
   * [localstack](https://github.com/localstack/localstack) - The folks aren't really responsive, nor their enterprise offer seems to conclude in one way or another, but there is a lot of value and a lot to learn from that project.
 * API design:
   * [REST is the new SOAP](https://medium.freecodecamp.org/rest-is-the-new-soap-97ff6c09896d) - An article with a counter-current point of view that emphasizes every negative aspects of `REST`.
-* Tools:
+* Diagram creation:
   * [Cloudcraft](https://cloudcraft.co/) - Isometric 3D drawing of your AWS infrastructure (to be or the actual one). Will help you document automatically your cloud infrastructure and to advertise it.
   * [Cloudockit](https://www.cloudockit.com/) - Same promise
   * [Draw.io](https://drawio-app.com/) - Another taste
+  * [`diagrams`](https://github.com/mingrammer/diagrams) - Write your diagrams from code, requires python
 * [Desired vs Deployed architecture](https://web.archive.org/web/20190327172748/https://twitter.com/changelog/status/839952960520138752)
 * [BFF](https://blog.octo.com/les-indispensables-dun-projet-frontend-un-backend-for-frontend-une-api-sur-mesure/) - Backend For Frontend
 
-<img src="/images/architecture-and-infrastructure/desiredVSdeployed.jpg" alt="Desired vs Deployed architecture"/>
+![Desired vs Deployed architecture](/images/architecture-and-infrastructure/desiredVSdeployed.jpg)
 
 * Return of experience:
   * [Building Spotify’s New Web Player](https://labs.spotify.com/2019/03/25/building-spotifys-new-web-player/) - React + Redux migration.
@@ -95,6 +96,6 @@ A [reddit discussion](https://www.reddit.com/r/technology/comments/b2381s/myspac
 
 > As a result of a server migration project, any photos, videos, and audio files you uploaded more than three years ago may no longer be available on or from Myspace. We apologize for the inconvenience. If you would like more information, please contact our Data Protection Officer at DPO@myspace.com.
 
-<img src="/images/architecture-and-infrastructure/myspace-case.png" width="500px" alt="Myspace homepage as of 27th of March 2019"/>
+![Myspace homepage as of 27th of March 2019](/images/architecture-and-infrastructure/myspace-case.png)
 
 Handling data is hard, in particular when you deal yourselves with backups. Cloud providers are here to help, in particular for emerging business. They help you achieve a higher level of service quality at no cost. You don't have to deal with the overhead of such data management; you let them do and concentrate on your business. When you achieve success, you might go one step further and implement extra physical backups. What is stored on the Internet may disappear, and we never know, cloud providers might not remain forever. 😅
