@@ -5,6 +5,7 @@ bookMenuLevels: 1
 
 * [Introduction]({{< relref "/" >}})
 * [Architecture & Infrastructure]({{< relref "/docs/architecture-and-infrastructure" >}})
+  * [AWS]({{< relref "/docs/architecture-and-infrastructure/aws" >}})
 * [Algorithms]({{< relref "/docs/algorithms" >}})
 * [Artificial Intelligence]({{< relref "/docs/artificial-intelligence" >}})
 * [Blockchain]({{< relref "/docs/blockchain" >}})
@@ -20,7 +21,5 @@ bookMenuLevels: 1
 * [UX/UI]({{< relref "/docs/ux-ui" >}})
 * [Ideas]({{< relref "/docs/ideas" >}})
 * [Various]({{< relref "/docs/various" >}})
-
-
 
 * [Shortcodes]({{< relref "/docs/shortcodes" >}})
