@@ -21,6 +21,4 @@ bookMenuLevels: 1
 * [Ideas]({{< relref "/docs/ideas" >}})
 * [Various]({{< relref "/docs/various" >}})
 
-
-
 * [Shortcodes]({{< relref "/docs/shortcodes" >}})

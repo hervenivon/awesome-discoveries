@@ -6,11 +6,13 @@ This repository uses the `hugo` static site generator along with the "Book" temp
 
 To get a hugo static site generation template working with AWS Amplify please refer to my other repository [hugo-book-amplify-template](https://github.com/hervenivon/hugo-book-amplify-template).
 
+The building results of this repository is automatically published on [hervenivon.io](https://hervenivon.io).
+
 ## 🛠 Development
 
 Once you have configured the Amplify Console deployment process from the previous paragraph, every time you push or you do a pull request, the Amplify Console will trigger a build and deployment pipeline.
 
-If you want to see locally what is your impact on your `markdown` content change, please execute the following in your favorite terminal (with the Hugo Pre requisites applied).
+If you want to see locally what is your impact on your `markdown` content change, please execute the following in your favorite terminal (with the Hugo Pre requisites applied) and the git submodule updated: `git submodule update --recursive --init`
 
 ```bash
 hugo server -D
@@ -55,8 +57,6 @@ If you click on the link for *Master* you'll see various pieces of information a
 ![Amplify Client Renderings](static/images/readme/amplify-renderings.png)
 
 ## Technical details 🛠
-
-This repository is automatically published on [hervenivon.io](https://hervenivon.io).
 
 This repository is supported by `Python` scripts, here are some details that might be helpful.
 

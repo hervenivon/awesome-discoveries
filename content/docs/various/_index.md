@@ -2,7 +2,9 @@
 
 This section is about pieces which don't fit at the moment in any other section and are more than eclectic 😅.
 
-## Charting API
+## APIs of interest
+
+### Charting API
 
 [quickchart](https://quickchart.io/) - Open source API that replace the deprecated [Google Chart API](https://developers.google.com/chart/image/).
 
@@ -67,6 +69,22 @@ https://quickchart.io/chart?bkg=white&c=%7B%0A%20%20bkg%3A%20%22transparent%22%2
 ```
 
 The charts are extensively customizable, documentation is available [here](https://www.chartjs.org/docs/latest/).
+
+### Dicebear
+
+[DiceBear](https://avatars.dicebear.com) is an avatar library for designers and developers. Simple identicons and lovely designed characters are available from a simple [HTTP-API](https://avatars.dicebear.com/docs/http-api) call or more advanced [integrations](https://avatars.dicebear.com/integrations/cli).
+
+The following presents myself as a dibear icon:
+
+```html
+<svg width="250" height="250">
+     <image xlink:href="https://avatars.dicebear.com/api/male/hervenivon84.svg" width="250" />
+</svg>
+```
+
+<svg width="250" height="250">
+     <image xlink:href="https://avatars.dicebear.com/api/male/hervenivon84.svg" width="250" />
+</svg>
 
 ## Bio inspiration
 
